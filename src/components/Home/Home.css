@@ -10,3 +10,13 @@
 .form-solicitors {
     background: lightgreen;
 }
+
+.side-text {
+    color: #000;
+    text-align: justify;
+}
+
+.side-block-text {
+    background: lightgreen;
+    border-left: 5px solid green;
+}
