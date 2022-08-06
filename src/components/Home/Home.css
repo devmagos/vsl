@@ -1,0 +1,12 @@
+.home {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.solicitors {
+    text-align: justify;
+}
+
+.form-solicitors {
+    background: lightgreen;
+}
