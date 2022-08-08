@@ -326,43 +326,43 @@ function Home() {
 
               <div>
               <Table bordered striped hover size='sm' responsive mt="5">
-          <thead>
-            <tr>
-              <th>Name Of Advisor/Solicitor</th>
-              <th>Consultation Fees</th>
-              <th>Appointment Booking</th>
-            </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td>Mr Amir Naviwala</td>
-            <td>
+              <thead>
+                <tr>
+                  <th>Name Of Advisor/Solicitor</th>
+                  <th>Consultation Fees</th>
+                  <th>Appointment Booking</th>
+                </tr>
+              </thead>
+              <tbody>
               <tr>
-              &#xa3; 100 for up to half an hour
+                <td>Mr Amir Naviwala</td>
+                <td>
+                  <tr>
+                  &#xa3; 100 for up to half an hour
+                  </tr>
+                  <tr>
+                  &#xa3; 150 for up to an hour
+                  </tr>
+                </td>
+                <td>
+                  Click here to book an appointment
+                </td>
               </tr>
               <tr>
-              &#xa3; 150 for up to an hour
+                  <td>Mr Ashad Mahmood</td>
+                <td>
+                  <tr>
+                  &#xa3; 150 for up to half an hour
+                  </tr>
+                  <tr>
+                  &#xa3; 200 for up to an hour
+                  </tr>
+                </td>
+                <td>
+                  Click here to book an appointment
+                </td>
               </tr>
-            </td>
-            <td>
-              Click here to book an appointment
-            </td>
-          </tr>
-          <tr>
-              <td>Mr Ashad Mahmood</td>
-            <td>
-              <tr>
-              &#xa3; 150 for up to half an hour
-              </tr>
-              <tr>
-              &#xa3; 200 for up to an hour
-              </tr>
-            </td>
-            <td>
-              Click here to book an appointment
-            </td>
-          </tr>
-          </tbody>
+              </tbody>
         </Table>
           </div>
           <div>
@@ -390,6 +390,94 @@ function Home() {
 
           <div>
             <h4>Immigration Documents Checking Service</h4>
+            <p>
+            Our specialist team of immigration lawyers can assess the supporting 
+            documents of your immigration application and advise you on the 
+            weaknesses and strengths of your application. If you are considering 
+            submitting an application to the Home Office, UKVI or filing a notice 
+            of appeal to the First Tier Tribunal on your own, without being 
+            represented by a legal representative, it is worth showing all your 
+            documents to an immigration expert who can advise you on your case 
+            documents. The immigration cases succeed and fail on the basis of 
+            documents most of the time and therefore it is very important to know 
+            whether or not the documents you are submitting in support of your 
+            application or appeal are good enough for the application or the 
+            appeal to succeed.
+            </p>
+
+            <Table bordered striped hover size='sm' responsive mt="5">
+              <thead>
+                <tr>
+                  <th>Name Of Advisor/Solicitor</th>
+                  <th>Consultation Fees</th>
+                  <th>Appointment Booking</th>
+                </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>Mr Amir Naviwala</td>
+                <td>
+                  &#xa3; 300 (VAT included, if applicable)
+                </td>
+                <td>
+                  Click here to book an appointment
+                </td>
+              </tr>
+              <tr>
+                  <td>Mr Ashad Mahmood</td>
+                <td>
+                  &#xa3; 400 f(VAT included, if applicable)
+                </td>
+                <td>
+                  Click here to book an appointment
+                </td>
+              </tr>
+              </tbody>
+        </Table>
+          </div>
+          
+          <div>
+          <h4>Free UK Visa Refusal Assessment</h4>
+          <p>
+          As part of our free immigration advice service, our expert 
+          team of free immigration solicitors in London can carry out 
+          free assessment of UKVI refusal decisions of your immigration 
+          application by the Home Office, UKVI. If your immigration 
+          application has been refused by the Home Office, UKVI and 
+          you believe the refusal decision is unlawful and not in 
+          according with the UK immigration rules, you can scan and 
+          email your refusal letter to us on 
+          enquiries@sunrisesolicitors.co.uk and we can do free 
+          assessment of refusal decision.
+          </p>
+
+          <p>
+          Upon assessment of UK visa refusal, our expert immigration 
+          solicitors in London will be able to advise you whether or 
+          not there are good grounds for challenging the refusal decision.
+          </p>
+          </div>
+
+          <div>
+            <h4>Specialist Help and Support In Your Journey To ILR and British Citizenship</h4>
+            <p>
+            As specialist immigration solicitors in London, we can provide 
+            high quality UK immigration services for all stages and all 
+            types of UK visa and immigration applications. Our top rated 
+            immigration lawyers' team can help you with all stages of your 
+            UK visa and immigration applications starting from coming to 
+            the UK by applying for UK visa entry clearance, switching visas 
+            from one category to another from inside the UK, renewal or 
+            extension of your UK visa from inside the UK, applying for 
+            Indefinite Leave to Remain (ILR), to becoming a British Citizen 
+            by applying for Naturalisation as a British Citizen and applying 
+            for first British passport.
+            </p>
+            <p>
+            The various stages of UK immigration applications for which our 
+            top team of immigration solicitors can provide expert immigration 
+            advice and legal representations include the following:
+            </p>
           </div>
         </div>
         </Col>
@@ -827,12 +915,6 @@ function Home() {
             </Col>
       </Row>
       {/* Side Table Section Above */}
-
-      <Row>
-        <Col>SECTION</Col>
-        <Col>SECTION</Col>
-        <Col>SECTION</Col>
-      </Row>
     </Container>
       </div>
     );
