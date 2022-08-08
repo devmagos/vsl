@@ -478,6 +478,140 @@ function Home() {
             top team of immigration solicitors can provide expert immigration 
             advice and legal representations include the following:
             </p>
+            <Row>
+              <Row>
+                <Col>
+                  <div className='links'><p>UK Visa Entry Clearance Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Switching Visas Within UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>UK Visa Extension/Renewal</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>ILR Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>British Citizenship Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Right Of Abode UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md='6'>
+                  <div className='links'><p>British Passport Application</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+            </Row>
+            <div>
+              <h4>Immigration Advice & Representations For UK Visa and Immigration Applications</h4>
+              <p>
+              Our best team of London based immigration lawyers deal with all types of UK visa and 
+              immigration applications. Our experienced immigration lawyers can fully prepare your 
+              UK visa and immigration application and submit your application to the Home Office, 
+              UKVI along with all the supporting docuemnts and detailed cover letter drafted by our 
+              best team of immigration lawyers in London.
+              </p>
+
+              <p>
+              Various UK visa categories for which our specialist team of immigration lawyers can 
+              provide expert immigration advice and legal representations are as follows:
+              </p>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Family Visa UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>UK Work Visas</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Sponsor License</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Long Residence Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Private Life Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Discretionary Leave Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Visitor Visa UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>EU Settlement Scheme (EUSS)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Study Visa UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>British Citizenship</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>British Paasport applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Members Of Armed Forces</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Asylum & Humanitarian Protecton</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Immigration Bail Application</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Travel Documents & Certificates Of Travel</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Deportation From The UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Stateless Person & Their Family Members</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Other Immigration Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+              <Row>
+
+              </Row>
+
+            </div>
           </div>
         </div>
         </Col>

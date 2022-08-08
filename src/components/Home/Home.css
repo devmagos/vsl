@@ -20,3 +20,28 @@
     background: lightgreen;
     border-left: 5px solid green;
 }
+
+.links {
+    margin: 5px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.links p {
+    text-align: center;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.links a {
+    text-align: center;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+}
