@@ -607,10 +607,36 @@ function Home() {
                   <div className='links'><p>Other Immigration Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
               </Row>
-              <Row>
 
-              </Row>
+              <div>
+                <h4>Super Priority Service (Decision Within 24 Hours)</h4>
 
+                <p>
+                As one of the best immigration lawyers in London, we are 
+                registered with the Home Office, UK Visas & Immigration 
+                (UKVI) and its commercial partners UKVCAS Sopra Steria 
+                to provide Super Priority Service (SPS) for your 
+                immigration application whereby decision on your 
+                immigration application will be made by the Home Office, 
+                UKVI within 24 hours of the enrolment of your biometrics.
+                </p>
+
+                <p>
+                Our immigration solicitors in London can prepare and 
+                submit your immigration application to the Home Office, 
+                UKVI through Super Priority Service (SPS) and get a 
+                decision on your immigration application within 24 
+                hours under the fast track service. This way, you will 
+                not have to wait for the decision on your immigration 
+                application for months (sometimes years).
+                </p>
+
+                <Button>READ MORE</Button>
+              </div>
+
+              <div>
+                <h4>Visa Chase Up Service UK</h4>
+                </div>
             </div>
           </div>
         </div>
