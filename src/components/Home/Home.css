@@ -8,7 +8,6 @@
 }
 
 .form-solicitors {
-    background: lightgreen;
 }
 
 .side-text {
@@ -44,4 +43,27 @@
     padding: 7px;
     justify-content: center;
     align-items: center;
+}
+
+.card-review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-deck {
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    display: flex;
+    width: 550px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.size {
+    height: 120px;
+    width: 120px;
 }

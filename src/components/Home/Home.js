@@ -1,174 +1,58 @@
-import React from 'react'
-import './Home.css'
+import React from 'react';
+import './Home.css';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import SignupForm from '../Signup/Signup'
+import SignupForm from '../Signup/Signup';
 import Button from 'react-bootstrap/Button';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
+// import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Table from 'react-bootstrap/Table';
+import Carlysia from '../images/carlysia.png'
+import Micki from '../images/micki.png'
+import Julian from '../images/julian.png'
+import Emily from '../images/emily.png'
 
 
 
 function Home() {
   return (
   <div className='home'>
-      <Navbar bg="success" expand="lg">
-        <Container>
-          <Navbar.Brand href="#home">VSL</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <NavDropdown title="Services" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-
-              {/* Divorce/Familt section */}
-              <NavDropdown title="Divorce/Family" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-                {/*     Immigration Services section */}
-              <NavDropdown title="Immigration Services" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-
-                {/* Immigration Applications*/}
-                <NavDropdown title="Immigration Applications" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-
-              {/* Family visa section */}
-              <NavDropdown title="Family Visas" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-
-              {/* Work visa section */}
-              <NavDropdown title="Work Visas" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-
-              {/* Challenge Refusals section */}
-              <NavDropdown title="Challenge Refusals" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
-
-              {/* Contact us section */}
-              {/* <NavDropdown title="Contact Us" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown> */}
-
-              {/* Jobs */}
-              {/* <NavDropdown title="Jobs" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown> */}
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-
-      {/* Navbar section above */}
-
-      {/* Form using Formik and page section below */}
+    <Header />
+      <Navbar />
+      {/* Form page section below */}
     <Container>
       <Row className='form-solicitors'>
-        <Col className='solicitors'>
-            <h4>Immigration Solicitors In London</h4>
-            <p>
-                Our London based firm of immigration solicitors 
-                has one of the best team of immigration lawyers 
-                to provide specialist UK visa and immigration services.
-            </p>
+                <Col md="6" className="row g-0 p-5 rounded overflow-hidden flex-md-row mb-4 h-125 position-relative">
+                  <div class="row g-0 p-5 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
+                    <Col p="5 d-flex flex-column position-static">
+                      <h3 class="m-3">Immigration Solicitors In London</h3>
+                      <p class="card-text m-2 p-3 line-height-3">
+                      Our London based firm of immigration solicitors has 
+                      one of the best team of immigration lawyers to provide 
+                      specialist UK visa and immigration services.
+                      </p>
+                      <div class="m-2">
+                        <button class="btn p-3 text-light bg-success btn-sm" type="button">Contact Us</button>
+                        <button class="btn p-3 m-2 text-light bg-success btn-sm" type="button">Book an Appointment</button>
+                      </div>
+                    </Col>
+                  </div>
+                </Col>
 
-                <ButtonGroup aria-label="Basic example">
-                <Button variant="success">Contact Us</Button>
-                <Button variant="success">Book An Appointment</Button>
-                </ButtonGroup>
-        </Col>
-        <Col>
- 
-            <div>
-                <SignupForm />
-            </div>
-        </Col>
+              <Col md="6">
+                  <SignupForm />
+              </Col>
       </Row>
+
       <Row>
         <Col md="9">
-        <div className="side-text">
+          <div className="side-text">
           <div>
               <h4>Immigration Solicitors In London</h4>
               <p>
@@ -363,7 +247,7 @@ function Home() {
                 </td>
               </tr>
               </tbody>
-        </Table>
+          </Table>
           </div>
           <div>
           <p>
@@ -433,7 +317,7 @@ function Home() {
                 </td>
               </tr>
               </tbody>
-        </Table>
+          </Table>
           </div>
           
           <div>
@@ -636,13 +520,483 @@ function Home() {
 
               <div>
                 <h4>Visa Chase Up Service UK</h4>
+                <p>
+                If you have made an immigration application to the Home 
+                Office, UKVI and your immigration application has been 
+                pending with the Home Office, UK Visas & Immigration 
+                (UKVI) for more than 6 months, our top immigration team 
+                of lawyers in London can chase up the Home Office, UKVI 
+                and make legal representations to the Home Office, UKVI 
+                for a quick decision to be made on the outstanding 
+                immigration application. As a result of our legal 
+                representations to the Home Office, UKVI, your 
+                immigration application is likely to be decided 
+                within 2 to 4 weeks.
+                </p>
+                <Button>READ MORE</Button>
+              </div>
+
+              <div>
+                <h4>Challenging Home Office Refusal Decisions</h4>
+                <p>
+                You can legally challenge a decision of the Home Office, 
+                UKVI, decision of the HM Passport Office or an appeal 
+                decision if you disagree with the decision and there are 
+                grounds for the decision to be challenged by one of the 
+                available legal remedies. Home Office, UKVI immigration 
+                decisions also known as refusal letters can normally be 
+                challenged by way of UK Immigration Appeals, Administrative 
+                Review (AR) , Pre-Action Protocol (PAP) For JR and Judicial 
+                Reviews (JRs) In The Upper Tribunal (UT) or Judicial Reviews 
+                (JRs) In High Court.
+                </p>
+
+                <p>
+                As specialist immigration lawyers in London, we have very 
+                good track record of successfully challenging the Home
+                 Office, UKVI refusal decisions.  Our leading immigration 
+                 lawyes in London can prepare very good grounds to legally 
+                 challenge the Home Office UKVI refusal decisions.
+                </p>
+
+                <p>
+                If your application to the Home Office, UKVI, Appeal to the 
+                First Tier Tribunal (FTT) or Judicial Review (JR) has been 
+                refused/dismissed, we can provide the required legal 
+                representations in challenging the refusal of such 
+                application/appeal/judicial review. We prvoide a vast 
+                range of immigration services in challenging the refusal 
+                of immigration applications. We also provide legal 
+                representations to our clients in challenging the delay 
+                on part of the Home Office UKVI in reaching a decision on 
+                the immigration application where the applicant is prejudiced 
+                by such delay.
+                </p>
+
+                <p>
+                Various legal services provided by us for challenging the 
+                Home Office UKVI refusal letters are as follows:
+                </p>
+              </div>
+
+              <div>
+              <Row>
+                <Col>
+                  <div className='links'><p>Free UK Visa Refusal Assessment</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Challenging Refusal / Or Revocation Of Sponsor License</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Challenging Removal from the UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Reconsideration Of Naturalisation / Nationality Application</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Challenging Refusal Of Visitor Visa UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Immigration Appeals</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Administrative Review (AR)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Pre Action Protocol (PAP)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Immigration Judicial Review (JR)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+              </div>
+
+              <div>
+                <h4>Where Are Our Immigration Solicitors Based In London?</h4>
+
+                <p>
+                Our immigration lawyers team are based in South Wimbledon, 
+                London, only 30 seconds walk from South Wimbledon Underground 
+                Station. Our top rated immigration lawyers are easily 
+                accessible and able to meet with you. Our location in London 
+                is as in the map below:
+                </p>
+              </div>
+
+              <div>
+                <h4>UK Visa & Immigration News</h4>
+
+                <p>
+                The UK Immigration Rules, procedures, forms and fees are 
+                frequently changing and therefore it is important to stay 
+                up to date with all the UK visa and immigration news & updates. 
+                Our expert team of UK visa and immigration lawyers try their 
+                best to maintain this page to show all the recent UK visa and 
+                immigration news & updates.
+                </p>
+
+                <Row>
+                <Col md="6">
+                  <div className='links'>
+                    <p>
+                      Support for family members of British nationals in Ukraine,
+                      and Ukranian natioanals in Ukraine and the UK
+                    </p>
+                    <a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+              </div>
+
+              <div>
+                <h4>Our Team Of Leading Immigration Lawyers</h4>
+
+                <p>
+                As specialist immigration lawyers, we pride in having one of the 
+                best team of specialist immigration solicitors and lawyers with 
+                wealth of knowledge and experience to deal with all types of UK 
+                visa and immigration matters. Our top rated immigration lawyers 
+                have successfully helped thousands of clients with all types of 
+                UK visa and immigration applications, immigration appeals, 
+                Administrative Review, Pre-Action Protocol (PAP) and Judicial 
+                Review (JR).
+                </p>
+
+                <p>
+                Following are the leading immigration lawyers and solicitors 
+                in our team of immigration lawyers:
+                </p>
+              </div>
+
+              <div>
+              <Row>
+                <Col>
+                  <div className='links'><p>Mr Arshad Mahmood (Specialist Immigration Solicitor)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Mr Amir Naviwala (Specialist Immigration Solicitor)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Mr Abdul Mutee (Specialist Immigration Solicitor)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Miss Victoria Gbenoba (Specialist Immigration Solicitor)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+              </div>
+
+              <div>
+                <h4>Book An Appointment Online</h4>
+
+                <p>
+                You can book an appointment online using the appointment booking form below: 
+                </p>
+              </div>
+
+              {/* BOOKING FORM LOCATION HERE */}
+
+
+              <div>
+                <h4>FAQs - Immigration Solicitors London</h4>
+                <Row>
+                <Col>
+                  <div className='links'>
+                    <p>
+                    How much does an immigration solicitor 
+                    in London cost for helping with an immigration matter?
+                    </p>
+                  <a href="#">
+                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
+                  </a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'>
+                    <p>
+                    Can immigration lawyers in London deal with my immigration 
+                    case whilst I am abroad?
+                    </p>
+                  <a href="#">
+                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
+                  </a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'>
+                    <p>
+                    Can immigration lawyers in London help me with challenging UK visa refusal?
+                    </p>
+                  <a href="#">
+                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
+                  </a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'>
+                    <p>
+                    How can we help with your immigration application?
+                    </p>
+                  <a href="#">
+                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
+                  </a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'>
+                    <p>
+                    Why choose us for handling your immigration matter?
+                    </p>
+                  <a href="#">
+                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
+                  </a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'>
+                    <p>
+                    What languages are spoken by our team of immigration lawyers?
+                    </p>
+                  <a href="#">
+                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
+                  </a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'>
+                    <p>
+                     How can I find best immigration solicitors in London?
+                    </p>
+                  <a href="#">
+                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
+                  </a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'>
+                    <p>
+                      Immigration Solicitors London: Reviews
+                    </p>
+                  <a href="#">
+                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
+                  </a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'>
+                    <p>
+                      Can immigration solicitors in London give free UK immigration advice?
+                    </p>
+                  <a href="#">
+                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
+                  </a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'>
+                    <p>
+                    Can immigration solicitors in London work on my immigration case remotely 
+                    without the need to attend their offices in London?
+                    </p>
+                  <a href="#">
+                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
+                  </a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'>
+                    <p>
+                    Can immigration solicitors in London help me with my immigration case 
+                    during coronavirus (COVID-19) outbreak?
+                    </p>
+                  <a href="#">
+                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
+                  </a></div>
+                </Col>
+              </Row>
+
+              </div>
+
+              <div className=''>
+                <h4>What Our Clients Say About Us In Google Reviews?</h4>
+
+                <Row>
+                  {/* CARD REVIEWS SECTION */}
+                          <div className="card-deck">
+                          <div class="card">
+                            <img src={Micki} class="card-img-top size" alt="..." />
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                              <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                          </div>
+
+                          <div class="card">
+                            <img src={Carlysia} class="card-img-top size" alt="" />
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                              <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                            </div>
+
+                            <div class="card">
+                            <img src={Julian} class="card-img-top size" alt="" />
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                            <div class="card-footer">
+                              <small class="text-muted">Last updated 3 mins ago</small>
+                            </div>
+                        </div>
+                          </div>
+
+                          {/* CARD REVIEWS SECTION IS ABOVE */}
+                </Row>
+
+                    <Row>
+                        <div class="container">           
+                          <table class="table table-bordered">
+                            <thead>
+                              <tr>
+                                <th>Family Visa UK</th>
+                                <th>Work Visa UK</th>
+                                <th>ILR Applications</th>
+                                <th>British Citizenship</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Spouse Visa UK (5 Years Route)</td>
+                                <td>Skilled Worker Visa UK</td>
+                                <td>ILR As a Spouse (5 Years Route)</td>
+                                <td>Naturalisation As A British Citizen</td>
+                              </tr>
+                              <tr>
+                                <td>Spouse Visa UK (10 Years Route)</td>
+                                <td>Skilled Worker Sponsor License</td>
+                                <td>ILR - 10 Years Long Residence</td>
+                                <td>Registration As A British Citizen</td>
+                              </tr>
+                              <tr>
+                                <td>Parent Of A British Child Visa UK</td>
+                                <td>Hong Kong BNO Visa UK</td>
+                                <td>ILR As A Slilled Worker</td>
+                                <td>Registering A Child As A British Citizen</td>
+                              </tr>
+                              <tr>
+                                <td>Adult Dependent Relative (ADR) Visa</td>
+                                <td>Sole Representative Of An Overseas Business Visa</td>
+                                <td>ILR As A Parent Of A British Child</td>
+                                <td>Reconsideration Of Naturalisation Application</td>
+                              </tr>
+                              <tr>
+                                <td>Children Of Settled Persons</td>
+                                <td>UK Ancestry Visa</td>
+                                <td>ILR As UK Ancestry Migrant</td>
+                                <td>British Passport Application</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                    </Row>
+
+                    {/* SECOND TABLE BELOW */}
+
+                    <Row>
+                <div class="container">           
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th>Challenging Refusal Decisions</th>
+                        <th>Private Life and DL Applications</th>
+                        <th>Deportation & Detention</th>
+                        <th>Divorce / Family Law Services</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Immigration Appeals</td>
+                        <td>20 Years Long Residence Application</td>
+                        <td>Immigration Bail Application</td>
+                        <td>Getting A Divorce</td>
+                      </tr>
+                      <tr>
+                        <td>Administrative Review</td>
+                        <td>7 Years Child Residence Route</td>
+                        <td>Compensation - Immigration Detention</td>
+                        <td>Annulment Of Marriage UK</td>
+                      </tr>
+                      <tr>
+                        <td>Pre Action Protocol (PAP)</td>
+                        <td>Over 18, Under 25 and Spent Half Of Life In The UK</td>
+                        <td>Deportation Representations</td>
+                        <td>Divorce Financial Settlement</td>
+                      </tr>
+                      <tr>
+                        <td>Immigration Judicial Review</td>
+                        <td>Very Significant Obstacles To</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
+                    </Row>
+                        </div>
+                        </div>
+
             </div>
           </div>
-        </div>
         </Col>
 
         {/* Side Table section Begins */}
+        
         <Col md="3">
         <Table bordered striped hover size='sm' responsive mt="5">
           <thead>
@@ -1075,6 +1429,10 @@ function Home() {
             </Col>
       </Row>
       {/* Side Table Section Above */}
+
+      {/* Footer section below */}
+
+      <Footer />
     </Container>
       </div>
     );

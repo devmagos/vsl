@@ -1,73 +1,47 @@
 import React from "react";
 // import ReactDOM from "react-dom";
-import { useFormik } from "formik";
 import "./Signup.css";
 
 const SignupForm = () => {
-  const formik = useFormik({
-    initialValues: { name: '', phone: '', email: '', confirmemail: '' },
-    onSubmit: values => {
-      alert(JSON.stringify(values, null, 2));
-    }
-  });
+
   return (
-    <form onSubmit={formik.handleSubmit} className="formik-form">
-      <h4>WANT TO INSTRUCT US FOR YOUR LEGAL MATTER? REQUEST A FIXED FEE QUOTE</h4>
-          <input
-             type="text"
-             name="name"
-             placeholder="* Your name"
-            //  onChange={handleChange}
-             value={formik.values.name}
-           />
-           {/* {errors.email && touched.email && errors.email} */}
-           <input
-             type="number"
-             name="phone"
-             placeholder="* Phone (Required)"
-            //  onChange={handleChange}
-             value={formik.values.phone}
-
-           /><br/><br/>
-           <input
-             type="email"
-             name="email"
-             placeholder="* Email address"
-            //  onChange={handleChange}
-             value={formik.values.email}
-
-           />
-           {/* {errors.email && touched.email && errors.email} */}
-           <input
-             type="email"
-             name="confirmemail"
-             placeholder="* Confirm Email address"
-            //  onChange={handleChange}
-             value={formik.values.confirmemail}
-
-           /><br/><br/>
-           <input
-             type="email"
-             name="email"
-             placeholder="* Email address"
-            //  onChange={handleChange}
-             value={formik.values.email}
-
-           />
-           {/* {errors.email && touched.email && errors.email} */}
-           <input
-             type="email"
-             name="confirmemail"
-             placeholder="* Confirm Email address"
-            //  onChange={handleChange}
-             value={formik.values.confirmemail}
-
-           /><br/><br/>
-           {/* {errors.password && touched.password && errors.password} */}
-           <button type="submit">
-             Submit Request
-           </button>
-    </form>
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                      <h5 class="mb-0">WANT TO INSTRUCT US FOR YOUR LEGAL MATTER? REQUEST A FIXED FEE QUOTE</h5>
+                      <form class="row g-3 col-md-12">
+                        <div class="col-md-6">
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="* Your name" />
+                        </div>
+                        <div class="col-md-6">
+                          <input type="password" class="form-control" id="inputPassword4" placeholder="* Phone (Required)" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="* Email address" />
+                          </div>
+                          <div class="col-md-6">
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="* Confirm email address" />
+                          </div>
+                        <div class="col-12">
+                        <label for="inputState" class="form-label">State</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>--Select service</option>
+                            <option>Uk Visa and Immigration</option>
+                            <option>Divorce / Family Law</option>
+                            <option>Other</option>
+                          </select>
+                        </div>
+                        
+                        <div class="col-md-12">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        
+                        <div class="col-12">
+                          <button type="submit" class="btn text-light bg-success">Submit Request</button>
+                        </div>
+                      </form>
+                  </div>
+                </div>
   );
 };
 
