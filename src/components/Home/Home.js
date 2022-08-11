@@ -16,7 +16,7 @@ import Table from 'react-bootstrap/Table';
 import Carlysia from '../images/carlysia.png'
 import Micki from '../images/micki.png'
 import Julian from '../images/julian.png'
-import Emily from '../images/emily.png'
+// import Emily from '../images/emily.png'
 
 
 
