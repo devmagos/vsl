@@ -31,11 +31,11 @@ function Home() {
                 <Col md="6" className="row g-0 p-5 rounded overflow-hidden flex-md-row mb-4 h-125 position-relative">
                   <div class="row g-0 p-5 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                     <Col p="5 d-flex flex-column position-static">
-                      <h3 class="m-3">Immigration Solicitors In London</h3>
+                      <h3 class="m-3">A Warm Welcome To Victoria Solicitors!</h3>
                       <p class="card-text m-2 p-3 line-height-3">
-                      Our London based firm of immigration solicitors has 
-                      one of the best team of immigration lawyers to provide 
-                      specialist UK visa and immigration services.
+                      We are one of London’s Premier Family Law Firms with a 
+                      unique family team of four that specialise in family, 
+                      commercial and immigration law
                       </p>
                       <div class="m-2">
                         <button class="btn p-3 text-light bg-success btn-sm" type="button">Contact Us</button>
@@ -55,160 +55,309 @@ function Home() {
           <div className="side-text">
           <div>
               <h4>Immigration Solicitors In London</h4>
+              <p>We are one of London’s Premier Family Law Firms with a unique 
+                family team of four that specialise in family, commercial and 
+                immigration law.
+              </p>
               <p>
-              As specialist immigration lawyers in London, we provide expert 
-              immigration advice and legal representations concerning all types 
-              of UK visa and immigration matters including Family Visa UK and Work 
-              Visa UK. Being based in South Wimbledon, London, only 30 seconds walk 
-              from South Wimbledon Underground Station, our top immigration lawyers 
-              re easily accessible and able to meet with you. Our highly qualified 
-              and experienced immigration lawyers in London have wealth of legal 
-              knowledge and good track record of successfully helping thousands of 
-              clients with their immigration cases. We can legally represent you in 
-              your immigration application, immigration appeal, Administrative Review, 
-              Pre Action Protocol (PAP) or immigration Judicial Review (JR) on fixed 
-              fee basis with flexible payment terms allowing you to pay our fixed fees 
-              in instalments.
+              With a plethora of experience working with limited companies (SMEs) 
+              and large corporations such as Shell, we are the go-to for 
+              Anglo-African investments for companies looking to trade and invest 
+              in Africa. Our team has specialist knowledge in the energy sector 
+              (oil and gas).
               </p>
 
               <blockquote className='side-block-text'>
-              Our specialist team of solicitors and lawyers can provide you with expert 
-              legal advice and representations remotely from our offices in London & 
-              Manchester. Using modern technology, we can handle your matter remotely 
-              without the need for you to visit our offices. Whilst we are more than 
-              happy to welcome clients into our offices, if this is their preference, 
-              we are proud to be able to offer our legal services remotely.
+              In terms of commercial law, we support companies through the whole 
+              legal process from strategy, negotiation, contract reviews, supplier 
+              disputes, employment law and many other important issues.
               </blockquote>
 
               <p>
-              As one of the best immigration solicitors in London, Sunrise Solicitors 
-              are authorised and regulated by the Solicitors Regulation Authority (SRA), 
-              meaning our best team of immigration solicitors in London maintain the 
-              highest possible standards in all aspects of our immigration legal services. 
-              We will leave no stone unturned in achieving success in your immigration 
-              application to the Home Office UKVI or in challenging the refusal of your 
-              immigration application successfully. Our leading immigration lawyers very 
-              well know the importance of documentary evidence and strong legal 
-              representations when preparing an immigration application, immigration 
-              appeal, Administrative Review or immigration Judicial Review.
+              In addition to this, we are specialists in family and immigration law 
+              catering for a wide range of legal services and needs. Whether you 
+              are a limited company or an individual, we would like to welcome you 
+              to our family.
               </p>
 
               <p>
-              As one of the top rated immigration law firm in London, we get large part 
-              of our clientele through recommendations from our current and previous 
-              clients who happily recommend our immigration services to others based on 
-              the best immigration services they received from our leading immigration 
-              lawyers in their immigration matters.
+              Our office is located in Black Cat Drive, Northampton which is in the 
+              East Midlands region of England. We are easily accessible and able to 
+              meet with you. A highly qualified and experienced team of solicitors 
+              and lawyers (“team”) with wealth of legal knowledge and good track 
+              record of successfully helping clients with their respective matters.
               </p>
 
               <p>
-              The quality of our immigration services is self-evident from the reviews 
-              of our clients about the immigration advice services provided by our 
-              expert immigration solicitors.
+              Wherever you live, we can do all the legal work over the phone or 
+              online, so location is not important.
               </p>
+              </div>
+
+              <div className='signature-text'>
+                <strong><p>‘Our Signature Matters’</p></strong>
               </div>
 
 
               <div>
-                <h4>Our London Immigration Lawyers Can Help You Worldwide, Wherever You Are!</h4>
+                <h4><a href="#">Our Mission</a></h4>
                 <p>
-                Our highly reputed and experienced London based immigration lawyers can provide 
-                specialist immigration advice and legal representations for your immigration matter 
-                regardless of where you are in the world. Using the latest means of communications, 
-                we can provide fast, friendly and reliable immigration advice and representations 
-                for your immigration matter even if you are outside the UK.
+                Many clients come to us with what can seem like insurmountable 
+                problems. With our highly experienced legal team, we analyse 
+                your situation and find the optimum legal solutions to help you 
+                achieve the outcomes that you seek. We take away your stress and 
+                pressure and help to find a strategy to achieve your objectives.
                 </p>
 
-                <p>Our London immigration lawyers can carry out all the work on your immigration 
-                  matter remotely without any need for you to attend our office physically. Our 
-                  remote service in relation to your immigration matter can entail the following:
+                <h4><a href="#">Our Vision</a></h4>
+                <p>
+                We are striving to be the fastest growing Sub-Saharan company in 
+                the UK. In the future, we intend to expand our business to other 
+                countries as well. We know that our legal services are second to 
+                none and we sincerely wish to scale that expertise to reach and 
+                serve as many businesses and individuals as possible in the coming 
+                years.
                 </p>
+
+                <h4><a href="#">Our Core Values</a></h4>
+                <h5>Friendship</h5>
+                <p>
+                At the heart of what we do is building friendly relationships with 
+                all of our clientele. We are a family and those values run deep and 
+                we treat our customers like family
+                </p>
+
+                <h5>Trust</h5>
+                <p>
+                Being a lawyer is a unique role of trust. The trust of dealing with 
+                financial and confidential documents from a company but also the 
+                trust of dealing with intimate family details
+                </p>
+
+                <p>
+                The greatest example of trust in the role of lawyer is writing a will 
+                for a client, for the client is putting trust in you to deal with 
+                matters even after his/her death. Real trust comes from within and as 
+                a family practice we hold those values dear.
+                </p>
+
+                <h5>Comfort</h5>
+                <p>
+                We strive to bring comfort to families and reunite them through the 
+                legal process and support individuals through painful divorce 
+                proceedings.
+                </p>
+
+                <p>
+                For limited companies we bring peace of mind by extracting them from 
+                challenging situations and winning favourable outcomes.
+                </p>
+
+                <h5>Respect</h5>
+                <p>
+                Respect is a two-way street. We build professional relationships based 
+                on mutual respect. Respect is ingrained in all that we do.
+                </p>
+
+                {/* LIST SECTION */}
+                <h4><a>Why Choose Our Services?</a></h4>
+
                 <ul>
                   <li>
-                  We assess your eligibility in an initial immigration advice and consultation 
-                  session through Zoom meeting and quote you a fixed fee to handle your immigration 
-                  matter. In your initial Zoom meeting, we advise you on all the requirements, 
-                  documents, procedures and costs etc related to your immigration matter;
+                  We are the first choice for family, commercial and immigration legal 
+                  services in London and the UK.
                   </li>
 
                   <li>
-                  If you instruct us for your immigration matter after the initial immigration advice 
-                  and consultation session, our immigration lawyers will email you the service agreement 
-                  for you to digitally sign the same and return the same to our London office by email;
+                  We are highly experienced in giving commercial legal support to UK 
+                  companies investing or doing business in Africa.
                   </li>
 
                   <li>
-                  You email us all the supporting documents in PDF format to be submitted in support of 
-                  your immigration matter;
+                  Our commercial legal knowledge of oil, gas and energy is second to 
+                  none; two of our team worked for Shell for years and other 
+                  prestigious corporations
                   </li>
 
                   <li>
-                  We assess your supporting documents and give our opinion on the same;
+                  We carry out research, analysis, in-depth investigation and preparation 
+                  (pre-litigation and during litigation) to achieve quick resolutions and 
+                  cost savings for clients.
                   </li>
 
                   <li>
-                  Our immigration lawyers then complete the application form online in a Zoom meeting 
-                  by sharing our screen with you;
+                  We are very attentive to clients’ needs and preferred outcomes. We 
+                  inspire confidence when advising and preparing clients during the 
+                  litigation process.
                   </li>
 
                   <li>
-                  We submit your immigration application online and also help you pay the application 
-                  fee online;
+                  Our team has strong advocacy skills, diligent preparation and present 
+                  evidence coherently. We build persuasive legal arguments which have 
+                  led to many positive outcomes for businesses.
                   </li>
 
                   <li>
-                  Where necessary, we prepare a detailed personal statement to be submitted in support 
-                  of the immigration application in a Zoom meeting by sharing our screen with you;
+                  We are excellent at drafting and presenting issues in a compelling 
+                  manner to achieve successful negotiations and early settlements in 
+                  disputes.
                   </li>
 
                   <li>
-                  We prepare a detailed cover letter, listing all the documents and setting out all the 
-                  legal representations, in support of your immigration application;
-                  </li>
-
-                  <li>
-                  We upload all the supporting documents online to be considered in support of the 
-                  immigration application;
-                  </li>
-
-                  <li>
-                  We carry out all the follow up work on your immigration application until a decision 
-                  is made by the Home Office UKVI on your immigration application.
+                  We have a broad knowledge of the rules of evidence, disclosure and 
+                  document exchange which enables us to confidently prepare and 
+                  present evidence in court.
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h4>Free Immigration Advice Online</h4>
+                <h4>ABOUT US</h4>
                 <p>
-                Our expert team of free immigration advice solicitors in London, can provide fast, 
-                friendly and reliable free general immigration advice online through our online enquiry 
-                form and Live Chat. Ask a question to our free immigration advice solicitors concerning 
-                your UK visa and immigration matter. Our free immigration advice solicitors will aim to 
-                respond to your free immigration advice enquiry within 24 hours of receiving your free 
-                immigration advice enquiry.
-                </p>
-
-                <form>
-                  <button>READ MORE</button>
-                </form>
-
-                <h4>Detailed Immigration Advice & Documents Checking Service</h4>
-                <p>
-                As specialist immigration and human rights lawyers in London and Manchester, our expert 
-                team of immigration solicitors provide expert immigration advice service concerning all 
-                UK immigration matters. The quality of our immigration services is self-evident from the 
-                reviews of our clients about the service provided by our expert immigration solicitors.
+                We are one of London’s Premier Family Law Firms with a unique 
+                family team of four that specialise in immigration and family law.
                 </p>
 
                 <p>
-                If you want detailed immigration advice entailing full assessment of your personal 
-                circumstances, you can schedule an appointment for detailed immigration advice and 
-                consultation session.
+                We are specialists in family, commercial and immigration law 
+                catering for a wide range of legal services and needs, we 
+                would like to welcome you to our family
+                </p>
+
+                <h4>Family Legal Services</h4>
+                <p>
+                We know how painful family legal processes can be for all concerned
+                </p>
+                <p>
+                If you are facing a difficult divorce, you will need the best divorce 
+                lawyer you can find. If you need to work out child visitation rights 
+                or need family law advice for child custody, we are the firm to entrust 
+                with family matters. Our team will support you with empathy and listen 
+                to your exact needs. We will bring you peace of mind by achieving your 
+                legal goals in any family dispute or family related legal case.
+                </p>
+
+                <p>
+                Our highly experienced and diligent team will stand by you every step 
+                of the way taking all necessary action for a positive outcome. For 
+                family legal matters, hiring a caring firm is the best choice. As a 
+                family ourselves we are committed to getting your family the legal 
+                results you deserve. Whatever your needs, we are the firm to take you 
+                forward and make the impossible possible.
+                </p>
+                <p>
+                Our family law specialist Faith has over 35 years’ experience in Law. 
+                Faith is totally focused on results and outcomes for clients. It is 
+                her confidence, exceptional analytical and advocacy skills which help 
+                her win cases. Having worked as a criminal defence lawyer, Faith has 
+                the steel and determination you need for difficult cases.
+                </p>
+                <p>
+                Whatever your family needs, please get in touch. Here are some of the 
+                areas we cover. This is not an exhaustive list, so please contact us 
+                to ask about other issues:
                 </p>
               </div>
 
               <div>
+                <h5>Divorce and Separation</h5>
+                <ul>
+                  <li>Family and Private life Applications under parent/partner route</li>
+                  <li>Collaborative law</li>
+                  <li>Contested hearings</li>
+                  <li>Child visitation</li>
+                  <li> Financial settlements</li>
+                  <li>Domestic abuse</li>
+                  <li>Child Care proceeding</li>
+                  <li>Prenuptial agreements</li>
+                </ul>
+              </div>
+
+              <div>
+              <h4>Commercial Legal Services</h4>
+              <p>
+              We have a wealth of experience that we bring to the table in commercial law. 
+              We are commercial litigation solicitors who help Limited Companies and 
+              Investors in Africa to achieve their trade and investment objectives.
+              </p>
+              <p>
+              The majority of our clients are Small and Medium-Sized Limited companies, 
+              but we have worked in Large Corporations too in the past. Whatever your 
+              need for corporate solicitors, whether it be commercial contract law, 
+              commercial property law or any other type of corporate commercial legal 
+              support, please get in touch. -
+              </p>
+              </div>
+
+              <div>
+                <h4>Anglo-African Firm</h4>
+                <p>
+                Having our UK firm Victoria Solicitors and our Nigerian company Victoria 
+                Chambers in Lagos means that we are a highly effective Anglo-African 
+                legal firm to support UK firms in all of their transactions and legal 
+                matters. Although External lawyers, we operate as if we were your own 
+                in-house law team to meet your company’s bespoke needs.
+                </p>
+              </div>
+
+              <div>
+                <h4>Exceptional Track Record</h4>
+                <p>
+                Our team has worked for years in the Energy sector including Oil and Gas, 
+                Legal Management in the Brewery Industry and represented and negotiated 
+                commercial contracts with governments and regulators running into hundreds 
+                of millions. We are also experts in Employment Law relating to employment 
+                tribunals and company processes.
+                </p>
+              </div>
+
+              <div>
+                <h4>Commercial Agreements</h4>
+                <p>
+                As commercial lawyers, we help draw up robust commercial agreements to work 
+                in your favour. Contracts which are meticulously researched and compiled 
+                with expert advice. With our detailed knowledge of commercial litigation, 
+                we help your company work efficiently by managing the legal side of the 
+                supply chain relationships and related disputes.
+                </p>
+                <p>
+                Our job is to protect all of your commercial investments and protect your 
+                cash flow. As Anglo-African experts we are the go-to for UK firms looking 
+                to invest in Africa.
+                </p>
+                <p>
+                Victoria Solicitors work closely with your company for a detailed understanding 
+                of your business requirements. This way we are fully equipped to help your 
+                business develop a bespoke legal strategy to mitigate risks and challenges. 
+                With decades of legal experience in businesses, we find pragmatic solutions 
+                that guarantee your business the very best commercial terms in negotiations 
+                and planning.
+                </p>
+              </div>
+
+              <div>
+                <h4>Risk Mitigation</h4>
+                <p>
+                Risk Mitigation for limited companies is a core part of what we do. We identify 
+                risks in commercial agreements and draft resolutions to protect your venture. 
+                We take on the management of commercial processes with the review, negotiation 
+                and resolution of issues.
+                </p>
+              </div>
+
+              <div>
+                <h4>Commercial Contract Law</h4>
+                <p>
+                We manage commercial contracts such as partnership agreements, contract terminations, 
+                agency arrangements and specialist agreements in certain sectors of industry. We also 
+                deal with law relating to tax and applicability to IR35 consultants and contractors. 
+                For commercial contract review we help you negotiate and fully comprehend the contract 
+                terms and conditions.
+                </p>
+              </div>
+
+              <div>
+                <h4>Commercial Litigation Fees</h4>
               <Table bordered striped hover size='sm' responsive mt="5">
               <thead>
                 <tr>
@@ -219,50 +368,65 @@ function Home() {
               </thead>
               <tbody>
               <tr>
-                <td>Mr Amir Naviwala</td>
+                <td>...</td>
                 <td>
                   <tr>
-                  &#xa3; 100 for up to half an hour
+                  &#xa3; A standard hourly rate of £200 - £350 per hour excluding VAT
                   </tr>
                   <tr>
-                  &#xa3; 150 for up to an hour
+                  &#xa3; 
                   </tr>
                 </td>
                 <td>
-                  Click here to book an appointment
+                Court fees and disbursements are additional to fee costs
                 </td>
               </tr>
               <tr>
-                  <td>Mr Ashad Mahmood</td>
+                  <td>...</td>
                 <td>
                   <tr>
-                  &#xa3; 150 for up to half an hour
+                  &#xa3; Typical costs range from £1500 to £10,000.
                   </tr>
                   <tr>
-                  &#xa3; 200 for up to an hour
+                  &#xa3; 
                   </tr>
                 </td>
                 <td>
-                  Click here to book an appointment
+                All fees quoted are based on estimates and may vary from time to time 
+                depending on the case. However, we can give an accurate costing once 
+                all the relevant information has been provided.
                 </td>
               </tr>
               </tbody>
           </Table>
           </div>
+
           <div>
-          <p>
-          During the immigration consultation session, we will advise 
-          you about the relevant immigration laws, procedures, requirements, 
-          documents, etc after discussing the same with you in detail. Upon 
-          thorough assessment of your personal circmstances, our immigration 
-          lawyers in London will advise you about the chances of success in 
-          your immigration case and the timescale for a decision to be reached 
-          on your immigration matter. Your attention will be drawn to the 
-          weaknesses and strengths of your immigration case so that the prospects 
-          of success can be increased, if possible. Our experienced team of 
-          immigration lawyers in London will address all the questions you may 
-          have in relation to your immigration matter.
-          </p>
+            <h4>List of Commercial Services:</h4>
+            <ul>
+              <li>Breach of Contract Claims</li>
+              <li>Professional Negligence</li>
+              <li>Arbitration</li>
+              <li>Partnership/limited liability partnership disputes</li>
+              <li>Tort Claims</li>
+              <li>Intellectual Property disputes: trademarks, copyright, 
+                patents and passing of
+              </li>
+              <li>Commercial Contract Support - due diligence, negotiation, 
+                procurement etc
+              </li>
+              <li>Commercial Contract Law and Commercial Litigation</li>
+              <li>Contract Review</li>
+              <li>Risk Mitigation</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Immigration Legal Services</h4>
+          </div>
+
+
+          <div>
           <blockquote className='side-block-text'>
           Our immigration solicitors will agree with you, upfront, the total 
           fixed fee required to handle your immigration case during the immigration 
