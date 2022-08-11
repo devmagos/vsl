@@ -35,6 +35,20 @@
     align-items: center;
 }
 
+.links-aa {
+    margin: 5px;
+    border: 2px solid green;
+    text-align: justify;
+}
+
+.links-aa a{
+    padding: 0 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
 .links p {
     text-align: center;
     padding: 7px;

@@ -22,6 +22,8 @@ import Julian from '../images/julian.png'
 
 function Home() {
   return (
+    <>
+    <>
   <div className='home'>
     <Header />
       <Navbar />
@@ -423,744 +425,711 @@ function Home() {
 
           <div>
             <h4>Immigration Legal Services</h4>
-          </div>
+            <p>
+            It can be incredibly stressful trying to understand immigration 
+            laws and the worry that unscrupulous agencies might charge 
+            exorbitant fees. Worry no more, we are a trustworthy family law 
+            firm. We always give you the correct information and appropriate 
+            visa with transparent pricing.
+            </p>
 
-
-          <div>
           <blockquote className='side-block-text'>
-          Our immigration solicitors will agree with you, upfront, the total 
-          fixed fee required to handle your immigration case during the immigration 
-          advice session and if you instruct us for your immigration matter within 
-          2 weeks, your consultation fee will be taken off the fixed fee quoted to 
-          handle your immigration case.
+          As immigration experts, we provide immigration advice and legal 
+          representations relating to all types of UK visa and immigration 
+          matters including Family Visa UK, Work Visa UK and Global Talent UK. 
+          We provide dependable legal advice and representations for your 
+          immigration matter.
           </blockquote>
-          </div>
 
-          <div>
-            <h4>Immigration Documents Checking Service</h4>
-            <p>
-            Our specialist team of immigration lawyers can assess the supporting 
-            documents of your immigration application and advise you on the 
-            weaknesses and strengths of your application. If you are considering 
-            submitting an application to the Home Office, UKVI or filing a notice 
-            of appeal to the First Tier Tribunal on your own, without being 
-            represented by a legal representative, it is worth showing all your 
-            documents to an immigration expert who can advise you on your case 
-            documents. The immigration cases succeed and fail on the basis of 
-            documents most of the time and therefore it is very important to know 
-            whether or not the documents you are submitting in support of your 
-            application or appeal are good enough for the application or the 
-            appeal to succeed.
-            </p>
-
-            <Table bordered striped hover size='sm' responsive mt="5">
-              <thead>
-                <tr>
-                  <th>Name Of Advisor/Solicitor</th>
-                  <th>Consultation Fees</th>
-                  <th>Appointment Booking</th>
-                </tr>
-              </thead>
-              <tbody>
-              <tr>
-                <td>Mr Amir Naviwala</td>
-                <td>
-                  &#xa3; 300 (VAT included, if applicable)
-                </td>
-                <td>
-                  Click here to book an appointment
-                </td>
-              </tr>
-              <tr>
-                  <td>Mr Ashad Mahmood</td>
-                <td>
-                  &#xa3; 400 f(VAT included, if applicable)
-                </td>
-                <td>
-                  Click here to book an appointment
-                </td>
-              </tr>
-              </tbody>
-          </Table>
-          </div>
-          
-          <div>
-          <h4>Free UK Visa Refusal Assessment</h4>
           <p>
-          As part of our free immigration advice service, our expert 
-          team of free immigration solicitors in London can carry out 
-          free assessment of UKVI refusal decisions of your immigration 
-          application by the Home Office, UKVI. If your immigration 
-          application has been refused by the Home Office, UKVI and 
-          you believe the refusal decision is unlawful and not in 
-          according with the UK immigration rules, you can scan and 
-          email your refusal letter to us on 
-          enquiries@sunrisesolicitors.co.uk and we can do free 
-          assessment of refusal decision.
+          The team can provide you with expert legal advice and representations 
+          remotely from our office. Utilizing innovative technology, we can 
+          handle your matter remotely without the need for you to visit our 
+          offices. We remain more than happy to welcome clients into our offices, 
+          however if you prefer to be served remotely, we are proud to render 
+          same.
           </p>
 
           <p>
-          Upon assessment of UK visa refusal, our expert immigration 
-          solicitors in London will be able to advise you whether or 
-          not there are good grounds for challenging the refusal decision.
+          Victoria Solicitors Limited is duly authorised and regulated by the 
+          Solicitors Regulation Authority (SRA), signifying that our team 
+          maintains the highest possible standards with regards to the 
+          provision of our immigration legal services.
           </p>
-          </div>
+          </div>          
 
           <div>
-            <h4>Specialist Help and Support In Your Journey To ILR and British Citizenship</h4>
+            <h4><a href="#">UK migration legal support</a></h4>
             <p>
-            As specialist immigration solicitors in London, we can provide 
-            high quality UK immigration services for all stages and all 
-            types of UK visa and immigration applications. Our top rated 
-            immigration lawyers' team can help you with all stages of your 
-            UK visa and immigration applications starting from coming to 
-            the UK by applying for UK visa entry clearance, switching visas 
-            from one category to another from inside the UK, renewal or 
-            extension of your UK visa from inside the UK, applying for 
-            Indefinite Leave to Remain (ILR), to becoming a British Citizen 
-            by applying for Naturalisation as a British Citizen and applying 
-            for first British passport.
+            Whatever your visa requirement, a UK Visa appeal or trying to 
+            bring your spouse or children to the UK to join you, we back 
+            you 100%. We totally understand how challenging these kinds 
+            of processes can be, so we keep you informed at every stage.
             </p>
+
             <p>
-            The various stages of UK immigration applications for which our 
-            top team of immigration solicitors can provide expert immigration 
-            advice and legal representations include the following:
+            As a UK law family firm with African roots, we know how 
+            important it is to be reunited with family. This is why we go 
+            the extra mile to ensure you achieve your goals. Our whole 
+            family team has been through the visa process in the past, so 
+            we have genuine empathy.
             </p>
-            <Row>
-              <Row>
-                <Col>
-                  <div className='links'><p>UK Visa Entry Clearance Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-                <Col>
-                  <div className='links'><p>Switching Visas Within UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-              </Row>
 
-              <Row>
-                <Col>
-                  <div className='links'><p>UK Visa Extension/Renewal</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-                <Col>
-                  <div className='links'><p>ILR Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-              </Row>
+            <p>
+            If your English language skills are basic, don’t worry as our 
+            team of consultants and solicitors is multilingual. Let us 
+            take care of everything. Our team of language experts can find 
+            out all the pertinent information to your case to ensure a 
+            successful outcome.
+            </p>
 
-              <Row>
-                <Col>
-                  <div className='links'><p>British Citizenship Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-                <Col>
-                  <div className='links'><p>Right Of Abode UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col md='6'>
-                  <div className='links'><p>British Passport Application</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-              </Row>
-            </Row>
             <div>
-              <h4>Immigration Advice & Representations For UK Visa and Immigration Applications</h4>
+              <h4>Working remotely</h4>
               <p>
-              Our best team of London based immigration lawyers deal with all types of UK visa and 
-              immigration applications. Our experienced immigration lawyers can fully prepare your 
-              UK visa and immigration application and submit your application to the Home Office, 
-              UKVI along with all the supporting docuemnts and detailed cover letter drafted by our 
-              best team of immigration lawyers in London.
+              We can carry out all the work on your immigration matter 
+              remotely without the need for you to attend our office 
+              physically. Our remote service in relation to your immigration 
+              matter can entail the following:
               </p>
 
+              <ul>
+                <li>
+                Assessment of your eligibility in an initial immigration advice 
+                and consultation session through Zoom or Teams meeting and quote 
+                you a fixed fee to handle your immigration matter. You shall be 
+                advised on the requirements, documents, procedures and costs etc 
+                related to your immigration matter;
+                </li>
+                <li>
+                Upon instructing us for your immigration matter after the initial 
+                immigration advice and consultation session, our team will email 
+                you the service agreement for you to digitally sign the same and 
+                return the same to our office by email;
+                </li>
+                <li>
+                  We will provide of a checklist of all required information to 
+                  support your application.
+                </li>
+                <li>
+                You will send us an email of all the supporting documents in PDF 
+                format to be submitted in support of your immigration matter;
+                </li>
+                <li>
+                  We assess your supporting documents and give our opinion on 
+                  the same;
+                </li>
+                <li>
+                Our immigration lawyers then complete the application form with you 
+                online in a Zoom meeting by sharing our screen;
+                </li>
+                <li>
+                We submit your immigration application online and also help you pay 
+                the application fee online;
+                </li>
+                <li>
+                Where necessary, we prepare a detailed personal statement to be 
+                submitted in support of the immigration application in a Zoom 
+                meeting by sharing our screen with you;
+                </li>
+                <li>
+                We prepare a detailed cover letter, listing all the documents and 
+                setting out all the legal representations, in support of your 
+                immigration application;
+                </li>
+                <li>
+                We upload all the supporting documents online to be considered in 
+                support of the immigration application;
+                </li>
+                <li>
+                We carry out all the follow up work on your immigration application 
+                until a decision is made by the Home Office UKVI on your immigration 
+                application.
+                </li>
+              </ul>
+            </div>
+
+
+            <div>
+              <h4><a href="#">Advice & Representations for UK Immigration Applications</a></h4>
               <p>
-              Various UK visa categories for which our specialist team of immigration lawyers can 
-              provide expert immigration advice and legal representations are as follows:
+              Various UK visa categories for which our team can provide expert immigration 
+              advice and legal representations are as follows:
               </p>
 
               <Row>
                 <Col>
-                  <div className='links'><p>Family Visa UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Family</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>UK Work Visas</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'><p>Sponsor License</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-                <Col>
-                  <div className='links'><p>Long Residence Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Partner</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col>
-                  <div className='links'><p>Private Life Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Marriage Visitors Visa UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>Discretionary Leave Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'><p>Visitor Visa UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-                <Col>
-                  <div className='links'><p>EU Settlement Scheme (EUSS)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Proposed Civil Partner Visa UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col>
-                  <div className='links'><p>Study Visa UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Entry clearance as an unmarried partner/spouse</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>British Citizenship</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'><p>British Paasport applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-                <Col>
-                  <div className='links'><p>Members Of Armed Forces</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Switching into a spouse Visa UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col>
-                  <div className='links'><p>Asylum & Humanitarian Protecton</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Extension of stay as a spouse</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>Immigration Bail Application</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'><p>Travel Documents & Certificates Of Travel</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-                <Col>
-                  <div className='links'><p>Deportation From The UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>ILR Spouse Visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col>
-                  <div className='links'><p>Stateless Person & Their Family Members</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Entry Clearance as a Civil Partner Visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>Other Immigration Applications</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-              </Row>
-
-              <div>
-                <h4>Super Priority Service (Decision Within 24 Hours)</h4>
-
-                <p>
-                As one of the best immigration lawyers in London, we are 
-                registered with the Home Office, UK Visas & Immigration 
-                (UKVI) and its commercial partners UKVCAS Sopra Steria 
-                to provide Super Priority Service (SPS) for your 
-                immigration application whereby decision on your 
-                immigration application will be made by the Home Office, 
-                UKVI within 24 hours of the enrolment of your biometrics.
-                </p>
-
-                <p>
-                Our immigration solicitors in London can prepare and 
-                submit your immigration application to the Home Office, 
-                UKVI through Super Priority Service (SPS) and get a 
-                decision on your immigration application within 24 
-                hours under the fast track service. This way, you will 
-                not have to wait for the decision on your immigration 
-                application for months (sometimes years).
-                </p>
-
-                <Button>READ MORE</Button>
-              </div>
-
-              <div>
-                <h4>Visa Chase Up Service UK</h4>
-                <p>
-                If you have made an immigration application to the Home 
-                Office, UKVI and your immigration application has been 
-                pending with the Home Office, UK Visas & Immigration 
-                (UKVI) for more than 6 months, our top immigration team 
-                of lawyers in London can chase up the Home Office, UKVI 
-                and make legal representations to the Home Office, UKVI 
-                for a quick decision to be made on the outstanding 
-                immigration application. As a result of our legal 
-                representations to the Home Office, UKVI, your 
-                immigration application is likely to be decided 
-                within 2 to 4 weeks.
-                </p>
-                <Button>READ MORE</Button>
-              </div>
-
-              <div>
-                <h4>Challenging Home Office Refusal Decisions</h4>
-                <p>
-                You can legally challenge a decision of the Home Office, 
-                UKVI, decision of the HM Passport Office or an appeal 
-                decision if you disagree with the decision and there are 
-                grounds for the decision to be challenged by one of the 
-                available legal remedies. Home Office, UKVI immigration 
-                decisions also known as refusal letters can normally be 
-                challenged by way of UK Immigration Appeals, Administrative 
-                Review (AR) , Pre-Action Protocol (PAP) For JR and Judicial 
-                Reviews (JRs) In The Upper Tribunal (UT) or Judicial Reviews 
-                (JRs) In High Court.
-                </p>
-
-                <p>
-                As specialist immigration lawyers in London, we have very 
-                good track record of successfully challenging the Home
-                 Office, UKVI refusal decisions.  Our leading immigration 
-                 lawyes in London can prepare very good grounds to legally 
-                 challenge the Home Office UKVI refusal decisions.
-                </p>
-
-                <p>
-                If your application to the Home Office, UKVI, Appeal to the 
-                First Tier Tribunal (FTT) or Judicial Review (JR) has been 
-                refused/dismissed, we can provide the required legal 
-                representations in challenging the refusal of such 
-                application/appeal/judicial review. We prvoide a vast 
-                range of immigration services in challenging the refusal 
-                of immigration applications. We also provide legal 
-                representations to our clients in challenging the delay 
-                on part of the Home Office UKVI in reaching a decision on 
-                the immigration application where the applicant is prejudiced 
-                by such delay.
-                </p>
-
-                <p>
-                Various legal services provided by us for challenging the 
-                Home Office UKVI refusal letters are as follows:
-                </p>
-              </div>
-
-              <div>
-              <Row>
-                <Col>
-                  <div className='links'><p>Free UK Visa Refusal Assessment</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-                <Col>
-                  <div className='links'><p>Challenging Refusal / Or Revocation Of Sponsor License</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Switching into a Civil Partner Visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col>
-                  <div className='links'><p>Challenging Removal from the UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Extension of stay as a Civil Partner</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>Reconsideration Of Naturalisation / Nationality Application</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'><p>Challenging Refusal Of Visitor Visa UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-                <Col>
-                  <div className='links'><p>Immigration Appeals</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Family & Private Life (unmarried Partner)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col>
-                  <div className='links'><p>Administrative Review (AR)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>All Human Rights application</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>Pre Action Protocol (PAP)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Extension of stay as an unmarried partner </p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>ILR Unmarried Partner</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Switching into same sex partner Visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Extension of a same sex partner</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>ILR same sex partner</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>ILR - Victim of Domestic Violence</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>ILR - Bereaved Partner ILR - Bereaved Partner</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Parent & Child</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Parent of a British Citizen child</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>Indefinite Leave to Enter as a child</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Adult Dependent Relative</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>Immigration Judicial Review (JR)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Entry Clearance as a child of a person present & settled iN the UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
               </Row>
               </div>
-
               <div>
-                <h4>Where Are Our Immigration Solicitors Based In London?</h4>
+                <h4><a href="#">UK Work Visas:</a></h4>
+              <Row>
+                <Col>
+                  <div className='links'><p>Type of Visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Entry Clearance as Innovator Visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
 
-                <p>
-                Our immigration lawyers team are based in South Wimbledon, 
-                London, only 30 seconds walk from South Wimbledon Underground 
-                Station. Our top rated immigration lawyers are easily 
-                accessible and able to meet with you. Our location in London 
-                is as in the map below:
-                </p>
-              </div>
+              <Row>
+                <Col>
+                  <div className='links'><p>Switching into Innovator Visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Tier 1 Entrepreneur Visa Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
 
-              <div>
-                <h4>UK Visa & Immigration News</h4>
+              <Row>
+                <Col>
+                  <div className='links'><p>ILR As Tier 1 Entrepreneur</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Dependents of Tier 1 Entrepreneur</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
 
-                <p>
-                The UK Immigration Rules, procedures, forms and fees are 
-                frequently changing and therefore it is important to stay 
-                up to date with all the UK visa and immigration news & updates. 
-                Our expert team of UK visa and immigration lawyers try their 
-                best to maintain this page to show all the recent UK visa and 
-                immigration news & updates.
-                </p>
+              <Row>
+                <Col>
+                  <div className='links'><p>Entry Clearance as Tier 1 Exceptional Talent</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Switching into Tier 1 Exceptional Talent</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
 
-                <Row>
+              <Row>
                 <Col md="6">
-                  <div className='links'>
-                    <p>
-                      Support for family members of British nationals in Ukraine,
-                      and Ukranian natioanals in Ukraine and the UK
-                    </p>
-                    <a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                  <div className='links'><p>Extension of Stay as Tier 1 Exceptional Talent</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
-              </Row>
-              </div>
-
-              <div>
-                <h4>Our Team Of Leading Immigration Lawyers</h4>
-
-                <p>
-                As specialist immigration lawyers, we pride in having one of the 
-                best team of specialist immigration solicitors and lawyers with 
-                wealth of knowledge and experience to deal with all types of UK 
-                visa and immigration matters. Our top rated immigration lawyers 
-                have successfully helped thousands of clients with all types of 
-                UK visa and immigration applications, immigration appeals, 
-                Administrative Review, Pre-Action Protocol (PAP) and Judicial 
-                Review (JR).
-                </p>
-
-                <p>
-                Following are the leading immigration lawyers and solicitors 
-                in our team of immigration lawyers:
-                </p>
-              </div>
-
-              <div>
-              <Row>
-                <Col>
-                  <div className='links'><p>Mr Arshad Mahmood (Specialist Immigration Solicitor)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
-                </Col>
-                <Col>
-                  <div className='links'><p>Mr Amir Naviwala (Specialist Immigration Solicitor)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                <Col md="6">
+                  <div className='links'><p>ILR As Tier 1 Exceptional Talent</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
               </Row>
 
               <Row>
-                <Col>
-                  <div className='links'><p>Mr Abdul Mutee (Specialist Immigration Solicitor)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                <Col md="6">
+                  <div className='links'><p>Dependants of Tier 1 Exceptional Talent Migrant</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
-                <Col>
-                  <div className='links'><p>Miss Victoria Gbenoba (Specialist Immigration Solicitor)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                <Col md="6">
+                  <div className='links'><p>Switching into Tier 1 Graduate Entrepreneur</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Tier 1 Graduate Entrepreneur Visa Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Dependants of Tier 1 Graduate Entrepreneur</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance as Tier 1 Investor</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Switching into Tier 1 Investor Visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Tier 1 Investor Visa Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>ILR As Tier 1 Investor</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance as Tier 2 General Migrant</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Switching into Tier 2 General</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Tier 2 General Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>ILR Tier 2 General</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Dependents of Tier 2 General Migrant</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance as Tier 2 Minister of Religion</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Switching into Tier 2 Minister of Religion</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Tier 2 Minister of Religion Visa Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>ILR Tier 2 Minister of Religion</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Dependants of Tier 2 Minister of Religion</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance as Tier 2 Sportsperson</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Switching into Tier 2 Sportsperson</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Tier 2 Sportsperson Visa Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>ILR Tier 2 Sportsperson</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Dependents of Tier 2 Sportsperson</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance as Tier 2 ICT</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Switching into Tier 2 ICT</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Tier 2 ICT Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>ILR Tier 2 ICT</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Dependants OF Tier 2 ICT Migrant</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance as Domestic Worker</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Domestic Worker Visa Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>ILR Domestic Worker</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Dependents of Domestic Worker</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance as A Sole Representative of Overseas Business</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Sole Representative Visa Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>ILR As Sole Representative</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Dependants of Sole Representatives</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Dependants of A Person with UK Ancestry Visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>ILR UK Ancestry</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>UK Ancestry Visa Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance – UK Ancestry Visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance as Tier 5 Charity Worker</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Tier 5 Charity Workers Visa Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Dependants of Tier 5 Charity Worker</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance as Tier 5 Creative & Sporting</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Switching into Tier 5 Creative & Sporting</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Tier 5 Creative & Sporting Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Dependents of Tier 5 Creative & Sporting</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance as Tier 5 Religious Worker</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Tier 5 Religious Workers Visa Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Switching into Tier 5 Government Authorised Exchange</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Tier 5 Government Authorised Exchange Visa Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Tier 5 Youth Mobility Scheme (YMS)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Switching into Tier 5 International Agreement</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Tier 5 International Agreement Visa Extension</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>ILR Tier 5 International Agreement</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
                 </Col>
               </Row>
               </div>
 
               <div>
-                <h4>Book An Appointment Online</h4>
+                <h4>Education</h4>
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Student Visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Child Student Visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
 
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Short term Student</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+              </div>
+
+              <div>
+                <h4>Settlement</h4>
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>ILR 10-year Long residence</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>EU Settlement Scheme</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Returning Resident visa</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+              </div>
+
+              <div>
+                <h4>Private Life</h4>
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Private and family live including 20 years unlawful residence application</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+              </div>
+
+              <div>
+                <h4>Immigration Appeal and Admin Review:</h4>
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Administrative Review Against Refusal of Entry Clearance as PBS Migrant</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Administrative Review Against Refusal of An In-Country Refusal by The Home Office</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance Appeal Stage 1(Pre-Hearing Notice)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance Appeal Stage 2(Post-Hearing Notice)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>In-Country Immigration Appeal</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links-aa'>
+                    <a href="#">
+                      <p>
+                      <>Asylum</><br></br>
+                      <>Appeal</>
+                      </p>
+                      <i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i>
+                    </a>
+                  </div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Deportation Appeal</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Application to 1st Tier Tribunal for Permission To Appeal To Upper Tribunal</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Application to Upper Tribunal for Permission To Appeal To Upper Tribunal</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Appeal to The Upper Tribunal Following Grant of Permission To Appeal</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+              </div>
+
+              <div>
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Application to The Upper Tribunal for Permission To Appeal To The Court Of Appeal</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Application to The Court Of Appeal for Permission To Appeal To Court Of Appeal</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Appeal To Court Of Appeal</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+              </div>
+
+              <div>
+                <h4>Judicial Review in the Upper Tribunal</h4>
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Pre-Action Protocol for Judicial Review Against the Home Office, UKBA</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Paper Application to Upper Tribunal for Permission to Apply For Judicial Review (JR)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Renewal of An Application for Permission to Apply For Judicial Review (JR) Against The Home Office, UKBA</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Judicial Review Against the Home Office, UKVI Following Grant of Permission to Apply for Judicial Review (JR)</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Emergency Injunction to Stop Removal from The UK</p><a href="#"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: 'green'}}></i></a></div>
+                </Col>
+              </Row>
+              </div>
+
+              <div>
+                <h4>Deportation, Removal and Bail</h4>
                 <p>
-                You can book an appointment online using the appointment booking form below: 
+                Deportation, Removal and Bail cases need immediate attention. We have extensive 
+                experience in representing clients successfully. We even visit you in detention 
+                or prison to win your case as soon as possible and strive to get you released 
+                and stop the deportation.
                 </p>
               </div>
+              </div>
+
 
               {/* BOOKING FORM LOCATION HERE */}
-
-
-              <div>
-                <h4>FAQs - Immigration Solicitors London</h4>
-                <Row>
-                <Col>
-                  <div className='links'>
-                    <p>
-                    How much does an immigration solicitor 
-                    in London cost for helping with an immigration matter?
-                    </p>
-                  <a href="#">
-                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
-                  </a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'>
-                    <p>
-                    Can immigration lawyers in London deal with my immigration 
-                    case whilst I am abroad?
-                    </p>
-                  <a href="#">
-                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
-                  </a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'>
-                    <p>
-                    Can immigration lawyers in London help me with challenging UK visa refusal?
-                    </p>
-                  <a href="#">
-                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
-                  </a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'>
-                    <p>
-                    How can we help with your immigration application?
-                    </p>
-                  <a href="#">
-                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
-                  </a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'>
-                    <p>
-                    Why choose us for handling your immigration matter?
-                    </p>
-                  <a href="#">
-                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
-                  </a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'>
-                    <p>
-                    What languages are spoken by our team of immigration lawyers?
-                    </p>
-                  <a href="#">
-                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
-                  </a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'>
-                    <p>
-                     How can I find best immigration solicitors in London?
-                    </p>
-                  <a href="#">
-                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
-                  </a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'>
-                    <p>
-                      Immigration Solicitors London: Reviews
-                    </p>
-                  <a href="#">
-                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
-                  </a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'>
-                    <p>
-                      Can immigration solicitors in London give free UK immigration advice?
-                    </p>
-                  <a href="#">
-                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
-                  </a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'>
-                    <p>
-                    Can immigration solicitors in London work on my immigration case remotely 
-                    without the need to attend their offices in London?
-                    </p>
-                  <a href="#">
-                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
-                  </a></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'>
-                    <p>
-                    Can immigration solicitors in London help me with my immigration case 
-                    during coronavirus (COVID-19) outbreak?
-                    </p>
-                  <a href="#">
-                    <i class="fa fa-download" style={{fontSize: '24px', color: 'green'}}></i>
-                  </a></div>
-                </Col>
-              </Row>
-
-              </div>
-
-              <div className=''>
-                <h4>What Our Clients Say About Us In Google Reviews?</h4>
-
-                <Row>
-                  {/* CARD REVIEWS SECTION */}
-                          <div className="card-deck">
-                          <div class="card">
-                            <img src={Micki} class="card-img-top size" alt="..." />
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                              <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                          </div>
-
-                          <div class="card">
-                            <img src={Carlysia} class="card-img-top size" alt="" />
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                              <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                            </div>
-
-                            <div class="card">
-                            <img src={Julian} class="card-img-top size" alt="" />
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                              <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                          </div>
-
-                          {/* CARD REVIEWS SECTION IS ABOVE */}
-                </Row>
-
-                    <Row>
-                        <div class="container">           
-                          <table class="table table-bordered">
-                            <thead>
-                              <tr>
-                                <th>Family Visa UK</th>
-                                <th>Work Visa UK</th>
-                                <th>ILR Applications</th>
-                                <th>British Citizenship</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>Spouse Visa UK (5 Years Route)</td>
-                                <td>Skilled Worker Visa UK</td>
-                                <td>ILR As a Spouse (5 Years Route)</td>
-                                <td>Naturalisation As A British Citizen</td>
-                              </tr>
-                              <tr>
-                                <td>Spouse Visa UK (10 Years Route)</td>
-                                <td>Skilled Worker Sponsor License</td>
-                                <td>ILR - 10 Years Long Residence</td>
-                                <td>Registration As A British Citizen</td>
-                              </tr>
-                              <tr>
-                                <td>Parent Of A British Child Visa UK</td>
-                                <td>Hong Kong BNO Visa UK</td>
-                                <td>ILR As A Slilled Worker</td>
-                                <td>Registering A Child As A British Citizen</td>
-                              </tr>
-                              <tr>
-                                <td>Adult Dependent Relative (ADR) Visa</td>
-                                <td>Sole Representative Of An Overseas Business Visa</td>
-                                <td>ILR As A Parent Of A British Child</td>
-                                <td>Reconsideration Of Naturalisation Application</td>
-                              </tr>
-                              <tr>
-                                <td>Children Of Settled Persons</td>
-                                <td>UK Ancestry Visa</td>
-                                <td>ILR As UK Ancestry Migrant</td>
-                                <td>British Passport Application</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                    </Row>
-
-                    {/* SECOND TABLE BELOW */}
-
-                    <Row>
-                <div class="container">           
-                  <table class="table table-bordered">
-                    <thead>
-                      <tr>
-                        <th>Challenging Refusal Decisions</th>
-                        <th>Private Life and DL Applications</th>
-                        <th>Deportation & Detention</th>
-                        <th>Divorce / Family Law Services</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Immigration Appeals</td>
-                        <td>20 Years Long Residence Application</td>
-                        <td>Immigration Bail Application</td>
-                        <td>Getting A Divorce</td>
-                      </tr>
-                      <tr>
-                        <td>Administrative Review</td>
-                        <td>7 Years Child Residence Route</td>
-                        <td>Compensation - Immigration Detention</td>
-                        <td>Annulment Of Marriage UK</td>
-                      </tr>
-                      <tr>
-                        <td>Pre Action Protocol (PAP)</td>
-                        <td>Over 18, Under 25 and Spent Half Of Life In The UK</td>
-                        <td>Deportation Representations</td>
-                        <td>Divorce Financial Settlement</td>
-                      </tr>
-                      <tr>
-                        <td>Immigration Judicial Review</td>
-                        <td>Very Significant Obstacles To Integration</td>
-                        <td>Revocation Of Deportation Order</td>
-                        <td>Child Arrangements Order</td>
-                      </tr>
-                      <tr>
-                        <td>Challenging Refusal Of Visitor Visa</td>
-                        <td>Discretionary Leave Applications</td>
-                        <td>Deportation Appeal</td>
-                        <td>Contesting Non-Molestation Orders</td>
-                      </tr>
-                    </tbody>
-                  </table>
                 </div>
-                    </Row>
-                        </div>
-                        </div>
-
-            </div>
-          </div>
-        </Col>
+            </Col>
+            
 
         {/* Side Table section Begins */}
-        
         <Col md="3">
         <Table bordered striped hover size='sm' responsive mt="5">
           <thead>
@@ -1591,14 +1560,13 @@ function Home() {
           </tbody>
         </Table>
             </Col>
-      </Row>
-      {/* Side Table Section Above */}
-
-      {/* Footer section below */}
+            </Row>
+                </Container>
+                </div>
 
       <Footer />
-    </Container>
-      </div>
+      </>
+      </>
     );
   }
   

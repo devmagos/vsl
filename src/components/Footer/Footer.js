@@ -51,27 +51,29 @@ function Footer() {
           </div>
       
           <div class="col-md-9">
+              <div class="row row-md-12 p-1">
+              <div class="col-md-6">
+              <p>CALL NOW FOR A FRIENDLY CHAT:</p>
+              <p>Main Phone: +44 1604 344 000 Or Drop Us a Line:</p>
+              <p><a href="#">info@victoriasolicitorslimited.co.uk</a></p>
+              </div>
+              
+              <div class="col-md-6">
+              <p>Visit Our UK Office: 17, Black Cat Drive, Northampton, NN5 4 EA</p>
               <p>
-                Sunrise Solicitors is the trading name of Sunrise Solicitors Ltd (company registration no. 6405492). 
-                Sunrise Solicitors Offices are regulated by SRA under SRA ID 490903 (London Office) and SRA ID 645256 
-                (Manchester Office). Sunrise Solicitors are also members of Immigration Law Practitioners' Association (ILPA).
+              Africa Contact: Victoria Chambers (Enquiries only) Main Phone: 
+              +2348099243347 +234 8184934865
               </p>
+              </div>
+              </div>
 
-              <p>
-                Copyright © 2020 Sunrise Solicitors, All rights reserved
+              <div class="row row-md-12 mt-3">
+              <p class="col-md-3"></p>
+              <p class="col-md-6">
+                Copyright © 2020 Victoria Solicitors, All rights reserved
               </p>
-
-              <form class="float-end">
-                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label for="newsletter1" class="visually-hidden">Email address</label>
-                  <button class="btn text-light bg-success btn-lg position-sticky" type="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                      </svg>
-                    Leave a message
-                </button>
-                </div>
-              </form>
+              <p class="col-md-3"></p>
+              </div>
           </div>
           
         </footer>
