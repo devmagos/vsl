@@ -3,20 +3,15 @@ import './Home.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SignupForm from '../Signup/Signup';
 import Button from 'react-bootstrap/Button';
-// import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Table from 'react-bootstrap/Table';
 import Carlysia from '../images/carlysia.png'
 import Micki from '../images/micki.png'
 import Julian from '../images/julian.png'
-// import Emily from '../images/emily.png'
 
 
 
@@ -29,6 +24,7 @@ function Home() {
       <Navbar />
       {/* Form page section below */}
     <Container>
+      <h2>Testing Continuous Deploy</h2>
       <Row className='form-solicitors'>
                 <Col md="6" className="row g-0 p-5 rounded overflow-hidden flex-md-row mb-4 h-125 position-relative">
                   <div class="row g-0 p-5 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">

@@ -73,6 +73,7 @@ function Footer() {
                 Copyright © 2020 Victoria Solicitors, All rights reserved
               </p>
               <p class="col-md-3"></p>
+
               </div>
           </div>
           
