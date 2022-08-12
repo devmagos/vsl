@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer.css'
 import Vsl from "../images/vsl.PNG"
 
 function Footer() {
@@ -7,7 +8,7 @@ function Footer() {
       <div class="col-md-12 mb-0">
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-0 border-top">
             <div class="col-md-12 mb-4">
-                <nav class="navbar navbar-expand navbar-success bg-success text-light" aria-label="Second navbar example">
+                <nav class="navbar navbar-expand bcolor text-light" aria-label="Second navbar example">
                     <div class="container-fluid">
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

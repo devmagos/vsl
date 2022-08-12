@@ -37,7 +37,7 @@ const SignupForm = () => {
                         </div>
                         
                         <div class="col-12">
-                          <button type="submit" class="btn text-light bg-success">Submit Request</button>
+                          <button type="submit" class="btn text-light bcolor">Submit Request</button>
                         </div>
                       </form>
                   </div>

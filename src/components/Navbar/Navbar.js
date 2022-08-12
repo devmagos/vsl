@@ -5,7 +5,7 @@ function Navbar() {
     // NAVBAR SECTION  
     
       <div class="col-md-12 mb-4">
-        <nav class="navbar navbar-expand navbar-success bg-success text-light" aria-label="Second navbar example">
+        <nav class="navbar navbar-expand bcolor text-light" aria-label="Second navbar example">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
