@@ -24,7 +24,6 @@ function Home() {
       <Navbar />
       {/* Form page section below */}
     <Container>
-      <h2>Testing Continuous Deploy</h2>
       <Row className='form-solicitors'>
                 <Col md="6" className="row g-0 p-5 rounded overflow-hidden flex-md-row mb-4 h-125 position-relative">
                   <div class="row g-0 p-5 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
