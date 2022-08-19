@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
   
-.bcolor {
+.btncolor {
     background: #e2d1a3;
+}
+
+.btncolor:hover {
+    color: #9ca9c1;
 }

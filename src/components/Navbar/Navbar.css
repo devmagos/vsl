@@ -1,3 +1,11 @@
-.bcolor {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.navcolor {
+    color: #fff;
     background: #e2d1a3;
+    font-size: 1.1em;
 }

@@ -20,25 +20,25 @@ function Footer() {
                             <a class="nav-link text-light" aria-current="page" href="#">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-light" aria-current="page" href="#">About Us</a>
+                            <a class="nav-link text-light" aria-current="page" href="#about-us">About Us</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-light" aria-current="page" href="#">Contact Us</a>
+                            <a class="nav-link text-light" aria-current="page" href="#contact-us">Contact Us</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-light" aria-current="page" href="#">Privacy Policy</a>
+                            <a class="nav-link text-light" aria-current="page" href="#privacy-policy">Privacy Policy</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-light" aria-current="page" href="#">Disclaimer</a>
+                            <a class="nav-link text-light" aria-current="page" href="#disclaimer">Disclaimer</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-light" aria-current="page" href="#">Divorce & Family</a>
+                            <a class="nav-link text-light" aria-current="page" href="#divorce">Divorce & Family</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-light" aria-current="page" href="#">Law Services</a>
+                            <a class="nav-link text-light" aria-current="page" href="#services">Law Services</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-light" aria-current="page" href="#">Uk Immigration Services</a>
+                            <a class="nav-link text-light" aria-current="page" href="#services">Uk Immigration Services</a>
                           </li>
                         </ul>
                       </div>

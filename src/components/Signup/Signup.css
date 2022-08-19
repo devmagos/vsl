@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 .bcolor {
     background: #e2d1a3;
+    color: #fff;
 }
+
+.bcolor:hover {
+    background: #e2d1a3;
+    color: #9ca9c1;
+}
+

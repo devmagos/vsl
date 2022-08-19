@@ -5,7 +5,8 @@ import "./Signup.css";
 const SignupForm = () => {
 
   return (
-    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+    <div class="row g-0 border col-md-12 rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="row g-0 col-md-12 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
                       <h5 class="mb-0">WANT TO INSTRUCT US FOR YOUR LEGAL MATTER? REQUEST A FIXED FEE QUOTE</h5>
                       <form class="row g-3 col-md-12">
@@ -37,9 +38,10 @@ const SignupForm = () => {
                         </div>
                         
                         <div class="col-12">
-                          <button type="submit" class="btn text-light bcolor">Submit Request</button>
+                          <button type="submit" class="btn text-light bcolor p-3">Submit Request</button>
                         </div>
                       </form>
+                  </div>
                   </div>
                 </div>
   );

@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 a {
     text-decoration: none;
     color: #9ca9c1;
@@ -11,6 +12,7 @@ a {
 
 .solicitors {
     text-align: justify;
+    color: #9ca9c1;
 }
 
 .form-solicitors {
@@ -41,8 +43,14 @@ a {
     align-items: center;
 }
 
-.bcolor {
+.btncolor {
     background: #e2d1a3;
+    color: #fff;
+}
+
+.btncolor:hover {
+    background: #e2d1a3;
+    color: #9ca9c1;
 }
 
 .links-aa {
