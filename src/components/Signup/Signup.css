@@ -14,3 +14,40 @@
     color: #9ca9c1;
 }
 
+input.input-error {
+    border: 1.5px solid #fc8181;
+    border-radius: 5px;
+    width: 280px;
+    height: 40px;
+}
+
+select.input-error {
+    border: 1.5px solid #fc8181;
+    border-radius: 5px;
+    width: 583px;
+    height: 40px;
+}
+
+textarea.input-error {
+    border: 1.5px solid #fc8181;
+    border-radius: 5px;
+    width: 583px;
+    height: 90px;
+}
+
+.error {
+    color: #fc8181;
+}
+
+button:disabled {
+    opacity: 0.85;
+}
+
+.form-section {
+  background: #f8f8f8;
+  margin-bottom: 20px;
+}
+
+.form {
+    padding: 50px;
+}

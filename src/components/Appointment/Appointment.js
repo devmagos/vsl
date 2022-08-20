@@ -31,10 +31,10 @@ function Appointment() {
                       unique family team of four that specialise in family, 
                       commercial and immigration law
                       </p>
-                      <div class="m-2">
+                      {/* <div class="m-2">
                         <button class="btn p-3 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Contact Us</Link></button>
                         <button class="btn p-3 m-2 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Book an Appointment</Link></button>
-                      </div>
+                      </div> */}
                     </Col>
                   </div>
                 </Col>

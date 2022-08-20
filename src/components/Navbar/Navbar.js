@@ -7,8 +7,8 @@ function Navbar() {
   return (
     // NAVBAR SECTION  
     
-      <div class="mb-4">
-        <nav class="navbar navcolor d-flex col-md-12" aria-label="Second navbar" style={{padding: "1.5rem",}}>
+      <div className='nav-width'>
+        <nav class="navbar navcolor d-flex container-fluid" aria-label="Second navbar" style={{padding: "1.5rem",}}>
           <Link to="../Home" class="nav-link">Home</Link> 
           <Link to="../Appointment" class="nav-link">Services</Link> 
           <Link to="../Appointment" class="nav-link">Divorce/Family</Link> 
