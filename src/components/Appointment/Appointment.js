@@ -24,12 +24,14 @@ function Appointment() {
        <Row class="col-md-12" className='form-solicitors'>
                 <Col md="6" className="row g-0 rounded overflow-hidden flex-md-row mb-4 h-125 position-relative">
                   <div class="row g-0 p-4 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
-                    <Col p="5 d-flex flex-column position-static">
-                      <h3 class="m-3 color">Appointments - Victoria Solicitors!</h3>
+                    <Col p="5 d-flex flex-column position-static" className='welcome-text'>
+                      <h3 class="m-3 color"><strong>Appointments - Victoria Solicitors!</strong></h3>
                       <p class="card-text m-2 p-3 line-height-3">
+                      <strong>
                       We are one of London’s Premier Family Law Firms with a 
                       unique family team of four that specialise in family, 
-                      commercial and immigration law
+                      commercial and immigration law.
+                      </strong>
                       </p>
                       {/* <div class="m-2">
                         <button class="btn p-3 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Contact Us</Link></button>

@@ -1127,9 +1127,9 @@ function Home() {
 
         {/* Side Table section Begins */}
         <Col md="3">
-        <Table bordered striped hover size='sm' responsive mt="5">
+        <Table bordered hover size='sm' responsive>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>Our Services</th>
             </tr>
           </thead>
@@ -1157,7 +1157,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>New Visa Routes/Schemes</th>
             </tr>
           </thead>
@@ -1179,7 +1179,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>Family Visa Applications</th>
             </tr>
           </thead>
@@ -1207,7 +1207,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>EU Settlement Scheme (EUSS)</th>
             </tr>
           </thead>
@@ -1226,7 +1226,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>UK Work Visas</th>
             </tr>
           </thead>
@@ -1275,7 +1275,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>Sponsor License</th>
             </tr>
           </thead>
@@ -1303,7 +1303,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>Long Residence Applications</th>
             </tr>
           </thead>
@@ -1331,7 +1331,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>Private Life Applications</th>
             </tr>
           </thead>
@@ -1359,7 +1359,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>Discretionary Leave Applications</th>
             </tr>
           </thead>
@@ -1387,7 +1387,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>British Citezenship</th>
             </tr>
           </thead>
@@ -1415,7 +1415,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>Study Visa UK</th>
             </tr>
           </thead>
@@ -1443,7 +1443,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>Visitor Visa UK</th>
             </tr>
           </thead>
@@ -1471,7 +1471,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>Other Immigration Applications</th>
             </tr>
           </thead>
@@ -1499,7 +1499,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>Challenging Immigration Decisions</th>
             </tr>
           </thead>
@@ -1527,7 +1527,7 @@ function Home() {
           </tr>
           </tbody>
           <thead>
-            <tr>
+            <tr class="side-text-th">
               <th>Our Immigration Lawyer's Team</th>
             </tr>
           </thead>

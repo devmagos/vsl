@@ -30,10 +30,16 @@ a {
     text-align: justify;
 }
 
+.side-text-th {
+    background: #9ca9c1;
+    color: #f8f8f8;
+}
+
 .side-block-text {
-    background: #e2d1a3;
     padding: 12px;
+    color: #f8f8f8;
     border-radius: 3px;
+    background: #e2d1a3;
     border-left: 7px solid #9ca9c1;
 }
 
@@ -88,6 +94,7 @@ a {
 
 .welcome-text {
     padding: 80px;
+    color: #f8f8f8;
 }
 
 .card-text {
