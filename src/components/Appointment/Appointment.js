@@ -1,27 +1,26 @@
 import React from 'react'
 import './Appointment.css'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Header from '../Header/Header';
-import Navbar from '../Navbar/Navbar';
+import VslNav from '../Navbar/Navigation.js';
 import SignupForm from '../Signup/Signup';
-import Container from 'react-bootstrap/Container';
+import Footer from '../Footer/Footer';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
 function Appointment() {
   return (
-    <>
     <div class="container-fluid">
-    <Row class="col-md-12">
+    <Row>
       <Header />
     </Row>
 
-    <Row class="col-md-12">
-      <Navbar />
+    <Row>
+      <VslNav />
     </Row>
 
-       <Row class="col-md-12" className='form-solicitors'>
+       <Row className='form-solicitors'>
                 <Col md="6" className="row g-0 rounded overflow-hidden flex-md-row mb-4 h-125 position-relative">
                   <div class="row g-0 p-4 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                     <Col p="5 d-flex flex-column position-static" className='welcome-text'>
@@ -45,8 +44,11 @@ function Appointment() {
                   <SignupForm />
               </Col>
       </Row>
+
+      <Row>
+        <Footer />
+      </Row>
       </div>
-                </>
   )
 }
 

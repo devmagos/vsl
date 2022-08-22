@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.navcolor {
+    background: #e2d1a3;
+    color: #f8f8f8;
+}
+
+.colornav .colornav-link {
+    font-size: 1.2em;
+    color: #f8f8f8;
+    text-decoration: none;
+}
+
+.colornav .colornav-link:hover {
+  color: #9ca9c1;
+}
+
+
+li {
+  list-style-type: none;
+}

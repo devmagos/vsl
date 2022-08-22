@@ -11,22 +11,22 @@ const SignupForm = () => {
                       <h5 class="mb-3">WANT TO INSTRUCT US FOR YOUR LEGAL MATTER? REQUEST A FIXED FEE QUOTE</h5>
                       <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/moqbqggn" method="post">
                           <fieldset class="inputs">
-                            <input type="text" name="firstname" id="firstname" placeholder="* First Name" required="" />
-                              <input type="tel" name="phone" id="phone" placeholder="* Your phone number" required="" />
+                            <input type="text" name="firstname" id="firstname" placeholder="* First Name" required="required" />
+                              <input type="tel" name="phone" id="phone" placeholder="* Your phone number" required="required" />
                             </fieldset> 
                             <fieldset class="inputs">
-                            <input type="email" name="email" id="email" placeholder="* Your email" required="" />
+                            <input type="email" name="email" id="email" placeholder="* Your email" required="required" />
                               <input type="email" name="confirmEmail" id="confirmEmail" placeholder="* Confirm your email" required="" />
                             </fieldset>
                             <fieldset class="select">
-                              <select name="select" required="">
+                              <select name="select" required="required">
                             <option selected>--Select service</option>
                                 <option>Uk Visa and Immigration</option>
                                 <option>Divorce / Family Law</option>
                                 <option>Other</option>
                               </select>
                             </fieldset>
-                            <textarea rows="3" name="message" id="message" required=""></textarea>
+                            <textarea rows="3" name="message" id="message" required="required"></textarea>
                             <fieldset class="submit">
                                 <input type="submit" value="Submit Request" class="bcolor" />
                             </fieldset>

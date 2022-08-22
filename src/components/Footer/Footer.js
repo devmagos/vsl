@@ -1,14 +1,37 @@
 import React from 'react'
 import './Footer.css'
+import Container from 'react-bootstrap/Container';
+import { Link } from "react-router-dom";
+import Navbar from 'react-bootstrap/Navbar';
 import Vsl from "../images/vsl.PNG"
 
 function Footer() {
   return (
     
       <div class="col-md-12 mb-0">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-0 border-top">
-            <div class="col-md-12 mb-4">
-                <nav class="navbar navbar-expand bcolor text-light" aria-label="Second navbar example">
+        <footer class="row py-5 my-0 border-top">
+        <Container fluid mb="0">
+          <Navbar className="navcolor" expand="lg">
+              <Navbar.Toggle className="align-toggle" aria-controls="vsl-navbar-Navbar" />
+              <Navbar.Collapse className="" id="vsl-navbar-Navbar">
+                <Navbar className="me-auto colornav">
+                  <Navbar.Text className="colornav"><Link to="../Home" className="colornav-link">Home</Link></Navbar.Text>
+                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Services</Link></Navbar.Text>
+                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Divorce / Family</Link></Navbar.Text>
+                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Immigration Services</Link></Navbar.Text>
+                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Immigration Applications</Link></Navbar.Text>
+                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Family Visas</Link></Navbar.Text>
+                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Work Visas</Link></Navbar.Text>
+                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Challenge Refusals</Link></Navbar.Text>
+                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Contact Us</Link></Navbar.Text>
+                </Navbar>
+              </Navbar.Collapse>
+          </Navbar>
+        </Container>
+
+
+            {/* <div class="col-md-12 mb-4">
+                <nav class="navbar navbar-expand bcolor text-light" aria-label="vsl footer nav">
                     <div class="container-fluid">
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -44,7 +67,7 @@ function Footer() {
                       </div>
                     </div>
                   </nav>
-            </div>
+            </div> */}
 
             
           <div class="col-md-3">

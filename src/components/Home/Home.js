@@ -1,10 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Home.css';
-import Navbar from '../Navbar/Navbar';
+import VslNav from '../Navbar/Navigation.js';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SignupForm from '../Signup/Signup';
@@ -15,13 +14,13 @@ function Home() {
   return (
     <>
     <div class="container-fluid">
-  <Row>
-      <Header />
-    </Row>
+      <Row>
+        <Header />
+      </Row>
 
-    <Row>
-      <Navbar />
-    </Row>
+      <Row>
+        <VslNav />
+      </Row>
       {/* Form page section below */}
       <Row className='form-solicitors'>
                 <Col md="6" className="row g-0 rounded overflow-hidden flex-md-row mb-4 h-125 position-relative">
