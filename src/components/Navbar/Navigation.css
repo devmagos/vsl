@@ -5,7 +5,7 @@
   }
   
 .navcolor {
-    background: #e2d1a3;
+    background: #9ca9c1;
     color: #f8f8f8;
 }
 
@@ -18,6 +18,15 @@
 .colornav .colornav-link:hover {
   color: #9ca9c1;
 }
+
+.colornav {
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+/* color: #9ca9c1;
+background: #e2d1a3; */
 
 
 li {

@@ -9,13 +9,17 @@ a {
     color: #9ca9c1;
 }
 
+h4, h5 {
+    color: #9ca9c1;
+}
+
 .solicitors {
     text-align: justify;
     color: #9ca9c1;
 }
 
 .form-solicitors {
-    background: #9ca9c1;
+    background: #e2d1a3;
     margin: 0px 0px;
 }
 
@@ -39,13 +43,13 @@ a {
     padding: 12px;
     color: #f8f8f8;
     border-radius: 3px;
-    background: #e2d1a3;
-    border-left: 7px solid #9ca9c1;
+    background: #9ca9c1;
+    border-left: 7px solid #e2d1a3;;
 }
 
 .links {
     margin: 5px;
-    border: 2px solid #e2d1a3;
+    border: 2px solid #9ca9c1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -53,20 +57,28 @@ a {
     align-items: center;
 }
 
-.btncolor {
-    background: #e2d1a3;
+#btncolor {
+    background: #9ca9c1;
+    font-size: large;
     color: #fff;
 }
 
-.btncolor:hover {
-    background: #e2d1a3;
-    color: #9ca9c1;
+#btncolorb {
+    background: #9ca9c1;
+    font-size: large;
+    color: #fff;
 }
+
+/* .btncolor:hover {
+    background: #9baac5;
+    color: #fff;
+} */
 
 .links-aa {
     margin: 5px;
-    border: 2px solid #e2d1a3;
     text-align: justify;
+    padding: 6px;
+    border: 2px solid #9ca9c1;
 }
 
 .links-aa a{

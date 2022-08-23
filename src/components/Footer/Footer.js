@@ -15,12 +15,32 @@ function Footer() {
               <Navbar.Toggle className="align-toggle" aria-controls="vsl-navbar-Navbar" />
               <Navbar.Collapse className="" id="vsl-navbar-Navbar">
                 <Navbar className="me-auto colornav">
-                  <Navbar.Text className="colornav"><Link to="../Home" className="colornav-link">Home</Link></Navbar.Text>
-                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Services</Link></Navbar.Text>
-                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Divorce / Family</Link></Navbar.Text>
-                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Immigration Services</Link></Navbar.Text>
-                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Immigration Applications</Link></Navbar.Text>
-                  <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Family Visas</Link></Navbar.Text>
+                        {/* <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="#about-us">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="#contact-us">Contact Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="#privacy-policy">Privacy Policy</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="#disclaimer">Disclaimer</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="#divorce">Divorce & Family</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="#services">Law Services</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="#services">Uk Immigration Services</a>
+                          </li> */}
+                  <Navbar.Text className="colornav"><Link to="#about-us" className="colornav-link">About Us</Link></Navbar.Text>
+                  <Navbar.Text className="colornav"><Link to="#divorce" className="colornav-link">Divorce & Family</Link></Navbar.Text>
+                  <Navbar.Text className="colornav"><Link to="#services" className="colornav-link" aria-current="page">UK Immigration Services</Link></Navbar.Text>
+                  <Navbar.Text className="colornav"><Link to="#contact-us" className="colornav-link" aria-current="page">Contact Us</Link></Navbar.Text>
+                  <Navbar.Text className="colornav"><Link to="#services" className="colornav-link" aria-current="page">Law Services</Link></Navbar.Text>
                   <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Work Visas</Link></Navbar.Text>
                   <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Challenge Refusals</Link></Navbar.Text>
                   <Navbar.Text className="colornav"><Link to="../Appointment" className="colornav-link">Contact Us</Link></Navbar.Text>
@@ -29,6 +49,7 @@ function Footer() {
           </Navbar>
         </Container>
 
+      {/* GOOGLE MEET LINK => https://meet.google.com/qom-pdvg-bgm */}
 
             {/* <div class="col-md-12 mb-4">
                 <nav class="navbar navbar-expand bcolor text-light" aria-label="vsl footer nav">
