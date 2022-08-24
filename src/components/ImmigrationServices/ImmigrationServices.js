@@ -32,7 +32,7 @@ function ImmigrationServices() {
                       commercial and immigration law.
                       </strong>
                       </p>
-                      <div class="m-2">
+                      <div class=''>
                         <button class="btn p-3 m-1 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Contact Us</Link></button>
                         <button class="btn p-3 m-1 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Book an Appointment</Link></button>
                       </div>

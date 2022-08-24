@@ -66,6 +66,31 @@ import DependantsTier2MinisterReligion from './components/DependantsTier2Ministe
 import EntryClearanceTier2Sportsperson from './components/EntryClearanceTier2Sportsperson/EntryClearanceTier2Sportsperson.js';
 import SwitchingToTier2Sportsperson from './components/SwitchingToTier2Sportsperson/SwitchingToTier2Sportsperson.js';
 import Tier2SportspersonVisaExtension from './components/Tier2SportspersonVisaExtension/Tier2SportspersonVisaExtension.js';
+import ILRTier2Sportsperson from './components/ILRTier2Sportsperson/ILRTier2Sportsperson.js';
+import DependentsTier2Sportsperson from './components/DependentsTier2Sportsperson/DependentsTier2Sportsperson.js';
+import EntryClearanceTier2ICT from './components/EntryClearanceTier2ICT/EntryClearanceTier2ICT.js';
+import SwitchingToTier2ICT from './components/SwitchingToTier2ICT/SwitchingToTier2ICT.js';
+import Tier2ICTExtension from './components/Tier2ICTExtension/Tier2ICTExtension.js';
+import ILRTier2ICT from './components/ILRTier2ICT/ILRTier2ICT.js';
+import DependantsTier2ICTMigrant from './components/DependantsTier2ICTMigrant/DependantsTier2ICTMigrant.js';
+import EntryClearanceDomesticWorker from './components/EntryClearanceDomesticWorker/EntryClearanceDomesticWorker.js';
+import DomesticWorkerVisaExtension from './components/DomesticWorkerVisaExtension/DomesticWorkerVisaExtension.js';
+import ILRDomesticWorker from './components/ILRDomesticWorker/ILRDomesticWorker.js';
+import DependentsDomesticWorker from './components/DependentsDomesticWorker/DependentsDomesticWorker.js';
+import EntryClearanceSoleRepresentativeOverseasBusiness from './components/EntryClearanceSoleRepresentativeOverseasBusiness/EntryClearanceSoleRepresentativeOverseasBusiness.js';
+import SoleRepresentativeVisaExtension from './components/SoleRepresentativeVisaExtension/SoleRepresentativeVisaExtension.js';
+import ILRSoleRepresentative from './components/ILRSoleRepresentative/ILRSoleRepresentative.js';
+import DependantsSoleRepresentatives from './components/DependantsSoleRepresentatives/DependantsSoleRepresentatives.js';
+import DependantsPersonWithUKAncestryVisa from './components/DependantsPersonWithUKAncestryVisa/DependantsPersonWithUKAncestryVisa.js';
+import ILRUKAncestry from './components/ILRUKAncestry/ILRUKAncestry.js';
+import UKAncestryVisaExtension from './components/UKAncestryVisaExtension/UKAncestryVisaExtension.js';
+import EntryClearanceUKAncestryVisa from './components/EntryClearanceUKAncestryVisa/EntryClearanceUKAncestryVisa.js';
+import EntryClearanceTier5CharityWorker from './components/EntryClearanceTier5CharityWorker/EntryClearanceTier5CharityWorker.js';
+import Tier5CharityWorkersVisaExtension from './components/Tier5CharityWorkersVisaExtension/Tier5CharityWorkersVisaExtension.js';
+import DependantsTier5CharityWorker from './components/DependantsTier5CharityWorker/DependantsTier5CharityWorker.js';
+import EntryClearanceTier5CreativeSporting from './components/EntryClearanceTier5CreativeSporting/EntryClearanceTier5CreativeSporting.js';
+import SwitchingToTier5CreativeSporting from './components/SwitchingToTier5CreativeSporting/SwitchingToTier5CreativeSporting.js';
+import Tier5CreativeAndSportingExtension from './components/Tier5CreativeAndSportingExtension/Tier5CreativeAndSportingExtension.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -137,6 +162,31 @@ root.render(
         <Route path="/EntryClearanceTier2Sportsperson" element={<EntryClearanceTier2Sportsperson />} />
         <Route path="/SwitchingToTier2Sportsperson" element={<SwitchingToTier2Sportsperson />} />
         <Route path="/Tier2SportspersonVisaExtension" element={<Tier2SportspersonVisaExtension />} />
+        <Route path="/ILRTier2Sportsperson" element={<ILRTier2Sportsperson />} />
+        <Route path="/DependentsTier2Sportsperson" element={<DependentsTier2Sportsperson />} />
+        <Route path="/EntryClearanceTier2ICT" element={<EntryClearanceTier2ICT />} />
+        <Route path="/SwitchingToTier2ICT" element={<SwitchingToTier2ICT />} />
+        <Route path="/Tier2ICTExtension" element={<Tier2ICTExtension />} />
+        <Route path="/ILRTier2ICT" element={<ILRTier2ICT />} />
+        <Route path="/DependantsTier2ICTMigrant" element={<DependantsTier2ICTMigrant />} />
+        <Route path="/EntryClearanceDomesticWorker" element={<EntryClearanceDomesticWorker />} />
+        <Route path="/DomesticWorkerVisaExtension" element={<DomesticWorkerVisaExtension />} />
+        <Route path="/ILRDomesticWorker" element={<ILRDomesticWorker />} />
+        <Route path="/DependentsDomesticWorker" element={<DependentsDomesticWorker />} />
+        <Route path="/EntryClearanceSoleRepresentativeOverseasBusiness" element={<EntryClearanceSoleRepresentativeOverseasBusiness />} />
+        <Route path="/SoleRepresentativeVisaExtension" element={<SoleRepresentativeVisaExtension />} />
+        <Route path="/ILRSoleRepresentative" element={<ILRSoleRepresentative />} />
+        <Route path="/DependantsSoleRepresentatives" element={<DependantsSoleRepresentatives />} />
+        <Route path="/DependantsPersonWithUKAncestryVisa" element={<DependantsPersonWithUKAncestryVisa />} />
+        <Route path="/ILRUKAncestry" element={<ILRUKAncestry />} />
+        <Route path="/UKAncestryVisaExtension" element={<UKAncestryVisaExtension />} />
+        <Route path="/EntryClearanceUKAncestryVisa" element={<EntryClearanceUKAncestryVisa />} />
+        <Route path="/EntryClearanceTier5CharityWorker" element={<EntryClearanceTier5CharityWorker />} />
+        <Route path="/Tier5CharityWorkersVisaExtension" element={<Tier5CharityWorkersVisaExtension />} />
+        <Route path="/DependantsTier5CharityWorker" element={<DependantsTier5CharityWorker />} />
+        <Route path="/EntryClearanceTier5CreativeSporting" element={<EntryClearanceTier5CreativeSporting />} />
+        <Route path="/SwitchingToTier5CreativeSporting" element={<SwitchingToTier5CreativeSporting />} />
+        <Route path="/Tier5CreativeAndSportingExtension" element={<Tier5CreativeAndSportingExtension />} />
 
       </Routes>
     </BrowserRouter>

@@ -13,7 +13,7 @@ import Table from 'react-bootstrap/Table';
 function Home() {
   return (
     <>
-    <div class="container-fluid">
+    <div class="container-fluid" id='top'>
       <Row>
         <Header />
       </Row>
@@ -34,7 +34,7 @@ function Home() {
                       commercial and immigration law
                       </strong>
                       </p>
-                      <div class="m-2">
+                      <div class="">
                         <button class="btn p-3 m-1 text-light btn-sm" id='btncolor' type="button"><Link to="../Appointment" class="nav-link">Contact Us</Link></button>
                         <button class="btn p-3 m-1 text-light btn-sm" id='btncolorb' type="button"><Link to="../Appointment" class="nav-link">Book an Appointment</Link></button>
                       </div>
@@ -51,7 +51,7 @@ function Home() {
         <Col md="9">
           <div className="side-text">
           <div>
-              <h4>Immigration Solicitors In London</h4>
+              <h4><strong></strong>Immigration Solicitors In London</h4>
               <p>We are one of London’s Premier Family Law Firms with a unique 
                 family team of four that specialise in family, commercial and 
                 immigration law.
@@ -97,7 +97,7 @@ function Home() {
 
 
               <div>
-                <h4><a href="#">Our Mission</a></h4>
+                <h4><strong></strong><a href="#">Our Mission</a></h4>
                 <p>
                 Many clients come to us with what can seem like insurmountable 
                 problems. With our highly experienced legal team, we analyse 
@@ -807,115 +807,115 @@ function Home() {
                   <div className='links'><p>Tier 2 Sportsperson Visa Extension</p><Link to="../Tier2SportspersonVisaExtension" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col md="6">
-                  <div className='links'><p>ILR Tier 2 Sportsperson</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>ILR Tier 2 Sportsperson</p><Link to="../ILRTier2Sportsperson" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>Dependents of Tier 2 Sportsperson</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Dependents of Tier 2 Sportsperson</p><Link to="../DependentsTier2Sportsperson" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col md="6">
-                  <div className='links'><p>Entry Clearance as Tier 2 ICT</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col md="6">
-                  <div className='links'><p>Switching into Tier 2 ICT</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-                <Col md="6">
-                  <div className='links'><p>Tier 2 ICT Extension</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Entry Clearance as Tier 2 ICT</p><Link to="../EntryClearanceTier2ICT" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>ILR Tier 2 ICT</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Switching into Tier 2 ICT</p><Link to="../SwitchingToTier2ICT" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col md="6">
-                  <div className='links'><p>Dependants OF Tier 2 ICT Migrant</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col md="6">
-                  <div className='links'><p>Entry Clearance as Domestic Worker</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-                <Col md="6">
-                  <div className='links'><p>Domestic Worker Visa Extension</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Tier 2 ICT Extension</p><Link to="../Tier2ICTExtension" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>ILR Domestic Worker</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>ILR Tier 2 ICT</p><Link to="../ILRTier2ICT" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col md="6">
-                  <div className='links'><p>Dependents of Domestic Worker</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col md="6">
-                  <div className='links'><p>Entry Clearance as A Sole Representative of Overseas Business</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-                <Col md="6">
-                  <div className='links'><p>Sole Representative Visa Extension</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Dependants OF Tier 2 ICT Migrant</p><Link to="../DependantsTier2ICTMigrant" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>ILR As Sole Representative</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Entry Clearance as Domestic Worker</p><Link to="../EntryClearanceDomesticWorker" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col md="6">
-                  <div className='links'><p>Dependants of Sole Representatives</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col md="6">
-                  <div className='links'><p>Dependants of A Person with UK Ancestry Visa</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-                <Col md="6">
-                  <div className='links'><p>ILR UK Ancestry</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Domestic Worker Visa Extension</p><Link to="../DomesticWorkerVisaExtension" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>UK Ancestry Visa Extension</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>ILR Domestic Worker</p><Link to="../ILRDomesticWorker" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col md="6">
-                  <div className='links'><p>Entry Clearance – UK Ancestry Visa</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col md="6">
-                  <div className='links'><p>Entry Clearance as Tier 5 Charity Worker</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-                <Col md="6">
-                  <div className='links'><p>Tier 5 Charity Workers Visa Extension</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Dependents of Domestic Worker</p><Link to="../DependentsDomesticWorker" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>Dependants of Tier 5 Charity Worker</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Entry Clearance as A Sole Representative of Overseas Business</p><Link to="../EntryClearanceSoleRepresentativeOverseasBusiness" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col md="6">
-                  <div className='links'><p>Entry Clearance as Tier 5 Creative & Sporting</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Sole Representative Visa Extension</p><Link to="../SoleRepresentativeVisaExtension" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>Switching into Tier 5 Creative & Sporting</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>ILR As Sole Representative</p><Link to="../ILRSoleRepresentative" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col md="6">
-                  <div className='links'><p>Tier 5 Creative & Sporting Extension</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Dependants of Sole Representatives</p><Link to="../DependantsSoleRepresentatives" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Dependants of A Person with UK Ancestry Visa</p><Link to="../DependantsPersonWithUKAncestryVisa" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>ILR UK Ancestry</p><Link to="../ILRUKAncestry" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>UK Ancestry Visa Extension</p><Link to="../UKAncestryVisaExtension" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance – UK Ancestry Visa</p><Link to="../EntryClearanceUKAncestryVisa" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance as Tier 5 Charity Worker</p><Link to="../EntryClearanceTier5CharityWorker" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Tier 5 Charity Workers Visa Extension</p><Link to="../Tier5CharityWorkersVisaExtension" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Dependants of Tier 5 Charity Worker</p><Link to="../DependantsTier5CharityWorker" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Entry Clearance as Tier 5 Creative & Sporting</p><Link to="../EntryClearanceTier5CreativeSporting" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Switching into Tier 5 Creative & Sporting</p><Link to="../SwitchingToTier5CreativeSporting" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Tier 5 Creative & Sporting Extension</p><Link to="../Tier5CreativeAndSportingExtension" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
@@ -1559,6 +1559,7 @@ function Home() {
         <Row>
           <Footer />
         </Row>
+        <div><a href='#top' title='Back to top'><i class="fa fa-angle-double-up btntop" style={{fontSize: '48px', color: '#3a5383'}}></i></a></div>
       </div>
       </>
     );
