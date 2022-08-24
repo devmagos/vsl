@@ -33,8 +33,8 @@ function ImmigrationApplications() {
                       </strong>
                       </p>
                       <div class="m-2">
-                        <button class="btn p-3 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Contact Us</Link></button>
-                        <button class="btn p-3 m-2 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Book an Appointment</Link></button>
+                        <button class="btn p-3 m-1 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Contact Us</Link></button>
+                        <button class="btn p-3 m-1 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Book an Appointment</Link></button>
                       </div>
                     </Col>
                   </div>

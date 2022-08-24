@@ -24,7 +24,7 @@ function ContactUs() {
                 <Col md="5" className="row g-0 rounded overflow-hidden flex-md-row mb-4 h-125 position-relative">
                   <div class="row g-0 p-4 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                     <Col p="5 d-flex flex-column position-static" className='welcome-text'>
-                      <h2 class="m-3 color"><strong>Appointments - Victoria Solicitors!</strong></h2>
+                      <h2 class="m-3 color"><strong>Contact Us</strong></h2>
                       <p class="card-text m-2 p-3 line-height-3">
                       <strong>
                       We are one of London’s Premier Family Law Firms with a 
@@ -33,8 +33,8 @@ function ContactUs() {
                       </strong>
                       </p>
                       <div class="m-2">
-                        <button class="btn p-3 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Contact Us</Link></button>
-                        <button class="btn p-3 m-2 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Book an Appointment</Link></button>
+                        <button class="btn p-3 m-1 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Contact Us</Link></button>
+                        <button class="btn p-3 m-1 text-light btncolor btn-sm" type="button"><Link to="../Appointment" class="nav-link">Book an Appointment</Link></button>
                       </div>
                     </Col>
                   </div>

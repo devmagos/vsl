@@ -1,10 +1,10 @@
 import React from 'react'
 import './Footer.css'
 import FooterNav from '../FooterNav/FooterNav';
+import Iframe from '../Iframe/Iframe';
 import Container from 'react-bootstrap/Container';
 import { Link } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar';
-import Vsl from "../images/vsl.PNG"
 
 function Footer() {
   return (
@@ -13,7 +13,7 @@ function Footer() {
       <div class="col-md-12 mb-0">
         <footer class="row my-0">
           <div class="col-md-3">
-            <img src={Vsl} alt="vsl logo" />
+            <Iframe />
           </div>
       
           <div class="col-md-9">
