@@ -5,7 +5,7 @@
   }
   
 .bcolor {
-    background: #9ca9c1;
+    background: #3a5383;
     font-size: large;
     border-radius: 5px;
     border: none;
@@ -14,7 +14,7 @@
 }
 
 .bcolor:hover {
-    background: #98a8c5;
+    background: #2f4e88;
     color: #fff;
 }
 

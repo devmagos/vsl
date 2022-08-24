@@ -37,6 +37,35 @@ import ParentBritishCitizenChild from '../src/components/ParentBritishCitizenChi
 import IndefiniteLeaveEnterChild from '../src/components/IndefiniteLeaveEnterChild/IndefiniteLeaveEnterChild';
 import AdultDependentRelative from '../src/components/AdultDependentRelative/AdultDependentRelative';
 import EntryClearanceChildPersonPresentSettled from './components/EntryClearanceChildPersonPresentSettled/EntryClearanceChildPersonPresentSettled.js';
+import TypeOfVisa from './components/TypeOfVisa/TypeOfVisa.js';
+import SwitchingToInnovatorVisa from './components/SwitchingToInnovatorVisa/SwitchingToInnovatorVisa.js';
+import Tier1EntrepreneurVisaExtension from './components/Tier1EntrepreneurVisaExtension/Tier1EntrepreneurVisaExtension.js';
+import ILRTier1Entrepreneur from './components/ILRTier1Entrepreneur/ILRTier1Entrepreneur.js';
+import DependentsTier1Entrepreneur from './components/DependentsTier1Entrepreneur/DependentsTier1Entrepreneur.js';
+import EntryClearanceTier1ExceptionalTalent from './components/EntryClearanceTier1ExceptionalTalent/EntryClearanceTier1ExceptionalTalent.js';
+import SwitchingToTier1ExceptionalTalent from './components/SwitchingToTier1ExceptionalTalent/SwitchingToTier1ExceptionalTalent.js';
+import ExtensionStayTier1ExceptionalTalent from './components/ExtensionStayTier1ExceptionalTalent/ExtensionStayTier1ExceptionalTalent.js';
+import ILRAsTier1ExceptionalTalent from './components/ILRAsTier1ExceptionalTalent/ILRAsTier1ExceptionalTalent.js';
+import DependantsTier1ExceptionalTalentMigrant from './components/DependantsTier1ExceptionalTalentMigrant/DependantsTier1ExceptionalTalentMigrant.js';
+import Tier1GraduateEntrepreneurVisaExtension from './components/Tier1GraduateEntrepreneurVisaExtension/Tier1GraduateEntrepreneurVisaExtension.js';
+import DependantsTier1GraduateEntrepreneur from './components/DependantsTier1GraduateEntrepreneur/DependantsTier1GraduateEntrepreneur.js';
+import EntryClearanceTier1Investor from './components/EntryClearanceTier1Investor/EntryClearanceTier1Investor.js';
+import SwitchingToTier1InvestorVisa from './components/SwitchingToTier1InvestorVisa/SwitchingToTier1InvestorVisa.js';
+import Tier1InvestorVisaExtension from './components/Tier1InvestorVisaExtension/Tier1InvestorVisaExtension.js';
+import ILRTier1Investor from './components/ILRTier1Investor/ILRTier1Investor.js';
+import EntryClearanceTier2GeneralMigrant from './components/EntryClearanceTier2GeneralMigrant/EntryClearanceTier2GeneralMigrant.js';
+import SwitchingToTier2General from './components/SwitchingToTier2General/SwitchingToTier2General.js';
+import Tier2GeneralExtension from './components/Tier2GeneralExtension/Tier2GeneralExtension.js';
+import ILRTier2General from './components/ILRTier2General/ILRTier2General.js';
+import DependentsTier2GeneralMigrant from './components/DependentsTier2GeneralMigrant/DependentsTier2GeneralMigrant.js';
+import EntryClearanceTier2MinisterReligion from './components/EntryClearanceTier2MinisterReligion/EntryClearanceTier2MinisterReligion.js';
+import SwitchingToTier2MinisterReligion from './components/SwitchingToTier2MinisterReligion/SwitchingToTier2MinisterReligion.js';
+import Tier2MinisterReligionVisaExtension from './components/Tier2MinisterReligionVisaExtension/Tier2MinisterReligionVisaExtension.js';
+import ILRTier2MinisterReligion from './components/ILRTier2MinisterReligion/ILRTier2MinisterReligion.js';
+import DependantsTier2MinisterReligion from './components/DependantsTier2MinisterReligion/DependantsTier2MinisterReligion.js';
+import EntryClearanceTier2Sportsperson from './components/EntryClearanceTier2Sportsperson/EntryClearanceTier2Sportsperson.js';
+import SwitchingToTier2Sportsperson from './components/SwitchingToTier2Sportsperson/SwitchingToTier2Sportsperson.js';
+import Tier2SportspersonVisaExtension from './components/Tier2SportspersonVisaExtension/Tier2SportspersonVisaExtension.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -79,6 +108,35 @@ root.render(
         <Route path="/IndefiniteLeaveEnterChild" element={<IndefiniteLeaveEnterChild />} />
         <Route path="/AdultDependentRelative" element={<AdultDependentRelative />} />
         <Route path="/EntryClearanceChildPersonPresentSettled" element={<EntryClearanceChildPersonPresentSettled />} />
+        <Route path="/TypeOfVisa" element={<TypeOfVisa />} />
+        <Route path="/SwitchingToInnovatorVisa" element={<SwitchingToInnovatorVisa />} />
+        <Route path="/Tier1EntrepreneurVisaExtension" element={<Tier1EntrepreneurVisaExtension />} />
+        <Route path="/ILRTier1Entrepreneur" element={<ILRTier1Entrepreneur />} />
+        <Route path="/DependentsTier1Entrepreneur" element={<DependentsTier1Entrepreneur />} />
+        <Route path="/EntryClearanceTier1ExceptionalTalent" element={<EntryClearanceTier1ExceptionalTalent />} />
+        <Route path="/SwitchingToTier1ExceptionalTalent" element={<SwitchingToTier1ExceptionalTalent />} />
+        <Route path="/ExtensionStayTier1ExceptionalTalent" element={<ExtensionStayTier1ExceptionalTalent />} />
+        <Route path="/ILRAsTier1ExceptionalTalent" element={<ILRAsTier1ExceptionalTalent />} />
+        <Route path="/DependantsTier1ExceptionalTalentMigrant" element={<DependantsTier1ExceptionalTalentMigrant />} />
+        <Route path="/Tier1GraduateEntrepreneurVisaExtension" element={<Tier1GraduateEntrepreneurVisaExtension />} />
+        <Route path="/DependantsTier1GraduateEntrepreneur" element={<DependantsTier1GraduateEntrepreneur />} />
+        <Route path="/EntryClearanceTier1Investor" element={<EntryClearanceTier1Investor />} />
+        <Route path="/SwitchingToTier1InvestorVisa" element={<SwitchingToTier1InvestorVisa />} />
+        <Route path="/Tier1InvestorVisaExtension" element={<Tier1InvestorVisaExtension />} />
+        <Route path="/ILRTier1Investor" element={<ILRTier1Investor />} />
+        <Route path="/EntryClearanceTier2GeneralMigrant" element={<EntryClearanceTier2GeneralMigrant />} />
+        <Route path="/SwitchingToTier2General" element={<SwitchingToTier2General />} />
+        <Route path="/Tier2GeneralExtension" element={<Tier2GeneralExtension />} />
+        <Route path="/ILRTier2General" element={<ILRTier2General />} />
+        <Route path="/DependentsTier2GeneralMigrant" element={<DependentsTier2GeneralMigrant />} />
+        <Route path="/EntryClearanceTier2MinisterReligion" element={<EntryClearanceTier2MinisterReligion />} />
+        <Route path="/SwitchingToTier2MinisterReligion" element={<SwitchingToTier2MinisterReligion />} />
+        <Route path="/Tier2MinisterReligionVisaExtension" element={<Tier2MinisterReligionVisaExtension />} />
+        <Route path="/ILRTier2MinisterReligion" element={<ILRTier2MinisterReligion />} />
+        <Route path="/DependantsTier2MinisterReligion" element={<DependantsTier2MinisterReligion />} />
+        <Route path="/EntryClearanceTier2Sportsperson" element={<EntryClearanceTier2Sportsperson />} />
+        <Route path="/SwitchingToTier2Sportsperson" element={<SwitchingToTier2Sportsperson />} />
+        <Route path="/Tier2SportspersonVisaExtension" element={<Tier2SportspersonVisaExtension />} />
 
       </Routes>
     </BrowserRouter>

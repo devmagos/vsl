@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import Vsl from "../images/vsl.PNG"
+import Vsl from "../Images/vsl.png"
 
 function Header() {
   return (
@@ -9,7 +9,7 @@ function Header() {
         <div class="d-flex text-decoration-none fsize">
           <div>
           <a href="/" class="d-flex text-dark text-decoration-none">
-            <img src={Vsl} alt="vsl logo" />
+            <img src={Vsl} className='logosize' alt="victoria solicitors logo" />
             <h1><span class="">Victoria Solicitors</span></h1>
           </a>
           </div>
