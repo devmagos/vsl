@@ -50,6 +50,9 @@ button:disabled {
 .form-section {
   background: #f8f8f8;
   margin-bottom: 20px;
+  height: 400px;
+  width: 500px;
+  margin: 0 auto;
 }
 
 .form {

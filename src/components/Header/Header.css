@@ -11,3 +11,15 @@
   .expert-text {
     margin-left: 8px;
   }
+
+  .fsize {
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  #fsize div {
+    margin-left: 40px;
+    justify-content: space-around;
+    text-align: justify;
+  }

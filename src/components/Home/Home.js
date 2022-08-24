@@ -23,7 +23,7 @@ function Home() {
       </Row>
       {/* Form page section below */}
       <Row className='form-solicitors'>
-                <Col md="6" className="row g-0 rounded overflow-hidden flex-md-row mb-4 h-125 position-relative">
+                <Col md="5" className="row g-0 rounded overflow-hidden flex-md-row mb-4 h-125 position-relative">
                   <div class="row g-0 p-4 rounded flex-md-row mb-4 h-md-250 position-relative">
                     <Col class="d-flex flex-column position-static" className='welcome-text'>
                       <h3 class="m-3 color"><strong>A Warm Welcome To Victoria Solicitors!</strong></h3>
@@ -42,7 +42,7 @@ function Home() {
                   </div>
                 </Col>
 
-              <Col md="6">
+              <Col md="7">
                   <SignupForm />
               </Col>
       </Row>
@@ -249,7 +249,7 @@ function Home() {
                 her win cases. Having worked as a criminal defence lawyer, Faith has 
                 the steel and determination you need for difficult cases.
                 </p>
-                <p>
+                <p id="contact-us">
                 Whatever your family needs, please get in touch. Here are some of the 
                 areas we cover. This is not an exhaustive list, so please contact us 
                 to ask about other issues:
@@ -365,7 +365,7 @@ function Home() {
               </thead>
               <tbody>
               <tr>
-                <td>...</td>
+                <td>Advisor</td>
                 <td>
                   <tr>
                   &#xa3; A standard hourly rate of £200 - £350 per hour excluding VAT
@@ -379,7 +379,7 @@ function Home() {
                 </td>
               </tr>
               <tr>
-                  <td>...</td>
+                  <td>Advisor</td>
                 <td>
                   <tr>
                   &#xa3; Typical costs range from £1500 to £10,000.
@@ -545,7 +545,7 @@ function Home() {
 
 
             <div>
-              <h4><a href="#">Advice & Representations for UK Immigration Applications</a></h4>
+              <h4 id='ukservices'><a href="#">Advice & Representations for UK Immigration Applications</a></h4>
               <p>
               Various UK visa categories for which our team can provide expert immigration 
               advice and legal representations are as follows:

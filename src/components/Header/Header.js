@@ -1,39 +1,36 @@
 import React from 'react'
 import './Header.css'
 import Vsl from "../images/vsl.PNG"
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 function Header() {
   return (
     <div class="container">
-        <header class="d-flex flex-wrap p-2 justify-content-space-between">
-        <Row>
-          <Col md="3">
+        <header class="d-flex flex-wrap p-2">
+        <div class="d-flex text-decoration-none fsize">
+          <div>
           <a href="/" class="d-flex text-dark text-decoration-none">
             <img src={Vsl} alt="vsl logo" />
-            <span class="fs-5 m-2">Victoria Solicitors</span>
+            <h1><span class="">Victoria Solicitors</span></h1>
           </a>
-          </Col>
-          <Col md="1"></Col>
-          <Col md="8" class="d-flex justify-content-justify">
-            <Row md="12" class="d-flex align-items-center">
-              <Col md="4">
+          </div>
+
+            <div class="d-flex fsize" id='fsize'>
+              <div>
                 <p>Email address</p>
                 <p>info@victoriasolicitorslimited.co.uk</p>
-              </Col>
-              <Col md="1"></Col>
-              <Col md="4">
+              </div>
+
+              <div>
                 <p className='expert-text'>Speak to an expert</p>
                 <p className='expert-text'>+44 1604 344 000</p>
-              </Col>
-              <Col md="3">
+              </div>
+
+              <div>
               <p>Client reviews</p>
               <p>4.8/5.0</p>
-              </Col>
-            </Row>
-          </Col>
-        </Row>
+              </div>
+          </div>
+        </div>
         </header>
       </div>
   )

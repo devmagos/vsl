@@ -9,13 +9,13 @@
     color: #f8f8f8;
 }
 
-.colornav .colornav-link {
+.colornav .colornav-a {
     font-size: 1.2em;
     color: #f8f8f8;
     text-decoration: none;
 }
 
-.colornav .colornav-link:hover {
+.colornav .colornav-a:hover {
   color: #e2d1a3;
 }
 
@@ -26,8 +26,6 @@
   text-align: center;
   margin: 0 auto;
 }
-/* color: #9ca9c1;
-background: #e2d1a3; */
 
 
 li {
