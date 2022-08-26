@@ -5,7 +5,7 @@
   }
   
 .navcolor {
-    background: #9ca9c1;
+    background: #3a5383;
     color: #f8f8f8;
 }
 
@@ -19,6 +19,15 @@
   color: #b39546;
 }
 
+#basic-nav-dropdown{
+  text-decoration: none;
+}
+
+.drop {
+  color: #000;
+  text-decoration: none;
+}
+
 .colornav {
   height: 40px;
   justify-content: space-between;
@@ -26,9 +35,6 @@
   text-align: center;
   margin: 0 auto;
 }
-/* color: #9ca9c1;
-background: #b39546; */
-
 
 li {
   list-style-type: none;

@@ -7,7 +7,6 @@ function FooterNav() {
   return (
           <div class="col-md-12 mb-0">
             <footer class="row py-5 my-0 border-top">
-            <Container fluid mb="0">
               <Navbar className="navcolor" expand="lg">
                   <Navbar.Toggle className="align-toggle" aria-controls="vsl-navbar-Navbar" />
                   <Navbar.Collapse className="" id="vsl-navbar-Navbar">
@@ -22,7 +21,6 @@ function FooterNav() {
                     </Navbar>
                   </Navbar.Collapse>
               </Navbar>
-            </Container>
             </footer>
           </div>
       )

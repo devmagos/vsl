@@ -6,6 +6,9 @@ import App from './App';
 import Home from '../src/components/Home/Home';
 import Appointment from './components/Appointment/Appointments';
 import Services from '../src/components/Services/Services';
+import CommercialServices from '../src/components/CommercialServices/CommercialServices';
+import ImmigrationLegalServices from '../src/components/ImmigrationLegalServices/ImmigrationLegalServices';
+import AdviceAndRepresentationsForUK from '../src/components/AdviceAndRepresentationsForUK/AdviceAndRepresentationsForUK';
 import DivorceFamily from '../src/components/DivorceFamily/DivorceFamily';
 import ImmigrationServices from '../src/components/ImmigrationServices/ImmigrationServices';
 import ImmigrationApplications from '../src/components/ImmigrationApplications/ImmigrationApplications';
@@ -136,6 +139,9 @@ root.render(
         <Route path="/Home" element={<Home />} />
         <Route path="/Appointment" element={<Appointment />} />
         <Route path="/Services" element={<Services />} />
+        <Route path="/CommercialServices" element={<CommercialServices />} />
+        <Route path="/ImmigrationLegalServices" element={<ImmigrationLegalServices />} />
+        <Route path="/AdviceAndRepresentationsForUK" element={<AdviceAndRepresentationsForUK />} />
         <Route path="/DivorceFamily" element={<DivorceFamily />} />
         <Route path="/ImmigrationServices" element={<ImmigrationServices />} />
         <Route path="/ImmigrationApplications" element={<ImmigrationApplications />} />

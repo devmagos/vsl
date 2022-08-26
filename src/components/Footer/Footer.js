@@ -1,15 +1,17 @@
 import React from 'react'
 import './Footer.css'
 import FooterNav from '../FooterNav/FooterNav';
+import Row from 'react-bootstrap/Row';
 import Iframe from '../Iframe/Iframe';
-import Container from 'react-bootstrap/Container';
-import { Link } from "react-router-dom";
-import Navbar from 'react-bootstrap/Navbar';
+// import Container from 'react-bootstrap/Container';
 
 function Footer() {
   return (
     <>
-    <FooterNav />
+    <Row>
+      <FooterNav />
+    </Row>
+    <Row>
       <div class="col-md-12 mb-0">
         <footer class="row my-0">
           <div class="col-md-3">
@@ -43,6 +45,7 @@ function Footer() {
           </div>
         </footer>
       </div>
+    </Row>
     </>
   )
 }

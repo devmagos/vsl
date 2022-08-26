@@ -9,6 +9,16 @@ a {
     color: #3a5383;
 }
 
+.icon-style {
+    color: #3a5383;
+    opacity: 0.3;
+}
+.icon-style:hover {
+    color: #3a5383;
+    opacity: 1;
+
+}
+
 .fixed-btn {
     position: fixed;
     bottom: 0;
