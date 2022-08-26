@@ -91,6 +91,40 @@ import DependantsTier5CharityWorker from './components/DependantsTier5CharityWor
 import EntryClearanceTier5CreativeSporting from './components/EntryClearanceTier5CreativeSporting/EntryClearanceTier5CreativeSporting.js';
 import SwitchingToTier5CreativeSporting from './components/SwitchingToTier5CreativeSporting/SwitchingToTier5CreativeSporting.js';
 import Tier5CreativeAndSportingExtension from './components/Tier5CreativeAndSportingExtension/Tier5CreativeAndSportingExtension.js';
+import DependentsTier5CreativeAndSporting from './components/DependentsTier5CreativeAndSporting/DependentsTier5CreativeAndSporting.js';
+import EntryClearanceTier5ReligiousWorker from './components/EntryClearanceTier5ReligiousWorker/EntryClearanceTier5ReligiousWorker.js';
+import Tier5ReligiousWorkersVisaExtension from './components/Tier5ReligiousWorkersVisaExtension/Tier5ReligiousWorkersVisaExtension.js';
+import SwitchingToTier5GovernmentAuthorisedExchange from './components/SwitchingToTier5GovernmentAuthorisedExchange/SwitchingToTier5GovernmentAuthorisedExchange.js';
+import Tier5GovernmentAuthorisedExchangeVisaExtension from './components/Tier5GovernmentAuthorisedExchangeVisaExtension/Tier5GovernmentAuthorisedExchangeVisaExtension.js';
+import Tier5YouthMobilitySchemeYMS from './components/Tier5YouthMobilitySchemeYMS/Tier5YouthMobilitySchemeYMS.js';
+import SwitchingToTier5InternationalAgreement from './components/SwitchingToTier5InternationalAgreement/SwitchingToTier5InternationalAgreement.js';
+import Tier5InternationalAgreementVisaExtension from './components/Tier5InternationalAgreementVisaExtension/Tier5InternationalAgreementVisaExtension.js';
+import ILRTier5InternationalAgreement from './components/ILRTier5InternationalAgreement/ILRTier5InternationalAgreement.js';
+import StudentVisa from './components/StudentVisa/StudentVisa.js';
+import ChildStudentVisa from './components/ChildStudentVisa/ChildStudentVisa.js';
+import ShortTermStudent from './components/ShortTermStudent/ShortTermStudent.js';
+import ILR10YearLongResidence from './components/ILR10YearLongResidence/ILR10YearLongResidence.js';
+import EUSettlementScheme from './components/EUSettlementScheme/EUSettlementScheme.js';
+import ReturningResidentVisa from './components/ReturningResidentVisa/ReturningResidentVisa.js';
+import PrivateAndfamilyliveIncluding20YearsUnlawfulResidenceApplication from './components/PrivateAndfamilyliveIncluding20YearsUnlawfulResidenceApplication/PrivateAndfamilyliveIncluding20YearsUnlawfulResidenceApplication.js';
+import AdministrativeReviewAgainstRefusalEntryClearancePBSMigrant from './components/AdministrativeReviewAgainstRefusalEntryClearancePBSMigrant/AdministrativeReviewAgainstRefusalEntryClearancePBSMigrant.js';
+import AdministrativeReviewAgainstRefusalCountryRefusalByTheHomeOffice from './components/AdministrativeReviewAgainstRefusalCountryRefusalByTheHomeOffice/AdministrativeReviewAgainstRefusalCountryRefusalByTheHomeOffice.js';
+import EntryClearanceAppealStage1PreHearingNotice from './components/EntryClearanceAppealStage1PreHearingNotice/EntryClearanceAppealStage1PreHearingNotice.js';
+import EntryClearanceAppealStage2PostHearingNotice from './components/EntryClearanceAppealStage2PostHearingNotice/EntryClearanceAppealStage2PostHearingNotice.js';
+import InCountryImmigrationAppeal from './components/InCountryImmigrationAppeal/InCountryImmigrationAppeal.js';
+import AsylumAppeal from './components/AsylumAppeal/AsylumAppeal.js';
+import DeportationAppeal from './components/DeportationAppeal/DeportationAppeal.js';
+import ApplicationTo1stTierTribunalForPermissionToAppealToUpperTribunal from './components/ApplicationTo1stTierTribunalForPermissionToAppealToUpperTribunal/ApplicationTo1stTierTribunalForPermissionToAppealToUpperTribunal.js';
+import ApplicationToUpperTribunalForPermissionToAppealToUpperTribunal from './components/ApplicationToUpperTribunalForPermissionToAppealToUpperTribunal/ApplicationToUpperTribunalForPermissionToAppealToUpperTribunal.js';
+import AppealToTheUpperTribunalFollowingGrantOfPermissionToAppeal from './components/AppealToTheUpperTribunalFollowingGrantOfPermissionToAppeal/AppealToTheUpperTribunalFollowingGrantOfPermissionToAppeal.js';
+import ApplicationToTheUpperTribunalForPermissionToAppealToTheCourtOfAppeal   from './components/ApplicationToTheUpperTribunalForPermissionToAppealToTheCourtOfAppeal/ApplicationToTheUpperTribunalForPermissionToAppealToTheCourtOfAppeal.js';
+import ApplicationToTheCourtOfAppealForPermissionToAppealToCourtOfAppeal   from './components/ApplicationToTheCourtOfAppealForPermissionToAppealToCourtOfAppeal/ApplicationToTheCourtOfAppealForPermissionToAppealToCourtOfAppeal.js';
+import AppealToCourtOfAppeal   from './components/AppealToCourtOfAppeal/AppealToCourtOfAppeal.js';
+import PreActionProtocolForJudicialReviewAgainstTheHomeOfficeUKBA   from './components/PreActionProtocolForJudicialReviewAgainstTheHomeOfficeUKBA/PreActionProtocolForJudicialReviewAgainstTheHomeOfficeUKBA.js';
+import PaperApplicationToUpperTribunalForPermissionToApplyForJudicialReviewJR   from './components/PaperApplicationToUpperTribunalForPermissionToApplyForJudicialReviewJR/PaperApplicationToUpperTribunalForPermissionToApplyForJudicialReviewJR.js';
+import RenewalApplicationForPermissionToApplyForJudicialReviewJRAgainstTheHomeOfficeUKBA   from './components/RenewalApplicationForPermissionToApplyForJudicialReviewJRAgainstTheHomeOfficeUKBA/RenewalApplicationForPermissionToApplyForJudicialReviewJRAgainstTheHomeOfficeUKBA.js';
+import JudicialReviewAgainstTheHomeOfficeUKVIFollowingGrantOfPermissionToApplyForJudicialReviewJR   from './components/JudicialReviewAgainstTheHomeOfficeUKVIFollowingGrantOfPermissionToApplyForJudicialReviewJR/JudicialReviewAgainstTheHomeOfficeUKVIFollowingGrantOfPermissionToApplyForJudicialReviewJR.js';
+import EmergencyInjunctionToStopRemovalFromTheUK   from './components/EmergencyInjunctionToStopRemovalFromTheUK/EmergencyInjunctionToStopRemovalFromTheUK.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -187,6 +221,40 @@ root.render(
         <Route path="/EntryClearanceTier5CreativeSporting" element={<EntryClearanceTier5CreativeSporting />} />
         <Route path="/SwitchingToTier5CreativeSporting" element={<SwitchingToTier5CreativeSporting />} />
         <Route path="/Tier5CreativeAndSportingExtension" element={<Tier5CreativeAndSportingExtension />} />
+        <Route path="/DependentsTier5CreativeAndSporting" element={<DependentsTier5CreativeAndSporting />} />
+        <Route path="/EntryClearanceTier5ReligiousWorker" element={<EntryClearanceTier5ReligiousWorker />} />
+        <Route path="/Tier5ReligiousWorkersVisaExtension" element={<Tier5ReligiousWorkersVisaExtension />} />
+        <Route path="/SwitchingToTier5GovernmentAuthorisedExchange" element={<SwitchingToTier5GovernmentAuthorisedExchange />} />
+        <Route path="/Tier5GovernmentAuthorisedExchangeVisaExtension" element={<Tier5GovernmentAuthorisedExchangeVisaExtension />} />
+        <Route path="/Tier5YouthMobilitySchemeYMS" element={<Tier5YouthMobilitySchemeYMS />} />
+        <Route path="/SwitchingToTier5InternationalAgreement" element={<SwitchingToTier5InternationalAgreement />} />
+        <Route path="/Tier5InternationalAgreementVisaExtension" element={<Tier5InternationalAgreementVisaExtension />} />
+        <Route path="/ILRTier5InternationalAgreement" element={<ILRTier5InternationalAgreement />} />
+        <Route path="/StudentVisa" element={<StudentVisa />} />
+        <Route path="/ChildStudentVisa" element={<ChildStudentVisa />} />
+        <Route path="/ShortTermStudent" element={<ShortTermStudent />} />
+        <Route path="/ILR10YearLongResidence" element={<ILR10YearLongResidence />} />
+        <Route path="/EUSettlementScheme" element={<EUSettlementScheme />} />
+        <Route path="/ReturningResidentVisa" element={<ReturningResidentVisa />} />
+        <Route path="/PrivateAndfamilyliveIncluding20YearsUnlawfulResidenceApplication" element={<PrivateAndfamilyliveIncluding20YearsUnlawfulResidenceApplication />} />
+        <Route path="/AdministrativeReviewAgainstRefusalEntryClearancePBSMigrant" element={<AdministrativeReviewAgainstRefusalEntryClearancePBSMigrant />} />
+        <Route path="/AdministrativeReviewAgainstRefusalCountryRefusalByTheHomeOffice" element={<AdministrativeReviewAgainstRefusalCountryRefusalByTheHomeOffice />} />
+        <Route path="/EntryClearanceAppealStage1PreHearingNotice" element={<EntryClearanceAppealStage1PreHearingNotice />} />
+        <Route path="/EntryClearanceAppealStage2PostHearingNotice" element={<EntryClearanceAppealStage2PostHearingNotice />} />
+        <Route path="/InCountryImmigrationAppeal" element={<InCountryImmigrationAppeal />} />
+        <Route path="/AsylumAppeal" element={<AsylumAppeal />} />
+        <Route path="/DeportationAppeal" element={<DeportationAppeal />} />
+        <Route path="/ApplicationTo1stTierTribunalForPermissionToAppealToUpperTribunal" element={<ApplicationTo1stTierTribunalForPermissionToAppealToUpperTribunal />} />
+        <Route path="/ApplicationToUpperTribunalForPermissionToAppealToUpperTribunal" element={<ApplicationToUpperTribunalForPermissionToAppealToUpperTribunal />} />
+        <Route path="/AppealToTheUpperTribunalFollowingGrantOfPermissionToAppeal" element={<AppealToTheUpperTribunalFollowingGrantOfPermissionToAppeal />} />
+        <Route path="/ApplicationToTheUpperTribunalForPermissionToAppealToTheCourtOfAppeal" element={<ApplicationToTheUpperTribunalForPermissionToAppealToTheCourtOfAppeal />} />
+        <Route path="/ApplicationToTheCourtOfAppealForPermissionToAppealToCourtOfAppeal" element={<ApplicationToTheCourtOfAppealForPermissionToAppealToCourtOfAppeal />} />
+        <Route path="/AppealToCourtOfAppeal" element={<AppealToCourtOfAppeal />} />
+        <Route path="/PreActionProtocolForJudicialReviewAgainstTheHomeOfficeUKBA" element={<PreActionProtocolForJudicialReviewAgainstTheHomeOfficeUKBA />} />
+        <Route path="/PaperApplicationToUpperTribunalForPermissionToApplyForJudicialReviewJR" element={<PaperApplicationToUpperTribunalForPermissionToApplyForJudicialReviewJR />} />
+        <Route path="/RenewalApplicationForPermissionToApplyForJudicialReviewJRAgainstTheHomeOfficeUKBA" element={<RenewalApplicationForPermissionToApplyForJudicialReviewJRAgainstTheHomeOfficeUKBA />} />
+        <Route path="/JudicialReviewAgainstTheHomeOfficeUKVIFollowingGrantOfPermissionToApplyForJudicialReviewJR" element={<JudicialReviewAgainstTheHomeOfficeUKVIFollowingGrantOfPermissionToApplyForJudicialReviewJR />} />
+        <Route path="/EmergencyInjunctionToStopRemovalFromTheUK" element={<EmergencyInjunctionToStopRemovalFromTheUK />} />
 
       </Routes>
     </BrowserRouter>

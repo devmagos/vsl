@@ -921,43 +921,43 @@ function Home() {
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>Dependents of Tier 5 Creative & Sporting</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Dependents of Tier 5 Creative & Sporting</p><Link to="../DependentsTier5CreativeAndSporting" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col md="6">
-                  <div className='links'><p>Entry Clearance as Tier 5 Religious Worker</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col md="6">
-                  <div className='links'><p>Tier 5 Religious Workers Visa Extension</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-                <Col md="6">
-                  <div className='links'><p>Switching into Tier 5 Government Authorised Exchange</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Entry Clearance as Tier 5 Religious Worker</p><Link to="../EntryClearanceTier5ReligiousWorker" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>Tier 5 Government Authorised Exchange Visa Extension</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Tier 5 Religious Workers Visa Extension</p><Link to="../Tier5ReligiousWorkersVisaExtension" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col md="6">
-                  <div className='links'><p>Tier 5 Youth Mobility Scheme (YMS)</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col md="6">
-                  <div className='links'><p>Switching into Tier 5 International Agreement</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-                <Col md="6">
-                  <div className='links'><p>Tier 5 International Agreement Visa Extension</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Switching into Tier 5 Government Authorised Exchange</p><Link to="../SwitchingToTier5GovernmentAuthorisedExchange" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>ILR Tier 5 International Agreement</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Tier 5 Government Authorised Exchange Visa Extension</p><Link to="../Tier5GovernmentAuthorisedExchangeVisaExtension" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Tier 5 Youth Mobility Scheme (YMS)</p><Link to="../Tier5YouthMobilitySchemeYMS" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>Switching into Tier 5 International Agreement</p><Link to="../SwitchingToTier5InternationalAgreement" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+                <Col md="6">
+                  <div className='links'><p>Tier 5 International Agreement Visa Extension</p><Link to="../Tier5InternationalAgreementVisaExtension" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col md="6">
+                  <div className='links'><p>ILR Tier 5 International Agreement</p><Link to="../ILRTier5InternationalAgreement" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
               </div>
@@ -966,16 +966,16 @@ function Home() {
                 <h4>Education</h4>
               <Row>
                 <Col md="6">
-                  <div className='links'><p>Student Visa</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Student Visa</p><Link to="../StudentVisa" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col md="6">
-                  <div className='links'><p>Child Student Visa</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Child Student Visa</p><Link to="../ChildStudentVisa" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>Short term Student</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Short term Student</p><Link to="../ShortTermStudent" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
               </div>
@@ -984,16 +984,16 @@ function Home() {
                 <h4>Settlement</h4>
               <Row>
                 <Col md="6">
-                  <div className='links'><p>ILR 10-year Long residence</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>ILR 10-year Long residence</p><Link to="../ILR10YearLongResidence" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col md="6">
-                  <div className='links'><p>EU Settlement Scheme</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>EU Settlement Scheme</p><Link to="../EUSettlementScheme" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>Returning Resident visa</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Returning Resident visa</p><Link to="../ReturningResidentVisa" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
               </div>
@@ -1002,7 +1002,7 @@ function Home() {
                 <h4>Private Life</h4>
               <Row>
                 <Col md="6">
-                  <div className='links'><p>Private and family live including 20 years unlawful residence application</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Private and family live including 20 years unlawful residence application</p><Link to="../PrivateAndfamilyliveIncluding20YearsUnlawfulResidenceApplication" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
               </div>
@@ -1011,25 +1011,25 @@ function Home() {
                 <h4>Immigration Appeal and Admin Review:</h4>
               <Row>
                 <Col>
-                  <div className='links'><p>Administrative Review Against Refusal of Entry Clearance as PBS Migrant</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Administrative Review Against Refusal of Entry Clearance as PBS Migrant</p><Link to="../AdministrativeReviewAgainstRefusalEntryClearancePBSMigrant" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>Administrative Review Against Refusal of An In-Country Refusal by The Home Office</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-              </Row>
-
-              <Row>
-                <Col>
-                  <div className='links'><p>Entry Clearance Appeal Stage 1(Pre-Hearing Notice)</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
-                </Col>
-                <Col>
-                  <div className='links'><p>Entry Clearance Appeal Stage 2(Post-Hearing Notice)</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Administrative Review Against Refusal of An In-Country Refusal by The Home Office</p><Link to="../AdministrativeReviewAgainstRefusalCountryRefusalByTheHomeOffice" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col>
-                  <div className='links'><p>In-Country Immigration Appeal</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Entry Clearance Appeal Stage 1(Pre-Hearing Notice)</p><Link to="../EntryClearanceAppealStage1PreHearingNotice" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+                <Col>
+                  <div className='links'><p>Entry Clearance Appeal Stage 2(Post-Hearing Notice)</p><Link to="../EntryClearanceAppealStage2PostHearingNotice" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                </Col>
+              </Row>
+
+              <Row>
+                <Col>
+                  <div className='links'><p>In-Country Immigration Appeal</p><Link to="../InCountryImmigrationAppeal" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col>
                   <div className='links-aa'>
@@ -1038,7 +1038,7 @@ function Home() {
                       <>Asylum</><br></br>
                       <>Appeal</>
                       </p>
-                      <i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i>
+                      <Link to="../AsylumAppeal"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link>
                     </a>
                   </div>
                 </Col>
@@ -1046,19 +1046,19 @@ function Home() {
 
               <Row>
                 <Col>
-                  <div className='links'><p>Deportation Appeal</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Deportation Appeal</p><Link to="../DeportationAppeal" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>Application to 1st Tier Tribunal for Permission To Appeal To Upper Tribunal</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Application to 1st Tier Tribunal for Permission To Appeal To Upper Tribunal</p><Link to="../ApplicationTo1stTierTribunalForPermissionToAppealToUpperTribunal" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col>
-                  <div className='links'><p>Application to Upper Tribunal for Permission To Appeal To Upper Tribunal</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Application to Upper Tribunal for Permission To Appeal To Upper Tribunal</p><Link to="../ApplicationTUpperTribunalForPermissionToAppealToUpperTribunal" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>Appeal to The Upper Tribunal Following Grant of Permission To Appeal</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Appeal to The Upper Tribunal Following Grant of Permission To Appeal</p><Link to="../AppealToTheUpperTribunalFollowingGrantOfPermissionToAppeal" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
               </div>
@@ -1066,16 +1066,16 @@ function Home() {
               <div>
               <Row>
                 <Col>
-                  <div className='links'><p>Application to The Upper Tribunal for Permission To Appeal To The Court Of Appeal</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Application to The Upper Tribunal for Permission To Appeal To The Court Of Appeal</p><Link to="../ApplicationToTheUpperTribunalForPermissionToAppealToTheCourtOfAppeal" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>Application to The Court Of Appeal for Permission To Appeal To Court Of Appeal</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Application to The Court Of Appeal for Permission To Appeal To Court Of Appeal</p><Link to="../ApplicationToTheCourtOfAppealForPermissionToAppealToCourtOfAppeal" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>Appeal To Court Of Appeal</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Appeal To Court Of Appeal</p><Link to="../AppealToCourtOfAppeal" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
               </div>
@@ -1084,25 +1084,25 @@ function Home() {
                 <h4>Judicial Review in the Upper Tribunal</h4>
               <Row>
                 <Col>
-                  <div className='links'><p>Pre-Action Protocol for Judicial Review Against the Home Office, UKBA</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Pre-Action Protocol for Judicial Review Against the Home Office, UKBA</p><Link to="../PreActionProtocolForJudicialReviewAgainstTheHomeOfficeUKBA" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>Paper Application to Upper Tribunal for Permission to Apply For Judicial Review (JR)</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Paper Application to Upper Tribunal for Permission to Apply For Judicial Review (JR)</p><Link to="../PaperApplicationToUpperTribunalForPermissionToApplyForJudicialReviewJR" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col>
-                  <div className='links'><p>Renewal of An Application for Permission to Apply For Judicial Review (JR) Against The Home Office, UKBA</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Renewal of An Application for Permission to Apply For Judicial Review (JR) Against The Home Office, UKBA</p><Link to="../RenewalApplicationForPermissionToApplyForJudicialReviewJRAgainstTheHomeOfficeUKBA" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>Judicial Review Against the Home Office, UKVI Following Grant of Permission to Apply for Judicial Review (JR)</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Judicial Review Against the Home Office, UKVI Following Grant of Permission to Apply for Judicial Review (JR)</p><Link to="../JudicialReviewAgainstTheHomeOfficeUKVIFollowingGrantOfPermissionToApplyForJudicialReviewJR" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
 
               <Row>
                 <Col md="6">
-                  <div className='links'><p>Emergency Injunction to Stop Removal from The UK</p><Link to="../Appointment" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
+                  <div className='links'><p>Emergency Injunction to Stop Removal from The UK</p><Link to="../EmergencyInjunctionToStopRemovalFromTheUK" class="nav-link"><i className="fa fa-angle-double-right" style={{fontSize: '48px', color: '#3a5383'}}></i></Link></div>
                 </Col>
               </Row>
               </div>
