@@ -9,6 +9,11 @@ a {
     color: #3a5383;
 }
 
+Link {
+    text-decoration: none;
+    color: #fff;
+}
+
 .icon-style {
     color: #3a5383;
     opacity: 0.3;

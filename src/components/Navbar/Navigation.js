@@ -20,14 +20,13 @@ function VslNav() {
             <Link to="../ImmigrationLegalServices" className="drop">Immigration Legal Services</Link>
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">
-            <Link to="../Services" className="drop">UK Migraine Legal Support</Link>
+            <Link to="../UKMigraintLegalSupport" className="drop">UK Migraint Legal Support</Link>
             </NavDropdown.Item>
-            
             <NavDropdown.Item href="#action/3.4">
             <Link to="../AdviceAndRepresentationsForUK" className="drop">Advice and Representations for UK</Link>
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.5">
-            <Link to="../ ImmigrationApplication" className="drop">Immigration Application</Link>
+            <Link to="../ImmigrationApplication" className="drop">Immigration Application</Link>
             </NavDropdown.Item>
             </NavDropdown>
 

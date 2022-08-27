@@ -12,8 +12,8 @@ function Footer() {
       <FooterNav />
     </Row>
     <Row>
-      <div class="col-md-12 mb-0">
-        <footer class="row my-0">
+      <div class="container-fluid">
+        <footer class="row">
           <div class="col-md-3">
             <Iframe />
           </div>

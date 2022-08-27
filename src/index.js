@@ -8,10 +8,12 @@ import Appointment from './components/Appointment/Appointments';
 import Services from '../src/components/Services/Services';
 import CommercialServices from '../src/components/CommercialServices/CommercialServices';
 import ImmigrationLegalServices from '../src/components/ImmigrationLegalServices/ImmigrationLegalServices';
+import UKMigraintLegalSupport from '../src/components/UKMigraintLegalSupport/UKMigraintLegalSupport';
 import AdviceAndRepresentationsForUK from '../src/components/AdviceAndRepresentationsForUK/AdviceAndRepresentationsForUK';
+import ImmigrationApplication from '../src/components/ImmigrationApplication/ImmigrationApplication';
 import DivorceFamily from '../src/components/DivorceFamily/DivorceFamily';
 import ImmigrationServices from '../src/components/ImmigrationServices/ImmigrationServices';
-import ImmigrationApplications from '../src/components/ImmigrationApplications/ImmigrationApplications';
+import ImmigrationApplications from './components/ImmigrationApplication/ImmigrationApplication';
 import WorkVisas from '../src/components/WorkVisas/WorkVisas';
 import ChallengeRefusals from '../src/components/ChallengeRefusals/ChallengeRefusals';
 import ContactUs from '../src/components/ContactUs/ContactUs';
@@ -141,7 +143,9 @@ root.render(
         <Route path="/Services" element={<Services />} />
         <Route path="/CommercialServices" element={<CommercialServices />} />
         <Route path="/ImmigrationLegalServices" element={<ImmigrationLegalServices />} />
+        <Route path="/UKMigraintLegalSupport" element={<UKMigraintLegalSupport />} />
         <Route path="/AdviceAndRepresentationsForUK" element={<AdviceAndRepresentationsForUK />} />
+        <Route path="/ImmigrationApplication" element={<ImmigrationApplication />} />
         <Route path="/DivorceFamily" element={<DivorceFamily />} />
         <Route path="/ImmigrationServices" element={<ImmigrationServices />} />
         <Route path="/ImmigrationApplications" element={<ImmigrationApplications />} />

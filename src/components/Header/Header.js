@@ -1,38 +1,40 @@
 import React from 'react'
 import './Header.css'
 import Vsl from "../Images/vsl.png"
+import { Link } from "react-router-dom";
+
 
 function Header() {
   return (
-    <div class="container">
-        <header class="d-flex flex-wrap p-2">
-        <div class="d-flex text-decoration-none fsize">
-          <div>
-          <a href="/" class="d-flex text-dark text-decoration-none">
-            <img src={Vsl} className='logosize' alt="victoria solicitors logo" />
-            <h1><span class="">Victoria Solicitors</span></h1>
-          </a>
-          </div>
+    <>
+        <div class="header-text">
 
-            <div class="d-flex fsize" id='fsize'>
-              <div>
-                <p>Email address</p>
-                <p>info@victoriasolicitorslimited.co.uk</p>
-              </div>
+                <span>
+                  <Link to="/">
+                      <img src={Vsl} className='logosize' alt="victoria solicitors logo" />
+                  </Link>
+                </span>
 
-              <div>
-                <p className='expert-text'>Speak to an expert</p>
-                <p className='expert-text'>+44 1604 344 000</p>
-              </div>
+                <span>
+                  <h1>Victoria Solicitors</h1>
+                </span>
 
-              <div>
-              <p>Client reviews</p>
-              <p>4.8/5.0</p>
-              </div>
-          </div>
+                <span>
+                  <p>Email address</p>
+                  <p>info@victoriasolicitorslimited.co.uk</p>
+                </span>
+
+                <span>
+                  <p>Speak to an expert</p>
+                  <p>+44 1604 344 000</p>
+                </span>
+
+                <span>
+                  <p>Client reviews</p>
+                  <p>4.8/5.0</p>
+                </span>
         </div>
-        </header>
-      </div>
+      </>
   )
 }
 

@@ -1131,425 +1131,544 @@ function Home() {
               <th>Our Services</th>
             </tr>
           </thead>
-          <tbody>
-          <tr>
-            <td>Mark</td>
-          </tr>
-          <tr>
-              <td>Otto</td>
-          </tr>
-          <tr>
-              <td>@mdo</td>
-          </tr>
-          <tr>
-              <td>2</td>
-          </tr>
-          <tr>
-              <td>Jacob</td>
-          </tr>
-          <tr>
-              <td>Thornton</td>
-          </tr>
-          <tr>
-              <td>@fat</td>
-          </tr>
-          </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>New Visa Routes/Schemes</th>
+              <th>Our Core Values</th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <td>Mark</td>
+            <td>Friendship</td>
           </tr>
           <tr>
-              <td>Otto</td>
+              <td>Trust</td>
           </tr>
           <tr>
-              <td>@mdo</td>
+              <td>Comfort</td>
           </tr>
           <tr>
-              <td>2</td>
-          </tr>
-          <tr>
-              <td>@fat</td>
+              <td>Respect</td>
           </tr>
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Family Visa Applications</th>
+              <th>CORE SERVICES</th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <td>Mark</td>
+            <td>Family Legal Services</td>
           </tr>
           <tr>
-              <td>Otto</td>
+              <td>Commercial Legal Services </td>
           </tr>
           <tr>
-              <td>@mdo</td>
-          </tr>
-          <tr>
-              <td>2</td>
-          </tr>
-          <tr>
-              <td>Jacob</td>
-          </tr>
-          <tr>
-              <td>Thornton</td>
-          </tr>
-          <tr>
-              <td>@fat</td>
+              <td>Immigration Legal Services</td>
           </tr>
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>EU Settlement Scheme (EUSS)</th>
+              <th>Family Legal Services</th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <td>Mark</td>
+            <td>Divorce and Separation</td>
           </tr>
           <tr>
-              <td>Otto</td>
+              <td>Family and Private life Applications under parent/partner route</td>
           </tr>
           <tr>
-              <td>@mdo</td>
+              <td>Collaborative law</td>
           </tr>
           <tr>
-              <td>2</td>
+              <td>Contested hearings</td>
+          </tr>
+          <tr>
+              <td>Child visitation</td>
+          </tr>
+          <tr>
+              <td>Financial settlements</td>
+          </tr>
+          <tr>
+              <td>Domestic abuse</td>
+          </tr>
+          <tr>
+              <td>Child Care proceedings</td>
+          </tr>
+          <tr>
+              <td>Prenuptial agreements</td>
           </tr>
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>UK Work Visas</th>
+              <th>Commercial Law</th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <td>Mark</td>
+            <td>Anglo-African Firm</td>
           </tr>
           <tr>
-              <td>Otto</td>
+              <td>Exceptional Track Record</td>
           </tr>
           <tr>
-              <td>@mdo</td>
+              <td>Commercial Agreements</td>
           </tr>
           <tr>
-              <td>2</td>
+              <td>Risk Mitigation</td>
           </tr>
           <tr>
-              <td>Jacob</td>
+              <td>Commercial Contract Law</td>
           </tr>
           <tr>
-              <td>Thornton</td>
-          </tr>
-          <tr>
-              <td>@fat</td>
-          </tr>
-          <tr>
-            <td>Mark</td>
-          </tr>
-          <tr>
-              <td>Otto</td>
-          </tr>
-          <tr>
-              <td>@mdo</td>
-          </tr>
-          <tr>
-              <td>2</td>
-          </tr>
-          <tr>
-              <td>Jacob</td>
-          </tr>
-          <tr>
-              <td>Thornton</td>
-          </tr>
-          <tr>
-              <td>@fat</td>
+              <td>Commercial Litigation Fees</td>
           </tr>
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Sponsor License</th>
+              <th>List of Commercial Services: </th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <td>Mark</td>
+            <td>Breach of Contract Claims</td>
           </tr>
           <tr>
-              <td>Otto</td>
+              <td>Professional Negligence</td>
           </tr>
           <tr>
-              <td>@mdo</td>
+              <td>Arbitration</td>
           </tr>
           <tr>
-              <td>2</td>
+              <td>Partnership/limited liability partnership disputes</td>
           </tr>
           <tr>
-              <td>Jacob</td>
+              <td>Tort Claims</td>
           </tr>
           <tr>
-              <td>Thornton</td>
+              <td>Intellectual Property disputes: trademarks, copyright, patents and passing off</td>
           </tr>
           <tr>
-              <td>@fat</td>
+              <td>Commercial Contract Support - due diligence, negotiation, procurement etc</td>
+          </tr>
+          <tr>
+              <td>Commercial Contract Law and Commercial Litigation</td>
+          </tr>
+          <tr>
+            <td>Contract Review</td>
+          </tr>
+          <tr>
+              <td>Risk Mitigation</td>
           </tr>
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Long Residence Applications</th>
+              <th>Immigration</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr class="side-text-th">
+              <th>UK migration legal support</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr class="side-text-th">
+              <th>Working remotely</th>
+            </tr>
+          </thead>
+          <thead>
+            <tr class="side-text-th">
+              <th>Family</th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <td>Mark</td>
+            <td>Partner</td>
           </tr>
           <tr>
-              <td>Otto</td>
+              <td>Marriage Visitors Visa UK</td>
           </tr>
           <tr>
-              <td>@mdo</td>
+              <td>Proposed Civil Partner Visa UK</td>
           </tr>
           <tr>
-              <td>2</td>
+              <td>Entry clearance as an unmarried partner/spouse</td>
           </tr>
           <tr>
-              <td>Jacob</td>
+              <td>Switching into a spouse Visa UK</td>
           </tr>
           <tr>
-              <td>Thornton</td>
+              <td>Extension of stay as a spouse</td>
           </tr>
           <tr>
-              <td>@fat</td>
+              <td>ILR Spouse Visa</td>
+          </tr>
+          <tr>
+              <td>Entry Clearance as a Civil Partner</td>
+          </tr>
+          <tr>
+              <td>Switching into a Civil Partner Visa</td>
+          </tr>
+          <tr>
+              <td>Extension of stay as a Civil Partner</td>
+          </tr>
+          <tr>
+              <td>Family & Private Life (Parent)</td>
+          </tr>
+          <tr>
+              <td>Family & Private Life (unmarried Partner)</td>
+          </tr>
+          <tr>
+              <td>All Human Rights application</td>
+          </tr>
+          <tr>
+              <td>Extension of stay as an unmarried partner</td>
+          </tr>
+          <tr>
+              <td>ILR Unmarried Partner</td>
+          </tr>
+          <tr>
+              <td>Switching into same sex partner Visa</td>
+          </tr>
+          <tr>
+              <td>Extension of a same sex partner</td>
+          </tr>
+          <tr>
+            <td>ILR same sex partner</td>
+          </tr>
+          <tr>
+            <td>ILR – Victim of Domestic Violence</td>
+          </tr>
+          <tr>
+            <td>ILR – Bereaved Partner ILR – Bereaved Partner</td>
+          </tr>
+          <tr>
+            <td>Parent & Child</td>
+          </tr>
+          <tr>
+            <td>Parent of a British Citizen child</td>
+          </tr>
+          <tr>
+            <td>Indefinite Leave to Enter as a child</td>
+          </tr>
+          <tr>
+            <td>Adult Dependant Relative</td>
+          </tr>
+          <tr>
+            <td>Entry Clearance as a child of a person present & settled in the UK</td>
           </tr>
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Private Life Applications</th>
+              <th>UK Work Visas:</th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <td>Mark</td>
+            <td>Type of Visa</td>
           </tr>
           <tr>
-              <td>Otto</td>
+              <td>Entry Clearance as Innovator Visa</td>
           </tr>
           <tr>
-              <td>@mdo</td>
+              <td>Switching into Innovator Visa</td>
           </tr>
           <tr>
-              <td>2</td>
+              <td>Tier 1 Entrepreneur Visa Extension</td>
           </tr>
           <tr>
-              <td>Jacob</td>
+              <td>ILR As Tier 1 Entrepreneur</td>
           </tr>
           <tr>
-              <td>Thornton</td>
+              <td>Dependants of Tier 1 Entrepreneur</td>
           </tr>
           <tr>
-              <td>@fat</td>
+              <td>Entry Clearance as Tier 1 Exceptional Talent</td>
+          </tr>
+          <tr>
+              <td>Switching into Tier 1 Exceptional Talent</td>
+          </tr>
+          <tr>
+              <td>Extension of Stay as Tier 1 Exceptional Talent</td>
+          </tr>
+          <tr>
+              <td>ILR As Tier 1 Exceptional Talent</td>
+          </tr>
+          <tr>
+              <td>Dependants of Tier 1 Exceptional Talent Migrant</td>
+          </tr>
+          <tr>
+              <td>Switching into Tier 1 Graduate Entrepreneur</td>
+          </tr>
+          <tr>
+              <td>Tier 1 Graduate Entrepreneur Visa Extension</td>
+          </tr>
+          <tr>
+              <td>Dependants of Tier 1 Graduate Entrepreneur</td>
+          </tr>
+          <tr>
+              <td>Entry Clearance as Tier 1 Investor</td>
+          </tr>
+          <tr>
+              <td>Switching into Tier 1 Investor Visa</td>
+          </tr>
+          <tr>
+              <td>Tier 1 Investor Visa Extension</td>
+          </tr>
+          <tr>
+              <td>ILR As Tier 1 Investor</td>
+          </tr>
+          <tr>
+              <td>Entry Clearance as Tier 2 General Migrant</td>
+          </tr>
+          <tr>
+              <td>Switching into Tier 2 General</td>
+          </tr>
+          <tr>
+              <td>Tier 2 General Extension</td>
+          </tr>
+          <tr>
+              <td>ILR Tier 2 General</td>
+          </tr>
+          <tr>
+              <td>Dependants of Tier 2 General Migrant</td>
+          </tr>
+          <tr>
+              <td>Entry Clearance as Tier 2 Minister of Religion</td>
+          </tr>
+          <tr>
+            <td>Switching into Tier 2 Minister of Religion</td>
+          </tr>
+          <tr>
+            <td>Tier 2 Minister of Religion Visa Extension</td>
+          </tr>
+          <tr>
+            <td>ILR Tier 2 Minister of Religion</td>
+          </tr>
+          <tr>
+            <td>Dependants of Tier 2 Minister of Religion</td>
+          </tr>
+          <tr>
+            <td>Entry Clearance as Tier 2 Sportsperson</td>
+          </tr>
+          <tr>
+            <td>Switching into Tier 2 Sportsperson</td>
+          </tr>
+          <tr>
+            <td>Tier 2 Sportsperson Visa Extension</td>
+          </tr>
+          <tr>
+            <td>ILR Tier 2 Sportsperson</td>
+          </tr>
+          <tr>
+              <td>Dependants of Tier 2 Sportsperson</td>
+          </tr>
+          <tr>
+            <td>Entry Clearance as Tier 2 ICT</td>
+          </tr>
+          <tr>
+              <td>Switching into Tier 2 ICT</td>
+          </tr>
+          <tr>
+            <td>Tier 2 ICT Extension</td>
+          </tr>
+          <tr>
+              <td>ILR Tier 2 ICT</td>
+          </tr>
+          <tr>
+            <td>Dependants of Tier 2 ICT Migrant</td>
+          </tr>
+          <tr>
+              <td>Entry Clearance as Domestic Worker</td>
+          </tr>
+          <tr>
+              <td>Domestic Worker Visa Extension</td>
+          </tr>
+          <tr>
+              <td>ILR Domestic Worker</td>
+          </tr>
+          <tr>
+              <td>Dependants of Domestic Worker</td>
+          </tr>
+          <tr>
+              <td>Entry Clearance as A Sole Representative of Overseas Business</td>
+          </tr>
+          <tr>
+              <td>Sole Representative Visa Extension</td>
+          </tr>
+          <tr>
+              <td>ILR As Sole Representative</td>
+          </tr>
+          <tr>
+              <td>Dependants of Sole Representatives</td>
+          </tr>
+          <tr>
+              <td>Dependants of A Person with UK Ancestry Visa</td>
+          </tr>
+          <tr>
+              <td>ILR UK Ancestry</td>
+          </tr>
+          <tr>
+            <td>UK Ancestry Visa Extension</td>
+          </tr>
+          <tr>
+              <td>Entry Clearance – UK Ancestry Visa</td>
+          </tr>
+          <tr>
+              <td>Entry Clearance as Tier 5 Charity Worker</td>
+          </tr>
+          <tr>
+              <td>Tier 5 Charity Workers Visa Extension</td>
+          </tr>
+          <tr>
+              <td>Dependants of Tier 5 Charity Worker</td>
+          </tr>
+          <tr>
+              <td>Entry Clearance as Tier 5 Creative & Sporting</td>
+          </tr>
+          <tr>
+              <td>Switching into Tier 5 Creative & Sporting</td>
+          </tr>
+          <tr>
+              <td>Tier 5 Creative & Sporting Extension</td>
+          </tr>
+          <tr>
+              <td>Dependants of Tier 5 Creative & Sporting</td>
+          </tr>
+          <tr>
+              <td>Entry Clearance as Tier 5 Religious Worker</td>
+          </tr>
+          <tr>
+              <td>Tier 5 Religious Workers Visa Extension</td>
+          </tr>
+          <tr>
+              <td>Switching into Tier 5 Government Authorised Exchange</td>
+          </tr>
+          <tr>
+              <td>Tier 5 Government Authorised Exchange Visa Extension</td>
+          </tr>
+          <tr>
+              <td>Tier 5 Youth Mobility Scheme (YMS)</td>
+          </tr>
+          <tr>
+              <td>Switching into Tier 5 International Agreement</td>
+          </tr>
+          <tr>
+              <td>Tier 5 International Agreement Visa Extension</td>
+          </tr>
+          <tr>
+              <td>ILR – Tier 5 International Agreement</td>
           </tr>
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Discretionary Leave Applications</th>
+              <th>Education</th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <td>Mark</td>
+            <td>Student Visa</td>
           </tr>
           <tr>
-              <td>Otto</td>
+              <td>Child Student Visa</td>
           </tr>
           <tr>
-              <td>@mdo</td>
-          </tr>
-          <tr>
-              <td>2</td>
-          </tr>
-          <tr>
-              <td>Jacob</td>
-          </tr>
-          <tr>
-              <td>Thornton</td>
-          </tr>
-          <tr>
-              <td>@fat</td>
+              <td>Short term Student</td>
           </tr>
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>British Citezenship</th>
+              <th>Settlement</th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <td>Mark</td>
+            <td>ILR 10-year Long residence</td>
           </tr>
           <tr>
-              <td>Otto</td>
+              <td>EU Settlement Scheme</td>
           </tr>
           <tr>
-              <td>@mdo</td>
-          </tr>
-          <tr>
-              <td>2</td>
-          </tr>
-          <tr>
-              <td>Jacob</td>
-          </tr>
-          <tr>
-              <td>Thornton</td>
-          </tr>
-          <tr>
-              <td>@fat</td>
+              <td>Returning Resident visa</td>
           </tr>
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Study Visa UK</th>
+              <th>Private Life</th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <td>Mark</td>
-          </tr>
-          <tr>
-              <td>Otto</td>
-          </tr>
-          <tr>
-              <td>@mdo</td>
-          </tr>
-          <tr>
-              <td>2</td>
-          </tr>
-          <tr>
-              <td>Jacob</td>
-          </tr>
-          <tr>
-              <td>Thornton</td>
-          </tr>
-          <tr>
-              <td>@fat</td>
+            <td>Private and family live including 20 years unlawful residence application</td>
           </tr>
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Visitor Visa UK</th>
+              <th>Immigration Appeal and Admin Review:</th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <td>Mark</td>
+            <td>Administrative Review Against Refusal of Entry Clearance as PBS Migrant</td>
           </tr>
           <tr>
-              <td>Otto</td>
+              <td>Admin Review Against Refusal of An In-Country Refusal by The Home Office</td>
           </tr>
           <tr>
-              <td>@mdo</td>
+              <td>Entry Clearance Appeal Stage 1 (Pre-Hearing Notice)</td>
           </tr>
           <tr>
-              <td>2</td>
+              <td>Entry Clearance Appeal Stage 2 (Post-Hearing Notice)</td>
           </tr>
           <tr>
-              <td>Jacob</td>
+              <td>In-Country Immigration Appeal</td>
           </tr>
           <tr>
-              <td>Thornton</td>
+              <td>Asylum Appeal</td>
           </tr>
           <tr>
-              <td>@fat</td>
+              <td>Deportation Appeal</td>
+          </tr>
+          <tr>
+            <td>Application To 1st Tier Tribunal for Permission to Appeal To Upper Tribunal</td>
+          </tr>
+          <tr>
+              <td>Application to Upper Tribunal for Permission To Appeal To Upper Tribunal</td>
+          </tr>
+          <tr>
+              <td>Appeal to The Upper Tribunal Following Grant Of Permission To Appeal</td>
+          </tr>
+          <tr>
+            <td>Application to The Upper Tribunal For Permission To Appeal To The Court Of Appeal</td>
+          </tr>
+          <tr>
+              <td>Application to The Court Of Appeal For Permission To Appeal To Court Of Appeal</td>
+          </tr>
+          <tr>
+              <td>Appeal to The Court Of Appeal</td>
           </tr>
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Other Immigration Applications</th>
+              <th>Judicial Review in the Upper Tribunal:</th>
             </tr>
           </thead>
           <tbody>
           <tr>
-            <td>Mark</td>
+            <td>Pre-Action Protocol for Judicial Review Against the Home Office, UKBA</td>
           </tr>
           <tr>
-              <td>Otto</td>
+              <td>Paper Application to Upper Tribunal for Permission to Apply For Judicial Review (JR)</td>
           </tr>
           <tr>
-              <td>@mdo</td>
+              <td>Renewal of An Application for Permission to Apply For Judicial Review (JR) Against The Home Office, UKBA</td>
           </tr>
           <tr>
-              <td>2</td>
+              <td>Judicial Review Against the Home Office, UKVI Following Grant of Permission to Apply for Judicial Review (JR)</td>
           </tr>
           <tr>
-              <td>Jacob</td>
-          </tr>
-          <tr>
-              <td>Thornton</td>
-          </tr>
-          <tr>
-              <td>@fat</td>
-          </tr>
-          </tbody>
-          <thead>
-            <tr class="side-text-th">
-              <th>Challenging Immigration Decisions</th>
-            </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td>Mark</td>
-          </tr>
-          <tr>
-              <td>Otto</td>
-          </tr>
-          <tr>
-              <td>@mdo</td>
-          </tr>
-          <tr>
-              <td>2</td>
-          </tr>
-          <tr>
-              <td>Jacob</td>
-          </tr>
-          <tr>
-              <td>Thornton</td>
-          </tr>
-          <tr>
-              <td>@fat</td>
-          </tr>
-          </tbody>
-          <thead>
-            <tr class="side-text-th">
-              <th>Our Immigration Lawyer's Team</th>
-            </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td>Mark</td>
-          </tr>
-          <tr>
-              <td>Otto</td>
-          </tr>
-          <tr>
-              <td>@mdo</td>
-          </tr>
-          <tr>
-              <td>2</td>
-          </tr>
-          <tr>
-              <td>Jacob</td>
-          </tr>
-          <tr>
-              <td>Thornton</td>
-          </tr>
-          <tr>
-              <td>@fat</td>
+              <td>Emergency Injunction to Stop Removal from The UK</td>
           </tr>
           </tbody>
         </Table>
