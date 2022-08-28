@@ -21,8 +21,8 @@
   .header-text {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
   }
 }
 
