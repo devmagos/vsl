@@ -16,22 +16,22 @@ function Header() {
                 </span>
 
                 <span>
-                  <h1>Victoria Solicitors</h1>
+                  <h1><strong>VICTORIA SOLICITORS</strong></h1>
                 </span>
 
                 <span>
-                  <p>Email address</p>
-                  <p>info@victoriasolicitorslimited.co.uk</p>
+                  <p><strong>Email address</strong></p>
+                  <p><strong>info@victoriasolicitorslimited.co.uk</strong></p>
                 </span>
 
                 <span>
-                  <p>Speak to an expert</p>
-                  <p>+44 1604 344 000</p>
+                  <p><strong>Speak to an expert</strong></p>
+                  <p><strong>+44 1604 344 000</strong></p>
                 </span>
 
                 <span>
-                  <p>Client reviews</p>
-                  <p>4.8/5.0</p>
+                  <p><strong>Client reviews</strong></p>
+                  <p><strong>4.8/5.0</strong></p>
                 </span>
         </div>
       </>

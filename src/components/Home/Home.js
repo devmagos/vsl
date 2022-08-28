@@ -53,7 +53,7 @@ function Home() {
         <Col md="9">
           <div className="side-text">
           <div>
-              <h4><strong></strong>Immigration Solicitors In London</h4>
+              <h4>Immigration Solicitors In London</h4>
               <p>We are one of London’s Premier Family Law Firms with a unique 
                 family team of four that specialise in family, commercial and 
                 immigration law.
@@ -118,7 +118,7 @@ function Home() {
                 years.
                 </p>
 
-                <h4><a href="#">Our Core Values</a></h4>
+                <h4><a id="values">Our Core Values</a></h4>
                 <h5>Friendship</h5>
                 <p>
                 At the heart of what we do is building friendly relationships with 
@@ -159,7 +159,7 @@ function Home() {
                 </p>
 
                 {/* LIST SECTION */}
-                <h4><a>Why Choose Our Services?</a></h4>
+                <h4 id='choose'><a>Why Choose Our Services?</a></h4>
 
                 <ul>
                   <li>
@@ -223,7 +223,7 @@ function Home() {
                 would like to welcome you to our family
                 </p>
 
-                <h4>Family Legal Services</h4>
+                <h4 id="family-services">Family Legal Services</h4>
                 <p>
                 We know how painful family legal processes can be for all concerned
                 </p>
@@ -401,7 +401,7 @@ function Home() {
           </div>
 
           <div>
-            <h4>List of Commercial Services:</h4>
+            <h4 id="commercial-services">List of Commercial Services:</h4>
             <ul>
               <li>Breach of Contract Claims</li>
               <li>Professional Negligence</li>
@@ -421,7 +421,7 @@ function Home() {
           </div>
 
           <div>
-            <h4>Immigration Legal Services</h4>
+            <h4 id="Immigration">Immigration Legal Services</h4>
             <p>
             It can be incredibly stressful trying to understand immigration 
             laws and the worry that unscrupulous agencies might charge 
@@ -456,7 +456,7 @@ function Home() {
           </div>          
 
           <div>
-            <h4><a href="#">UK migration legal support</a></h4>
+            <h4 id='uk-migration'><a href="#">UK migration legal support</a></h4>
             <p>
             Whatever your visa requirement, a UK Visa appeal or trying to 
             bring your spouse or children to the UK to join you, we back 
@@ -481,7 +481,7 @@ function Home() {
             </p>
 
             <div>
-              <h4>Working remotely</h4>
+              <h4 id='remote-work'>Working remotely</h4>
               <p>
               We can carry out all the work on your immigration matter 
               remotely without the need for you to attend our office 
@@ -555,7 +555,7 @@ function Home() {
 
               <Row>
                 <Col>
-                  <div className='links'><p>Family</p><Link to="../Family" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link></div>
+                  <div className='links' id='family'><p>Family</p><Link to="../Family" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link></div>
                 </Col>
                 <Col>
                   <div className='links'><p>Partner</p><Link to="../Partner" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link></div>
@@ -603,7 +603,7 @@ function Home() {
                   <div className='links'><p>Extension of stay as a Civil Partner</p><Link to="../ExtensionStayCivilPartner" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link></div>
                 </Col>
                 <Col>
-                  <div className='links'><p>Family & Private Life (unmarried Partner)</p><Link to="../FamilyPrivateLifeUnmarriedPartner" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link></div>
+                  <div className='links' id="private-life"><p>Family & Private Life (unmarried Partner)</p><Link to="../FamilyPrivateLifeUnmarriedPartner" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link></div>
                 </Col>
               </Row>
 
@@ -668,7 +668,7 @@ function Home() {
               </Row>
               </div>
               <div>
-                <h4><a href="#">UK Work Visas:</a></h4>
+                <h4><a id="uk-work-visa">UK Work Visas:</a></h4>
               <Row>
                 <Col>
                   <div className='links'><p>Type of Visa</p><Link to="../TypeOfVisa" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link></div>
@@ -965,7 +965,7 @@ function Home() {
               </div>
 
               <div>
-                <h4>Education</h4>
+                <h4 id="Education">Education</h4>
               <Row>
                 <Col md="6">
                   <div className='links'><p>Student Visa</p><Link to="../StudentVisa" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link></div>
@@ -983,7 +983,7 @@ function Home() {
               </div>
 
               <div>
-                <h4>Settlement</h4>
+                <h4 id='Settlement'>Settlement</h4>
               <Row>
                 <Col md="6">
                   <div className='links'><p>ILR 10-year Long residence</p><Link to="../ILR10YearLongResidence" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link></div>
@@ -1001,7 +1001,7 @@ function Home() {
               </div>
 
               <div>
-                <h4>Private Life</h4>
+                <h4 id="private-life">Private Life</h4>
               <Row>
                 <Col md="6">
                   <div className='links'><p>Private and family live including 20 years unlawful residence application</p><Link to="../PrivateAndfamilyliveIncluding20YearsUnlawfulResidenceApplication" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link></div>
@@ -1010,7 +1010,7 @@ function Home() {
               </div>
 
               <div>
-                <h4>Immigration Appeal and Admin Review:</h4>
+                <h4 id="immigration-appeal-review">Immigration Appeal and Admin Review:</h4>
               <Row>
                 <Col>
                   <div className='links'><p>Administrative Review Against Refusal of Entry Clearance as PBS Migrant</p><Link to="../AdministrativeReviewAgainstRefusalEntryClearancePBSMigrant" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link></div>
@@ -1083,7 +1083,7 @@ function Home() {
               </div>
 
               <div>
-                <h4>Judicial Review in the Upper Tribunal</h4>
+                <h4 id="judicial-review">Judicial Review in the Upper Tribunal:</h4>
               <Row>
                 <Col>
                   <div className='links'><p>Pre-Action Protocol for Judicial Review Against the Home Office, UKBA</p><Link to="../PreActionProtocolForJudicialReviewAgainstTheHomeOfficeUKBA" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link></div>
@@ -1128,12 +1128,12 @@ function Home() {
         <Table bordered hover size='sm' responsive>
           <thead>
             <tr class="side-text-th">
-              <th>Our Services</th>
+              <th><a href='#services'>Our Services</a></th>
             </tr>
           </thead>
           <thead>
             <tr class="side-text-th">
-              <th>Our Core Values</th>
+              <th><a href="#values">Our Core Values</a></th>
             </tr>
           </thead>
           <tbody>
@@ -1152,7 +1152,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>CORE SERVICES</th>
+              <th><a href="#services">CORE SERVICES</a></th>
             </tr>
           </thead>
           <tbody>
@@ -1168,7 +1168,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Family Legal Services</th>
+              <th><a href="#family-services">Family Legal Services</a></th>
             </tr>
           </thead>
           <tbody>
@@ -1202,7 +1202,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Commercial Law</th>
+              <th><a href="#commercial">Commercial Law</a></th>
             </tr>
           </thead>
           <tbody>
@@ -1227,7 +1227,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>List of Commercial Services: </th>
+              <th><a href="#commercial-services">List of Commercial Services: </a></th>
             </tr>
           </thead>
           <tbody>
@@ -1264,22 +1264,22 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Immigration</th>
+              <th><a href="#Immigration">Immigration</a></th>
             </tr>
           </thead>
           <thead>
             <tr class="side-text-th">
-              <th>UK migration legal support</th>
+              <th><a href="#uk-migration">UK migration legal support</a></th>
             </tr>
           </thead>
           <thead>
             <tr class="side-text-th">
-              <th>Working remotely</th>
+              <th><a href='#remote-work'>Working remotely</a></th>
             </tr>
           </thead>
           <thead>
             <tr class="side-text-th">
-              <th>Family</th>
+              <th><a href='#family'>Family</a></th>
             </tr>
           </thead>
           <tbody>
@@ -1361,7 +1361,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>UK Work Visas:</th>
+              <th><a href="#uk-work-visa">UK Work Visas:</a></th>
             </tr>
           </thead>
           <tbody>
@@ -1563,7 +1563,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Education</th>
+              <th><a href="#education">Education</a></th>
             </tr>
           </thead>
           <tbody>
@@ -1579,7 +1579,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Settlement</th>
+              <th><a href="#settlement">Settlement</a></th>
             </tr>
           </thead>
           <tbody>
@@ -1595,7 +1595,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Private Life</th>
+              <th><a href="#private-life">Private Life</a></th>
             </tr>
           </thead>
           <tbody>
@@ -1605,7 +1605,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Immigration Appeal and Admin Review:</th>
+              <th><a href="#immigration-appeal-review">Immigration Appeal and Admin Review:</a></th>
             </tr>
           </thead>
           <tbody>
@@ -1651,7 +1651,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th>Judicial Review in the Upper Tribunal:</th>
+              <th><a href="#judicial-review">Judicial Review in the Upper Tribunal:</a></th>
             </tr>
           </thead>
           <tbody>

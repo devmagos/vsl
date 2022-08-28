@@ -9,6 +9,15 @@ a {
     color: #3a5383;
 }
 
+th a {
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+th a:hover {
+    text-decoration: none;
+    color: #f8f8f8;
+}
 Link {
     text-decoration: none;
     color: #fff;
