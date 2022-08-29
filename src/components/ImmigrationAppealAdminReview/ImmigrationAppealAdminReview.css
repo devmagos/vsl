@@ -5,14 +5,14 @@
   }
   
 .btncolor {
-    background: #3a5383;
+    background: #9ca9c1;
     font-size: large;
-    color: #ffffff;
+    color: #fff;
 }
 
 
 .btncolor:hover {
-    color: #3a5383;
+    color: #9ca9c1;
 }
 
 .welcome-text {

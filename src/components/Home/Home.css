@@ -9,20 +9,15 @@ a {
     color: #3a5383;
 }
 
-th a {
+.th-link {
     text-decoration: none;
     color: #f8f8f8;
 }
 
-th a:hover {
+.th-link:hover {
     text-decoration: none;
     color: #f8f8f8;
 }
-Link {
-    text-decoration: none;
-    color: #fff;
-}
-
 .icon-style {
     color: #3a5383;
     opacity: 0.3;

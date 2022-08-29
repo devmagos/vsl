@@ -6,17 +6,27 @@ import App from './App';
 import Home from '../src/components/Home/Home';
 import Appointment from './components/Appointment/Appointments';
 import Services from '../src/components/Services/Services';
+import Limited from '../src/components/Limited/Limited';
+import Immigration from '../src/components/Immigration/Immigration';
 import CommercialServices from '../src/components/CommercialServices/CommercialServices';
+import CommercialLaw from '../src/components/CommercialLaw/CommercialLaw';
+import WorkingRemotely from '../src/components/WorkingRemotely/WorkingRemotely';
+import UKWorkVisas from '../src/components/UKWorkVisas/UKWorkVisas';
+import Education from '../src/components/Education/Education';
+import Settlement from '../src/components/Settlement/Settlement';
+import PrivateLife from '../src/components/PrivateLife/PrivateLife';
 import ImmigrationLegalServices from '../src/components/ImmigrationLegalServices/ImmigrationLegalServices';
 import UKMigraintLegalSupport from '../src/components/UKMigraintLegalSupport/UKMigraintLegalSupport';
 import AdviceAndRepresentationsForUK from '../src/components/AdviceAndRepresentationsForUK/AdviceAndRepresentationsForUK';
-import ImmigrationApplication from '../src/components/ImmigrationApplication/ImmigrationApplication';
+import ImmigrationAppealAdminReview from './components/ImmigrationAppealAdminReview/ImmigrationAppealAdminReview';
+import JudicialReviewInTheUpperTribunal from './components/JudicialReviewInTheUpperTribunal/JudicialReviewInTheUpperTribunal';
 import DivorceFamily from '../src/components/DivorceFamily/DivorceFamily';
 import ImmigrationServices from '../src/components/ImmigrationServices/ImmigrationServices';
 import ImmigrationApplications from './components/ImmigrationApplication/ImmigrationApplication';
 import WorkVisas from '../src/components/WorkVisas/WorkVisas';
 import ChallengeRefusals from '../src/components/ChallengeRefusals/ChallengeRefusals';
 import ContactUs from '../src/components/ContactUs/ContactUs';
+import FamilyLegalServices from '../src/components/FamilyLegalServices/FamilyLegalServices';
 import Family from '../src/components/Family/Family';
 import Partner from '../src/components/Partner/Partner';
 import MarriageVisitVisa from '../src/components/MarriageVisitVisa/MarriageVisitVisa';
@@ -141,17 +151,27 @@ root.render(
         <Route path="/Home" element={<Home />} />
         <Route path="/Appointment" element={<Appointment />} />
         <Route path="/Services" element={<Services />} />
+        <Route path="/Limited" element={<Limited />} />
+        <Route path="/Immigration" element={<Immigration />} />
         <Route path="/CommercialServices" element={<CommercialServices />} />
+        <Route path="/CommercialLaw" element={<CommercialLaw />} />
+        <Route path="/WorkingRemotely" element={<WorkingRemotely />} />
+        <Route path="/UKWorkVisas" element={<UKWorkVisas />} />
+        <Route path="/Education" element={<Education />} />
+        <Route path="/Settlement" element={<Settlement />} />
+        <Route path="/PrivateLife" element={<PrivateLife />} />
         <Route path="/ImmigrationLegalServices" element={<ImmigrationLegalServices />} />
         <Route path="/UKMigraintLegalSupport" element={<UKMigraintLegalSupport />} />
         <Route path="/AdviceAndRepresentationsForUK" element={<AdviceAndRepresentationsForUK />} />
-        <Route path="/ImmigrationApplication" element={<ImmigrationApplication />} />
+        <Route path="/ImmigrationAppealAdminReview" element={<ImmigrationAppealAdminReview />} />
+        <Route path="/JudicialReviewInTheUpperTribunal" element={<JudicialReviewInTheUpperTribunal />} />
         <Route path="/DivorceFamily" element={<DivorceFamily />} />
         <Route path="/ImmigrationServices" element={<ImmigrationServices />} />
         <Route path="/ImmigrationApplications" element={<ImmigrationApplications />} />
         <Route path="/WorkVisas" element={<WorkVisas />} />
         <Route path="/ChallengeRefusals" element={<ChallengeRefusals />} />
         <Route path="/ContactUs" element={<ContactUs />} />
+        <Route path="/FamilyLegalServices" element={<FamilyLegalServices />} />
         <Route path="/Family" element={<Family />} />
         <Route path="/Partner" element={<Partner />} />
         <Route path="/MarriageVisitVisa" element={<MarriageVisitVisa />} />

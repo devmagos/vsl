@@ -99,7 +99,7 @@ function Home() {
 
 
               <div>
-                <h4><strong></strong><a href="#">Our Mission</a></h4>
+                <h4><strong></strong><a src="#">Our Mission</a></h4>
                 <p>
                 Many clients come to us with what can seem like insurmountable 
                 problems. With our highly experienced legal team, we analyse 
@@ -108,7 +108,7 @@ function Home() {
                 pressure and help to find a strategy to achieve your objectives.
                 </p>
 
-                <h4><a href="#">Our Vision</a></h4>
+                <h4><a src="#">Our Vision</a></h4>
                 <p>
                 We are striving to be the fastest growing Sub-Saharan company in 
                 the UK. In the future, we intend to expand our business to other 
@@ -456,7 +456,7 @@ function Home() {
           </div>          
 
           <div>
-            <h4 id='uk-migration'><a href="#">UK migration legal support</a></h4>
+            <h4 id='uk-migration'><a src="#">UK migration legal support</a></h4>
             <p>
             Whatever your visa requirement, a UK Visa appeal or trying to 
             bring your spouse or children to the UK to join you, we back 
@@ -547,7 +547,7 @@ function Home() {
 
 
             <div>
-              <h4 id='ukservices'><a href="#">Advice & Representations for UK Immigration Applications</a></h4>
+              <h4 id='ukservices'><a src="#">Advice & Representations for UK Immigration Applications</a></h4>
               <p>
               Various UK visa categories for which our team can provide expert immigration 
               advice and legal representations are as follows:
@@ -1035,7 +1035,7 @@ function Home() {
                 </Col>
                 <Col>
                   <div className='links-aa'>
-                    <a href="#">
+                    <a src="#">
                       <p>
                       <>Asylum</><br></br>
                       <>Appeal</>
@@ -1128,12 +1128,12 @@ function Home() {
         <Table bordered hover size='sm' responsive>
           <thead>
             <tr class="side-text-th">
-              <th><a href='#services'>Our Services</a></th>
+              <th><Link to='../Services' className="th-link">Our Services</Link></th>
             </tr>
           </thead>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#values">Our Core Values</a></th>
+              <th><Link to="../OurCoreValues" className="th-link">Our Core Values</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -1152,7 +1152,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#services">CORE SERVICES</a></th>
+              <th><Link to="../Services" className="th-link">CORE SERVICES</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -1168,7 +1168,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#family-services">Family Legal Services</a></th>
+              <th><Link to="../FamilyLegalServices" className="th-link">Family Legal Services</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -1202,7 +1202,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#commercial">Commercial Law</a></th>
+              <th><Link to="../CommercialLaw" className="th-link">Commercial Law</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -1227,7 +1227,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#commercial-services">List of Commercial Services: </a></th>
+              <th><Link to="../ListOfCommercialServices" className="th-link">List of Commercial Services: </Link></th>
             </tr>
           </thead>
           <tbody>
@@ -1264,22 +1264,22 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#Immigration">Immigration</a></th>
+              <th><Link to="../Immigration" className="th-link">Immigration</Link></th>
             </tr>
           </thead>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#uk-migration">UK migration legal support</a></th>
+              <th><Link to="../UKMigraintLegalSupport" className="th-link">UK migration legal support</Link></th>
             </tr>
           </thead>
           <thead>
             <tr class="side-text-th">
-              <th><a href='#remote-work'>Working remotely</a></th>
+              <th><Link to='../WorkingRemotely' className="th-link">Working remotely</Link></th>
             </tr>
           </thead>
           <thead>
             <tr class="side-text-th">
-              <th><a href='#family'>Family</a></th>
+              <th><Link to='../Family' className="th-link">Family</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -1361,7 +1361,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#uk-work-visa">UK Work Visas:</a></th>
+              <th><Link to="../UKWorkVisas" className="th-link">UK Work Visas:</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -1563,7 +1563,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#education">Education</a></th>
+              <th><Link to="../Education" className="th-link">Education</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -1579,7 +1579,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#settlement">Settlement</a></th>
+              <th><Link to="../Settlement" className="th-link">Settlement</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -1595,7 +1595,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#private-life">Private Life</a></th>
+              <th><Link to="../PrivateLife" className="th-link">Private Life</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -1605,7 +1605,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#immigration-appeal-review">Immigration Appeal and Admin Review:</a></th>
+              <th><Link to="../ImmigrationAppealAdminReview" className="th-link">Immigration Appeal and Admin Review:</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -1651,7 +1651,7 @@ function Home() {
           </tbody>
           <thead>
             <tr class="side-text-th">
-              <th><a href="#judicial-review">Judicial Review in the Upper Tribunal:</a></th>
+              <th><Link to="../JudicialReviewInTheUpperTribunal" className="th-link">Judicial Review in the Upper Tribunal:</Link></th>
             </tr>
           </thead>
           <tbody>
@@ -1680,7 +1680,7 @@ function Home() {
         <Row>
           <Footer />
         </Row>
-        <div><a href='#top' title='Back to top'><i class="fa fa-angle-double-up btntop"  style={{'font-size': '48px'}}></i></a></div>
+        <div><a src='#top' title='Back to top'><i class="fa fa-angle-double-up btntop"  style={{'font-size': '48px'}}></i></a></div>
         </Container>
       </>
     );

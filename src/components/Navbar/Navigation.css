@@ -19,8 +19,9 @@
   color: #b39546;
 }
 
-#basic-nav-dropdown{
+#vsl-dropdown{
   text-decoration: none;
+  font-size: large;
 }
 
 .drop {
