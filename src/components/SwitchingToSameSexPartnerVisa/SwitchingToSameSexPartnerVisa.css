@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.btncolor {
+    background: #3a5383;
+    font-size: large;
+    color: #ffffff;
+}
+
+
+.btncolor:hover {
+    color: #3a5383;
+}
+
+.welcome-text {
+    padding: 80px;
+    color: #f8f8f8;
+}

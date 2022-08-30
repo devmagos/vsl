@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import './index.css';
 import App from './App';
 import Home from '../src/components/Home/Home';
+import HomeNav from '../src/components/HomeNav/HomeNav';
 import Appointment from './components/Appointment/Appointments';
 import Services from '../src/components/Services/Services';
 import Limited from '../src/components/Limited/Limited';
@@ -22,10 +23,63 @@ import ImmigrationAppealAdminReview from './components/ImmigrationAppealAdminRev
 import JudicialReviewInTheUpperTribunal from './components/JudicialReviewInTheUpperTribunal/JudicialReviewInTheUpperTribunal';
 import DivorceFamily from '../src/components/DivorceFamily/DivorceFamily';
 import ImmigrationServices from '../src/components/ImmigrationServices/ImmigrationServices';
-import ImmigrationApplications from './components/ImmigrationApplication/ImmigrationApplication';
+import ImmigrationApplication from './components/ImmigrationApplication/ImmigrationApplication';
 import WorkVisas from '../src/components/WorkVisas/WorkVisas';
 import ChallengeRefusals from '../src/components/ChallengeRefusals/ChallengeRefusals';
 import ContactUs from '../src/components/ContactUs/ContactUs';
+import SwitchingToCivilPartnerVisa from '../src/components/SwitchingToCivilPartnerVisa/SwitchingToCivilPartnerVisa';
+import ExtensionOfStayAsSpouse from '../src/components/ExtensionOfStayAsSpouse/ExtensionOfStayAsSpouse';
+import ILRBereavedPartnerILRBereavedPartner from '../src/components/ILRBereavedPartnerILRBereavedPartner/ILRBereavedPartnerILRBereavedPartner';
+import SwitchingToSpouseVisaUK from '../src/components/SwitchingToSpouseVisaUK/SwitchingToSpouseVisaUK';
+import EntryClearanceCivilPartner from '../src/components/EntryClearanceCivilPartner/EntryClearanceCivilPartner';
+import MarriageVisitorsVisaUK from '../src/components/MarriageVisitorsVisaUK/MarriageVisitorsVisaUK';
+import ProposedCivilPartnerVisaUK from '../src/components/ProposedCivilPartnerVisaUK/ProposedCivilPartnerVisaUK';
+import FamilyAndPrivateLifeParent from '../src/components/FamilyAndPrivateLifeParent/FamilyAndPrivateLifeParent';
+import ILRAsTier1Entrepreneur from '../src/components/ILRAsTier1Entrepreneur/ILRAsTier1Entrepreneur';
+import ExtensionOfStayCivilPartner from '../src/components/ExtensionOfStayCivilPartner/ExtensionOfStayCivilPartner';
+import ParentOfBritishCitizenChild from '../src/components/ParentOfBritishCitizenChild/ParentOfBritishCitizenChild';
+import ExtensionOfStayUnmarriedPartner from '../src/components/ExtensionOfStayUnmarriedPartner/ExtensionOfStayUnmarriedPartner';
+import EntrylearanceTier5CreativeAndSporting from '../src/components/EntrylearanceTier5CreativeAndSporting/EntrylearanceTier5CreativeAndSporting';
+import SwitchingToTier5CreativeAndSporting from '../src/components/SwitchingToTier5CreativeAndSporting/SwitchingToTier5CreativeAndSporting';
+import DependantsOfTier5CreativeAndSporting from '../src/components/DependantsOfTier5CreativeAndSporting/DependantsOfTier5CreativeAndSporting';
+import EntryClearanceChildOfPersonPresentAndSettledUK from '../src/components/EntryClearanceChildOfPersonPresentAndSettledUK/EntryClearanceChildOfPersonPresentAndSettledUK';
+import IndefiniteLeaveToEnterChild from '../src/components/IndefiniteLeaveToEnterChild/IndefiniteLeaveToEnterChild';
+import DependantsOfTier2MinisterOfReligion from '../src/components/DependantsOfTier2MinisterOfReligion/DependantsOfTier2MinisterOfReligion';
+import DependantsOfTier2Sportsperson from '../src/components/DependantsOfTier2Sportsperson/DependantsOfTier2Sportsperson';
+import DependantsOfTier2ICTMigrant from '../src/components/DependantsOfTier2ICTMigrant/DependantsOfTier2ICTMigrant';
+import DependantsOfDomesticWorker from '../src/components/DependantsOfDomesticWorker/DependantsOfDomesticWorker';
+import EntryClearanceSoleRepresentativeOfOverseasBusiness from '../src/components/EntryClearanceSoleRepresentativeOfOverseasBusiness/EntryClearanceSoleRepresentativeOfOverseasBusiness';
+import DependantsOfTier1GraduateEntrepreneur from '../src/components/DependantsOfTier1GraduateEntrepreneur/DependantsOfTier1GraduateEntrepreneur';
+import DependantsOfTier2GeneralMigrant from '../src/components/DependantsOfTier2GeneralMigrant/DependantsOfTier2GeneralMigrant';
+import EntryClearanceTier2MinisterOfReligion from '../src/components/EntryClearanceTier2MinisterOfReligion/EntryClearanceTier2MinisterOfReligion';
+import SwitchingToTier2MinisterOfReligion from '../src/components/SwitchingToTier2MinisterOfReligion/SwitchingToTier2MinisterOfReligion';
+import ILRTier2MinisterOfReligion from '../src/components/ILRTier2MinisterOfReligion/ILRTier2MinisterOfReligion';
+import DivorceAndSeparation from '../src/components/DivorceAndSeparation/DivorceAndSeparation';
+import FamilyPrivatelifeApplicationsUnderParentPartnerRoute from '../src/components/FamilyPrivatelifeApplicationsUnderParentPartnerRoute/FamilyPrivatelifeApplicationsUnderParentPartnerRoute';
+import AdultDependantRelative from '../src/components/AdultDependantRelative/AdultDependantRelative';
+import ExtensionOfStayTier1ExceptionalTalent from '../src/components/ExtensionOfStayTier1ExceptionalTalent/ExtensionOfStayTier1ExceptionalTalent';
+import DependantsOfTier1ExceptionalTalentMigrant from '../src/components/DependantsOfTier1ExceptionalTalentMigrant/DependantsOfTier1ExceptionalTalentMigrant';
+import CommercialContractSupport from '../src/components/CommercialContractSupport/CommercialContractSupport';
+import ContractReview from '../src/components/ContractReview/ContractReview';
+import ProfessionalNegligence from '../src/components/ProfessionalNegligence/ProfessionalNegligence';
+import FinancialSettlements from '../src/components/FinancialSettlements/FinancialSettlements';
+import DomesticAbuse from '../src/components/DomesticAbuse/DomesticAbuse';
+import CommercialLitigationFees from '../src/components/CommercialLitigationFees/CommercialLitigationFees';
+import Arbitration from '../src/components/Arbitration/Arbitration';
+import PartnershipLimitedLiabilityPartnershipDisputes from '../src/components/PartnershipLimitedLiabilityPartnershipDisputes/PartnershipLimitedLiabilityPartnershipDisputes';
+import TortClaims from '../src/components/TortClaims/TortClaims';
+import IntellectualPropertyDisputes from '../src/components/IntellectualPropertyDisputes/IntellectualPropertyDisputes';
+import AngloAfricanFirm from '../src/components/AngloAfricanFirm/AngloAfricanFirm';
+import ExceptionalTrackRecord from '../src/components/ExceptionalTrackRecord/ExceptionalTrackRecord';
+import CommercialAgreements from '../src/components/CommercialAgreements/CommercialAgreements';
+import RiskMitigation from '../src/components/RiskMitigation/RiskMitigation';
+import CommercialContractLaw from '../src/components/CommercialContractLaw/CommercialContractLaw';
+import CollaborativeLaw from '../src/components/CollaborativeLaw/CollaborativeLaw';
+import ContestedHearings from '../src/components/ContestedHearings/ContestedHearings';
+import ChildVisitation from '../src/components/ChildVisitation/ChildVisitation';
+import ChildCareProceedings from '../src/components/ChildCareProceedings/ChildCareProceedings';
+import PrenuptialAgreements from '../src/components/PrenuptialAgreements/PrenuptialAgreements';
+import Friendship from '../src/components/Friendship/Friendship';
 import FamilyLegalServices from '../src/components/FamilyLegalServices/FamilyLegalServices';
 import Family from '../src/components/Family/Family';
 import Partner from '../src/components/Partner/Partner';
@@ -59,6 +113,7 @@ import ILRTier1Entrepreneur from './components/ILRTier1Entrepreneur/ILRTier1Entr
 import DependentsTier1Entrepreneur from './components/DependentsTier1Entrepreneur/DependentsTier1Entrepreneur.js';
 import EntryClearanceTier1ExceptionalTalent from './components/EntryClearanceTier1ExceptionalTalent/EntryClearanceTier1ExceptionalTalent.js';
 import SwitchingToTier1ExceptionalTalent from './components/SwitchingToTier1ExceptionalTalent/SwitchingToTier1ExceptionalTalent.js';
+import SwitchingToTier1GraduateEntrepreneur from './components/SwitchingToTier1GraduateEntrepreneur/SwitchingToTier1GraduateEntrepreneur.js';
 import ExtensionStayTier1ExceptionalTalent from './components/ExtensionStayTier1ExceptionalTalent/ExtensionStayTier1ExceptionalTalent.js';
 import ILRAsTier1ExceptionalTalent from './components/ILRAsTier1ExceptionalTalent/ILRAsTier1ExceptionalTalent.js';
 import DependantsTier1ExceptionalTalentMigrant from './components/DependantsTier1ExceptionalTalentMigrant/DependantsTier1ExceptionalTalentMigrant.js';
@@ -117,10 +172,17 @@ import Tier5InternationalAgreementVisaExtension from './components/Tier5Internat
 import ILRTier5InternationalAgreement from './components/ILRTier5InternationalAgreement/ILRTier5InternationalAgreement.js';
 import StudentVisa from './components/StudentVisa/StudentVisa.js';
 import ChildStudentVisa from './components/ChildStudentVisa/ChildStudentVisa.js';
+import Trust from './components/Trust/Trust.js';
+import Comfort from './components/Comfort/Comfort.js';
+import Respect from './components/Respect/Respect.js';
+import BreachOfContractClaims from './components/BreachOfContractClaims/BreachOfContractClaims.js';
+import Tier2MinisterOfReligionVisaExtension from './components/Tier2MinisterOfReligionVisaExtension/Tier2MinisterOfReligionVisaExtension.js';
 import ShortTermStudent from './components/ShortTermStudent/ShortTermStudent.js';
 import ILR10YearLongResidence from './components/ILR10YearLongResidence/ILR10YearLongResidence.js';
 import EUSettlementScheme from './components/EUSettlementScheme/EUSettlementScheme.js';
 import ReturningResidentVisa from './components/ReturningResidentVisa/ReturningResidentVisa.js';
+import PrivateFamilyLiveIncluding20YearsUnlawfulResidenceApplication from './components/PrivateFamilyLiveIncluding20YearsUnlawfulResidenceApplication/PrivateFamilyLiveIncluding20YearsUnlawfulResidenceApplication.js';
+import AdminReviewAgainstRefusalInCountryRefusalByTheHomeOffice from './components/AdminReviewAgainstRefusalInCountryRefusalByTheHomeOffice/AdminReviewAgainstRefusalInCountryRefusalByTheHomeOffice.js';
 import PrivateAndfamilyliveIncluding20YearsUnlawfulResidenceApplication from './components/PrivateAndfamilyliveIncluding20YearsUnlawfulResidenceApplication/PrivateAndfamilyliveIncluding20YearsUnlawfulResidenceApplication.js';
 import AdministrativeReviewAgainstRefusalEntryClearancePBSMigrant from './components/AdministrativeReviewAgainstRefusalEntryClearancePBSMigrant/AdministrativeReviewAgainstRefusalEntryClearancePBSMigrant.js';
 import AdministrativeReviewAgainstRefusalCountryRefusalByTheHomeOffice from './components/AdministrativeReviewAgainstRefusalCountryRefusalByTheHomeOffice/AdministrativeReviewAgainstRefusalCountryRefusalByTheHomeOffice.js';
@@ -149,25 +211,87 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/Home" element={<Home />} />
+        <Route path="/HomeNav" element={<HomeNav />} />
         <Route path="/Appointment" element={<Appointment />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/Limited" element={<Limited />} />
+        <Route path="/Friendship" element={<Friendship />} />
+        <Route path="/Trust" element={<Trust />} />
+        <Route path="/Comfort" element={<Comfort />} />
+        <Route path="/Respect" element={<Respect />} />
+        <Route path="/Respect" element={<Respect />} />
         <Route path="/Immigration" element={<Immigration />} />
+        <Route path="/CollaborativeLaw" element={<CollaborativeLaw />} />
         <Route path="/CommercialServices" element={<CommercialServices />} />
         <Route path="/CommercialLaw" element={<CommercialLaw />} />
+        <Route path="/ContestedHearings" element={<ContestedHearings />} />
+        <Route path="/ChildVisitation" element={<ChildVisitation />} />
+        <Route path="/ChildCareProceedings" element={<ChildCareProceedings />} />
+        <Route path="/PrenuptialAgreements" element={<PrenuptialAgreements />} />
+        <Route path="/AngloAfricanFirm" element={<AngloAfricanFirm />} />
+        <Route path="/ExceptionalTrackRecord" element={<ExceptionalTrackRecord />} />
+        <Route path="/CommercialAgreements" element={<CommercialAgreements />} />
+        <Route path="/RiskMitigation" element={<RiskMitigation />} />
+        <Route path="/CommercialContractLaw" element={<CommercialContractLaw />} />
+        <Route path="/CommercialLitigationFees" element={<CommercialLitigationFees />} />
+        <Route path="/SwitchingToTier1GraduateEntrepreneur" element={<SwitchingToTier1GraduateEntrepreneur />} />
+        <Route path="/BreachOfContractClaims" element={<BreachOfContractClaims />} />
+        <Route path="/Arbitration" element={<Arbitration />} />
+        <Route path="/PartnershipLimitedLiabilityPartnershipDisputes" element={<PartnershipLimitedLiabilityPartnershipDisputes />} />
+        <Route path="/TortClaims" element={<TortClaims />} />
+        <Route path="/IntellectualPropertyDisputes" element={<IntellectualPropertyDisputes />} />
+        <Route path="/CommercialContractSupport" element={<CommercialContractSupport />} />
+        <Route path="/ContractReview" element={<ContractReview />} />
+        <Route path="/ProfessionalNegligence" element={<ProfessionalNegligence />} />
+        <Route path="/FinancialSettlements" element={<FinancialSettlements />} />
+        <Route path="/DomesticAbuse" element={<DomesticAbuse />} />
+        <Route path="/DivorceAndSeparation" element={<DivorceAndSeparation />} />
+        <Route path="/FamilyPrivatelifeApplicationsUnderParentPartnerRoute" element={<FamilyPrivatelifeApplicationsUnderParentPartnerRoute />} />
         <Route path="/WorkingRemotely" element={<WorkingRemotely />} />
         <Route path="/UKWorkVisas" element={<UKWorkVisas />} />
         <Route path="/Education" element={<Education />} />
         <Route path="/Settlement" element={<Settlement />} />
         <Route path="/PrivateLife" element={<PrivateLife />} />
+        <Route path="/AdultDependantRelative" element={<AdultDependantRelative />} />
+        <Route path="/ExtensionOfStayTier1ExceptionalTalent" element={<ExtensionOfStayTier1ExceptionalTalent />} />
+        <Route path="/DependantsOfTier1ExceptionalTalentMigrant" element={<DependantsOfTier1ExceptionalTalentMigrant />} />
+        <Route path="/DependantsOfTier1GraduateEntrepreneur" element={<DependantsOfTier1GraduateEntrepreneur />} />
+        <Route path="/DependantsOfTier2GeneralMigrant" element={<DependantsOfTier2GeneralMigrant />} />
+        <Route path="/EntryClearanceTier2MinisterOfReligion" element={<EntryClearanceTier2MinisterOfReligion />} />
+        <Route path="/SwitchingToTier2MinisterOfReligion" element={<SwitchingToTier2MinisterOfReligion />} />
+        <Route path="/Tier2MinisterOfReligionVisaExtension" element={<Tier2MinisterOfReligionVisaExtension />} />
+        <Route path="/ILRTier2MinisterOfReligion" element={<ILRTier2MinisterOfReligion />} />
+        <Route path="/DependantsOfTier2MinisterOfReligion" element={<DependantsOfTier2MinisterOfReligion />} />
+        <Route path="/DependantsOfTier2Sportsperson" element={<DependantsOfTier2Sportsperson />} />
+        <Route path="/DependantsOfTier2ICTMigrant" element={<DependantsOfTier2ICTMigrant />} />
+        <Route path="/DependantsOfDomesticWorker" element={<DependantsOfDomesticWorker />} />
+        <Route path="/EntryClearanceSoleRepresentativeOfOverseasBusiness" element={<EntryClearanceSoleRepresentativeOfOverseasBusiness />} />
+        <Route path="/EntrylearanceTier5CreativeAndSporting" element={<EntrylearanceTier5CreativeAndSporting />} />
+        <Route path="/SwitchingToTier5CreativeAndSporting" element={<SwitchingToTier5CreativeAndSporting />} />
+        <Route path="/DependantsOfTier5CreativeAndSporting" element={<DependantsOfTier5CreativeAndSporting />} />
+        <Route path="/EntryClearanceChildOfPersonPresentAndSettledUK" element={<EntryClearanceChildOfPersonPresentAndSettledUK />} />
+        <Route path="/IndefiniteLeaveToEnterChild" element={<IndefiniteLeaveToEnterChild />} />
+        <Route path="/FamilyAndPrivateLifeParent" element={<FamilyAndPrivateLifeParent />} />
+        <Route path="/ILRAsTier1Entrepreneur" element={<ILRAsTier1Entrepreneur />} />
+        <Route path="/ExtensionOfStayCivilPartner" element={<ExtensionOfStayCivilPartner />} />
+        <Route path="/ParentOfBritishCitizenChild" element={<ParentOfBritishCitizenChild />} />
+        <Route path="/ExtensionOfStayUnmarriedPartner" element={<ExtensionOfStayUnmarriedPartner />} />
+        <Route path="/ILRBereavedPartnerILRBereavedPartner" element={<ILRBereavedPartnerILRBereavedPartner />} />
+        <Route path="/SwitchingToSpouseVisaUK" element={<SwitchingToSpouseVisaUK />} />
+        <Route path="/SwitchingToCivilPartnerVisa" element={<SwitchingToCivilPartnerVisa />} />
+        <Route path="/ExtensionOfStayAsSpouse" element={<ExtensionOfStayAsSpouse />} />
+        <Route path="/EntryClearanceCivilPartner" element={<EntryClearanceCivilPartner />} />
         <Route path="/ImmigrationLegalServices" element={<ImmigrationLegalServices />} />
         <Route path="/UKMigraintLegalSupport" element={<UKMigraintLegalSupport />} />
         <Route path="/AdviceAndRepresentationsForUK" element={<AdviceAndRepresentationsForUK />} />
         <Route path="/ImmigrationAppealAdminReview" element={<ImmigrationAppealAdminReview />} />
+        <Route path="/MarriageVisitorsVisaUK" element={<MarriageVisitorsVisaUK />} />
         <Route path="/JudicialReviewInTheUpperTribunal" element={<JudicialReviewInTheUpperTribunal />} />
         <Route path="/DivorceFamily" element={<DivorceFamily />} />
+        <Route path="/ProposedCivilPartnerVisaUK" element={<ProposedCivilPartnerVisaUK />} />
+        <Route path="/EntryClearanceUnmarriedPartnerSpouse" element={<EntryClearanceUnmarriedPartnerSpouse />} />
         <Route path="/ImmigrationServices" element={<ImmigrationServices />} />
-        <Route path="/ImmigrationApplications" element={<ImmigrationApplications />} />
+        <Route path="/ImmigrationApplication" element={<ImmigrationApplication />} />
         <Route path="/WorkVisas" element={<WorkVisas />} />
         <Route path="/ChallengeRefusals" element={<ChallengeRefusals />} />
         <Route path="/ContactUs" element={<ContactUs />} />
@@ -198,6 +322,8 @@ root.render(
         <Route path="/AdultDependentRelative" element={<AdultDependentRelative />} />
         <Route path="/EntryClearanceChildPersonPresentSettled" element={<EntryClearanceChildPersonPresentSettled />} />
         <Route path="/TypeOfVisa" element={<TypeOfVisa />} />
+        <Route path="/PrivateFamilyLiveIncluding20YearsUnlawfulResidenceApplication" element={<PrivateFamilyLiveIncluding20YearsUnlawfulResidenceApplication />} />
+        <Route path="/AdminReviewAgainstRefusalInCountryRefusalByTheHomeOffice" element={<AdminReviewAgainstRefusalInCountryRefusalByTheHomeOffice />} />
         <Route path="/SwitchingToInnovatorVisa" element={<SwitchingToInnovatorVisa />} />
         <Route path="/Tier1EntrepreneurVisaExtension" element={<Tier1EntrepreneurVisaExtension />} />
         <Route path="/ILRTier1Entrepreneur" element={<ILRTier1Entrepreneur />} />

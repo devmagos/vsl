@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Home.css';
-import VslNav from '../Navbar/Navigation.js';
+import HomeNav from '../HomeNav/HomeNav.js';
 import BookingForm from '../BookingForm/BookingForm';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -21,7 +21,7 @@ function Home() {
       </Row>
 
       <Row>
-        <VslNav />
+        <HomeNav />
       </Row>
       {/* Form page section below */}
       <Row className='form-solicitors'>
@@ -1138,16 +1138,16 @@ function Home() {
           </thead>
           <tbody>
           <tr>
-            <td>Friendship</td>
+            <td><Link to='../Friendship'>Friendship</Link></td>
           </tr>
           <tr>
-              <td>Trust</td>
+              <td><Link to='../Trust'>Trust</Link></td>
           </tr>
           <tr>
-              <td>Comfort</td>
+              <td><Link to='../Comfort'>Comfort</Link></td>
           </tr>
           <tr>
-              <td>Respect</td>
+              <td><Link to='../Respect'>Respect</Link></td>
           </tr>
           </tbody>
           <thead>
@@ -1157,13 +1157,13 @@ function Home() {
           </thead>
           <tbody>
           <tr>
-            <td>Family Legal Services</td>
+            <td><Link to='../FamilyLegalServices'>Family Legal Services</Link></td>
           </tr>
           <tr>
-              <td>Commercial Legal Services </td>
+              <td><Link to='../CommercialLegalServices '>Commercial Legal Services </Link></td>
           </tr>
           <tr>
-              <td>Immigration Legal Services</td>
+              <td><Link to='../ImmigrationLegalServices'>Immigration Legal Services</Link></td>
           </tr>
           </tbody>
           <thead>
@@ -1173,31 +1173,31 @@ function Home() {
           </thead>
           <tbody>
           <tr>
-            <td>Divorce and Separation</td>
+            <td><Link to='../DivorceAndSeparation'>Divorce and Separation</Link></td>
           </tr>
           <tr>
-              <td>Family and Private life Applications under parent/partner route</td>
+              <td><Link to='../FamilyPrivatelifeApplicationsUnderParentPartnerRoute'>Family and Private life Applications under parent/partner route</Link></td>
           </tr>
           <tr>
-              <td>Collaborative law</td>
+              <td><Link to='../CollaborativeLaw'>Collaborative law</Link></td>
           </tr>
           <tr>
-              <td>Contested hearings</td>
+              <td><Link to='../ContestedHearings'>Contested hearings</Link></td>
           </tr>
           <tr>
-              <td>Child visitation</td>
+              <td><Link to='../ChildVisitation'>Child visitation</Link></td>
           </tr>
           <tr>
-              <td>Financial settlements</td>
+              <td><Link to='../FinancialSettlements'>Financial settlements</Link></td>
           </tr>
           <tr>
-              <td>Domestic abuse</td>
+              <td><Link to='../DomesticAbuse'>Domestic abuse</Link></td>
           </tr>
           <tr>
-              <td>Child Care proceedings</td>
+              <td><Link to='../ChildCareProceedings'>Child Care proceedings</Link></td>
           </tr>
           <tr>
-              <td>Prenuptial agreements</td>
+              <td><Link to='../PrenuptialAgreements'>Prenuptial agreements</Link></td>
           </tr>
           </tbody>
           <thead>
@@ -1207,22 +1207,22 @@ function Home() {
           </thead>
           <tbody>
           <tr>
-            <td>Anglo-African Firm</td>
+            <td><Link to='../AngloAfricanFirm'>Anglo-African Firm</Link></td>
           </tr>
           <tr>
-              <td>Exceptional Track Record</td>
+              <td><Link to='../ExceptionalTrackRecord'>Exceptional Track Record</Link></td>
           </tr>
           <tr>
-              <td>Commercial Agreements</td>
+              <td><Link to='../CommercialAgreements'>Commercial Agreements</Link></td>
           </tr>
           <tr>
-              <td>Risk Mitigation</td>
+              <td><Link to='../RiskMitigation'>Risk Mitigation</Link></td>
           </tr>
           <tr>
-              <td>Commercial Contract Law</td>
+              <td><Link to='../CommercialContractLaw'>Commercial Contract Law</Link></td>
           </tr>
           <tr>
-              <td>Commercial Litigation Fees</td>
+              <td><Link to='../CommercialLitigationFees'>Commercial Litigation Fees</Link></td>
           </tr>
           </tbody>
           <thead>
@@ -1232,34 +1232,34 @@ function Home() {
           </thead>
           <tbody>
           <tr>
-            <td>Breach of Contract Claims</td>
+            <td><Link to='../BreachOfContractClaims'>Breach of Contract Claims</Link></td>
           </tr>
           <tr>
-              <td>Professional Negligence</td>
+              <td><Link to='../ProfessionalNegligence'>Professional Negligence</Link></td>
           </tr>
           <tr>
-              <td>Arbitration</td>
+              <td><Link to='../Arbitration'>Arbitration</Link></td>
           </tr>
           <tr>
-              <td>Partnership/limited liability partnership disputes</td>
+              <td><Link to='../PartnershipLimitedLiabilityPartnershipDisputes'>Partnership/limited liability partnership disputes</Link></td>
           </tr>
           <tr>
-              <td>Tort Claims</td>
+              <td><Link to='../TortClaims'>Tort Claims</Link></td>
           </tr>
           <tr>
-              <td>Intellectual Property disputes: trademarks, copyright, patents and passing off</td>
+              <td><Link to='../IntellectualPropertyDisputes'>Intellectual Property disputes: trademarks, copyright, patents and passing off</Link></td>
           </tr>
           <tr>
-              <td>Commercial Contract Support - due diligence, negotiation, procurement etc</td>
+              <td><Link to='../CommercialContractSupport'>Commercial Contract Support - due diligence, negotiation, procurement etc</Link></td>
           </tr>
           <tr>
-              <td>Commercial Contract Law and Commercial Litigation</td>
+              <td><Link to='../CommercialContractLawCommercialLitigation'>Commercial Contract Law and Commercial Litigation</Link></td>
           </tr>
           <tr>
-            <td>Contract Review</td>
+            <td><Link to='../ContractReview'>Contract Review</Link></td>
           </tr>
           <tr>
-              <td>Risk Mitigation</td>
+              <td><Link to='../RiskMitigation'>Risk Mitigation</Link></td>
           </tr>
           </tbody>
           <thead>
@@ -1284,79 +1284,79 @@ function Home() {
           </thead>
           <tbody>
           <tr>
-            <td>Partner</td>
+            <td><Link to='../Partner'>Partner</Link></td>
           </tr>
           <tr>
-              <td>Marriage Visitors Visa UK</td>
+              <td><Link to='../MarriageVisitorsVisaUK'>Marriage Visitors Visa UK</Link></td>
           </tr>
           <tr>
-              <td>Proposed Civil Partner Visa UK</td>
+              <td><Link to='../ProposedCivilPartnerVisaUK'>Proposed Civil Partner Visa UK</Link></td>
           </tr>
           <tr>
-              <td>Entry clearance as an unmarried partner/spouse</td>
+              <td><Link to='../EntryClearanceUnmarriedPartnerSpouse'>Entry clearance as an unmarried partner/spouse</Link></td>
           </tr>
           <tr>
-              <td>Switching into a spouse Visa UK</td>
+              <td><Link to='../SwitchingTopouseVisaUK'>Switching into a spouse Visa UK</Link></td>
           </tr>
           <tr>
-              <td>Extension of stay as a spouse</td>
+              <td><Link to='../ExtensionOfStayAsSpouse'>Extension of stay as a spouse</Link></td>
           </tr>
           <tr>
-              <td>ILR Spouse Visa</td>
+              <td><Link to='../ILRSpouseVisa'>ILR Spouse Visa</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance as a Civil Partner</td>
+              <td><Link to='../EntryClearanceCivilPartner'>Entry Clearance as a Civil Partner</Link></td>
           </tr>
           <tr>
-              <td>Switching into a Civil Partner Visa</td>
+              <td><Link to='../SwitchingToCivilPartnerVisa'>Switching into a Civil Partner Visa</Link></td>
           </tr>
           <tr>
-              <td>Extension of stay as a Civil Partner</td>
+              <td><Link to='../ExtensionfStayCivilPartner'>Extension of stay as a Civil Partner</Link></td>
           </tr>
           <tr>
-              <td>Family & Private Life (Parent)</td>
+              <td><Link to='../FamilyAndPrivateLifeParent'>Family & Private Life (Parent)</Link></td>
           </tr>
           <tr>
-              <td>Family & Private Life (unmarried Partner)</td>
+              <td><Link to='../FamilyAndPrivateLifeParentUnmarriedPartner'>Family & Private Life (unmarried Partner)</Link></td>
           </tr>
           <tr>
-              <td>All Human Rights application</td>
+              <td><Link to='../AllHumanRightsApplication'>All Human Rights application</Link></td>
           </tr>
           <tr>
-              <td>Extension of stay as an unmarried partner</td>
+              <td><Link to='../ExtensionOfStayUnmarriedPartner'>Extension of stay as an unmarried partner</Link></td>
           </tr>
           <tr>
-              <td>ILR Unmarried Partner</td>
+              <td><Link to='../ILRUnmarriedPartner'>ILR Unmarried Partner</Link></td>
           </tr>
           <tr>
-              <td>Switching into same sex partner Visa</td>
+              <td><Link to='../SwitchingToSameSexPartnerVisa'>Switching into same sex partner Visa</Link></td>
           </tr>
           <tr>
-              <td>Extension of a same sex partner</td>
+              <td><Link to='../ExtensionOfSameSexPartner'>Extension of a same sex partner</Link></td>
           </tr>
           <tr>
-            <td>ILR same sex partner</td>
+            <td><Link to='../ILRSameSexPartner'>ILR same sex partner</Link></td>
           </tr>
           <tr>
-            <td>ILR – Victim of Domestic Violence</td>
+            <td><Link to='../ILRVictimOfDomesticViolence'>ILR – Victim of Domestic Violence</Link></td>
           </tr>
           <tr>
-            <td>ILR – Bereaved Partner ILR – Bereaved Partner</td>
+            <td><Link to='../ILRBereavedPartnerILRBereavedPartner'>ILR – Bereaved Partner ILR – Bereaved Partner</Link></td>
           </tr>
           <tr>
-            <td>Parent & Child</td>
+            <td><Link to='../ParentChild'>Parent & Child</Link></td>
           </tr>
           <tr>
-            <td>Parent of a British Citizen child</td>
+            <td><Link to='../ParentOfBritishCitizenChild'>Parent of a British Citizen child</Link></td>
           </tr>
           <tr>
-            <td>Indefinite Leave to Enter as a child</td>
+            <td><Link to='../IndefiniteLeaveToEnterChild'>Indefinite Leave to Enter as a child</Link></td>
           </tr>
           <tr>
-            <td>Adult Dependant Relative</td>
+            <td><Link to='../AdultDependantRelative'>Adult Dependant Relative</Link></td>
           </tr>
           <tr>
-            <td>Entry Clearance as a child of a person present & settled in the UK</td>
+            <td><Link to='../EntryClearanceChildOfPersonPresentAndSettledUK'>Entry Clearance as a child of a person present & settled in the UK</Link></td>
           </tr>
           </tbody>
           <thead>
@@ -1366,199 +1366,199 @@ function Home() {
           </thead>
           <tbody>
           <tr>
-            <td>Type of Visa</td>
+            <td><Link to='../TypeOfVisa'>Type of Visa</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance as Innovator Visa</td>
+              <td><Link to='../EntryClearanceInnovatorVisa'>Entry Clearance as Innovator Visa</Link></td>
           </tr>
           <tr>
-              <td>Switching into Innovator Visa</td>
+              <td><Link to='../SwitchingToInnovatorVisa'>Switching into Innovator Visa</Link></td>
           </tr>
           <tr>
-              <td>Tier 1 Entrepreneur Visa Extension</td>
+              <td><Link to='../Tier1EntrepreneurVisaExtension'>Tier 1 Entrepreneur Visa Extension</Link></td>
           </tr>
           <tr>
-              <td>ILR As Tier 1 Entrepreneur</td>
+              <td><Link to='../ILRAsTier1Entrepreneur'>ILR As Tier 1 Entrepreneur</Link></td>
           </tr>
           <tr>
-              <td>Dependants of Tier 1 Entrepreneur</td>
+              <td><Link to='../DependantsOfTier1Entrepreneur'>Dependants of Tier 1 Entrepreneur</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance as Tier 1 Exceptional Talent</td>
+              <td><Link to='../EntryClearanceTier1ExceptionalTalent'>Entry Clearance as Tier 1 Exceptional Talent</Link></td>
           </tr>
           <tr>
-              <td>Switching into Tier 1 Exceptional Talent</td>
+              <td><Link to='../SwitchingToTier1ExceptionalTalent'>Switching into Tier 1 Exceptional Talent</Link></td>
           </tr>
           <tr>
-              <td>Extension of Stay as Tier 1 Exceptional Talent</td>
+              <td><Link to='../ExtensionOfStayTier1ExceptionalTalent'>Extension of Stay as Tier 1 Exceptional Talent</Link></td>
           </tr>
           <tr>
-              <td>ILR As Tier 1 Exceptional Talent</td>
+              <td><Link to='../ILRAsTier1ExceptionalTalent'>ILR As Tier 1 Exceptional Talent</Link></td>
           </tr>
           <tr>
-              <td>Dependants of Tier 1 Exceptional Talent Migrant</td>
+              <td><Link to='../DependantsOfTier1ExceptionalTalentMigrant'>Dependants of Tier 1 Exceptional Talent Migrant</Link></td>
           </tr>
           <tr>
-              <td>Switching into Tier 1 Graduate Entrepreneur</td>
+              <td><Link to='../SwitchingToTier1GraduateEntrepreneur'>Switching into Tier 1 Graduate Entrepreneur</Link></td>
           </tr>
           <tr>
-              <td>Tier 1 Graduate Entrepreneur Visa Extension</td>
+              <td><Link to='../Tier1GraduateEntrepreneurVisaExtension'>Tier 1 Graduate Entrepreneur Visa Extension</Link></td>
           </tr>
           <tr>
-              <td>Dependants of Tier 1 Graduate Entrepreneur</td>
+              <td><Link to='../DependantsOfTier1GraduateEntrepreneur'>Dependants of Tier 1 Graduate Entrepreneur</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance as Tier 1 Investor</td>
+              <td><Link to='../EntryClearanceTier1Investor'>Entry Clearance as Tier 1 Investor</Link></td>
           </tr>
           <tr>
-              <td>Switching into Tier 1 Investor Visa</td>
+              <td><Link to='../SwitchingToTier1InvestorVisa'>Switching into Tier 1 Investor Visa</Link></td>
           </tr>
           <tr>
-              <td>Tier 1 Investor Visa Extension</td>
+              <td><Link to='../Tier1InvestorVisaExtension'>Tier 1 Investor Visa Extension</Link></td>
           </tr>
           <tr>
-              <td>ILR As Tier 1 Investor</td>
+              <td><Link to='../ILRTier1Investor'>ILR As Tier 1 Investor</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance as Tier 2 General Migrant</td>
+              <td><Link to='../EntryClearanceTier2GeneralMigrant'>Entry Clearance as Tier 2 General Migrant</Link></td>
           </tr>
           <tr>
-              <td>Switching into Tier 2 General</td>
+              <td><Link to='../SwitchingToTier2General'>Switching into Tier 2 General</Link></td>
           </tr>
           <tr>
-              <td>Tier 2 General Extension</td>
+              <td><Link to='../Tier2GeneralExtension'>Tier 2 General Extension</Link></td>
           </tr>
           <tr>
-              <td>ILR Tier 2 General</td>
+              <td><Link to='../ILRTier2General'>ILR Tier 2 General</Link></td>
           </tr>
           <tr>
-              <td>Dependants of Tier 2 General Migrant</td>
+              <td><Link to='../DependantsOfTier2GeneralMigrant'>Dependants of Tier 2 General Migrant</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance as Tier 2 Minister of Religion</td>
+              <td><Link to='../EntryClearanceTier2MinisterOfReligion'>Entry Clearance as Tier 2 Minister of Religion</Link></td>
           </tr>
           <tr>
-            <td>Switching into Tier 2 Minister of Religion</td>
+            <td><Link to='../SwitchingToTier2MinisterOfReligion'>Switching into Tier 2 Minister of Religion</Link></td>
           </tr>
           <tr>
-            <td>Tier 2 Minister of Religion Visa Extension</td>
+            <td><Link to='../Tier2MinisterOfReligionVisaExtension'>Tier 2 Minister of Religion Visa Extension</Link></td>
           </tr>
           <tr>
-            <td>ILR Tier 2 Minister of Religion</td>
+            <td><Link to='../ILRTier2MinisterOfReligion'>ILR Tier 2 Minister of Religion</Link></td>
           </tr>
           <tr>
-            <td>Dependants of Tier 2 Minister of Religion</td>
+            <td><Link to='../DependantsOfTier2MinisterOfReligion'>Dependants of Tier 2 Minister of Religion</Link></td>
           </tr>
           <tr>
-            <td>Entry Clearance as Tier 2 Sportsperson</td>
+            <td><Link to='../EntryClearanceTier2Sportsperson'>Entry Clearance as Tier 2 Sportsperson</Link></td>
           </tr>
           <tr>
-            <td>Switching into Tier 2 Sportsperson</td>
+            <td><Link to='../SwitchingToTier2Sportsperson'>Switching into Tier 2 Sportsperson</Link></td>
           </tr>
           <tr>
-            <td>Tier 2 Sportsperson Visa Extension</td>
+            <td><Link to='../Tier2SportspersonVisaExtension'>Tier 2 Sportsperson Visa Extension</Link></td>
           </tr>
           <tr>
-            <td>ILR Tier 2 Sportsperson</td>
+            <td><Link to='../ILRTier2Sportsperson'>ILR Tier 2 Sportsperson</Link></td>
           </tr>
           <tr>
-              <td>Dependants of Tier 2 Sportsperson</td>
+              <td><Link to='../DependantsOfTier2Sportsperson'>Dependants of Tier 2 Sportsperson</Link></td>
           </tr>
           <tr>
-            <td>Entry Clearance as Tier 2 ICT</td>
+            <td><Link to='../EntryClearanceTier2ICT'>Entry Clearance as Tier 2 ICT</Link></td>
           </tr>
           <tr>
-              <td>Switching into Tier 2 ICT</td>
+              <td><Link to='../SwitchingToTier2ICT'>Switching into Tier 2 ICT</Link></td>
           </tr>
           <tr>
-            <td>Tier 2 ICT Extension</td>
+            <td><Link to='../Tier2ICTExtension'>Tier 2 ICT Extension</Link></td>
           </tr>
           <tr>
-              <td>ILR Tier 2 ICT</td>
+              <td><Link to='../ILRTier2ICT'>ILR Tier 2 ICT</Link></td>
           </tr>
           <tr>
-            <td>Dependants of Tier 2 ICT Migrant</td>
+            <td><Link to='../DependantsOfTier2ICTMigrant'>Dependants of Tier 2 ICT Migrant</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance as Domestic Worker</td>
+              <td><Link to='../EntryClearanceDomesticWorker'>Entry Clearance as Domestic Worker</Link></td>
           </tr>
           <tr>
-              <td>Domestic Worker Visa Extension</td>
+              <td><Link to='../DomesticWorkerVisaExtension'>Domestic Worker Visa Extension</Link></td>
           </tr>
           <tr>
-              <td>ILR Domestic Worker</td>
+              <td><Link to='../ILRDomesticWorker'>ILR Domestic Worker</Link></td>
           </tr>
           <tr>
-              <td>Dependants of Domestic Worker</td>
+              <td><Link to='../DependantsOfDomesticWorker'>Dependants of Domestic Worker</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance as A Sole Representative of Overseas Business</td>
+              <td><Link to='../EntryClearanceSoleRepresentativeOfOverseasBusiness'>Entry Clearance as A Sole Representative of Overseas Business</Link></td>
           </tr>
           <tr>
-              <td>Sole Representative Visa Extension</td>
+              <td><Link to='../SoleRepresentativeVisaExtension'>Sole Representative Visa Extension</Link></td>
           </tr>
           <tr>
-              <td>ILR As Sole Representative</td>
+              <td><Link to='../ILRSoleRepresentative'>ILR As Sole Representative</Link></td>
           </tr>
           <tr>
-              <td>Dependants of Sole Representatives</td>
+              <td><Link to='../DependantsSoleRepresentatives'>Dependants of Sole Representatives</Link></td>
           </tr>
           <tr>
-              <td>Dependants of A Person with UK Ancestry Visa</td>
+              <td><Link to='../DependantsPersonWithUKAncestryVisa'>Dependants of A Person with UK Ancestry Visa</Link></td>
           </tr>
           <tr>
-              <td>ILR UK Ancestry</td>
+              <td><Link to='../ILRUKAncestry'>ILR UK Ancestry</Link></td>
           </tr>
           <tr>
-            <td>UK Ancestry Visa Extension</td>
+            <td><Link to='../UKAncestryVisaExtension'>UK Ancestry Visa Extension</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance – UK Ancestry Visa</td>
+              <td><Link to='../EntryClearanceUKAncestryVisa'>Entry Clearance – UK Ancestry Visa</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance as Tier 5 Charity Worker</td>
+              <td><Link to='../EntryClearanceTier5CharityWorker'>Entry Clearance as Tier 5 Charity Worker</Link></td>
           </tr>
           <tr>
-              <td>Tier 5 Charity Workers Visa Extension</td>
+              <td><Link to='../Tier5CharityWorkersVisaExtension'>Tier 5 Charity Workers Visa Extension</Link></td>
           </tr>
           <tr>
-              <td>Dependants of Tier 5 Charity Worker</td>
+              <td><Link to='../DependantsTier5CharityWorker'>Dependants of Tier 5 Charity Worker</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance as Tier 5 Creative & Sporting</td>
+              <td><Link to='../EntrylearanceTier5CreativeAndSporting'>Entry Clearance as Tier 5 Creative & Sporting</Link></td>
           </tr>
           <tr>
-              <td>Switching into Tier 5 Creative & Sporting</td>
+              <td><Link to='../SwitchingToTier5CreativeAndSporting'>Switching into Tier 5 Creative & Sporting</Link></td>
           </tr>
           <tr>
-              <td>Tier 5 Creative & Sporting Extension</td>
+              <td><Link to='../Tier5CreativeAndSportingExtension'>Tier 5 Creative & Sporting Extension</Link></td>
           </tr>
           <tr>
-              <td>Dependants of Tier 5 Creative & Sporting</td>
+              <td><Link to='../DependantsOfTier5CreativeAndSporting'>Dependants of Tier 5 Creative & Sporting</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance as Tier 5 Religious Worker</td>
+              <td><Link to='../EntryClearanceTier5ReligiousWorker'>Entry Clearance as Tier 5 Religious Worker</Link></td>
           </tr>
           <tr>
-              <td>Tier 5 Religious Workers Visa Extension</td>
+              <td><Link to='../Tier5ReligiousWorkersVisaExtension'>Tier 5 Religious Workers Visa Extension</Link></td>
           </tr>
           <tr>
-              <td>Switching into Tier 5 Government Authorised Exchange</td>
+              <td><Link to='../SwitchingToTier5GovernmentAuthorisedExchange'>Switching into Tier 5 Government Authorised Exchange</Link></td>
           </tr>
           <tr>
-              <td>Tier 5 Government Authorised Exchange Visa Extension</td>
+              <td><Link to='../Tier5GovernmentAuthorisedExchangeVisaExtension'>Tier 5 Government Authorised Exchange Visa Extension</Link></td>
           </tr>
           <tr>
-              <td>Tier 5 Youth Mobility Scheme (YMS)</td>
+              <td><Link to='../Tier5YouthMobilitySchemeYMS'>Tier 5 Youth Mobility Scheme (YMS)</Link></td>
           </tr>
           <tr>
-              <td>Switching into Tier 5 International Agreement</td>
+              <td><Link to='../SwitchingToTier5InternationalAgreement'>Switching into Tier 5 International Agreement</Link></td>
           </tr>
           <tr>
-              <td>Tier 5 International Agreement Visa Extension</td>
+              <td><Link to='../Tier5InternationalAgreementVisaExtension'>Tier 5 International Agreement Visa Extension</Link></td>
           </tr>
           <tr>
-              <td>ILR – Tier 5 International Agreement</td>
+              <td><Link to='../ILRTier5InternationalAgreement'>ILR – Tier 5 International Agreement</Link></td>
           </tr>
           </tbody>
           <thead>
@@ -1568,13 +1568,13 @@ function Home() {
           </thead>
           <tbody>
           <tr>
-            <td>Student Visa</td>
+            <td><Link to='../StudentVisa'>Student Visa</Link></td>
           </tr>
           <tr>
-              <td>Child Student Visa</td>
+              <td><Link to='../ChildStudentVisa'>Child Student Visa</Link></td>
           </tr>
           <tr>
-              <td>Short term Student</td>
+              <td><Link to='../ShortTermStudent'>Short term Student</Link></td>
           </tr>
           </tbody>
           <thead>
@@ -1584,13 +1584,13 @@ function Home() {
           </thead>
           <tbody>
           <tr>
-            <td>ILR 10-year Long residence</td>
+            <td><Link to='../ILR10YearLongResidence'>ILR 10-year Long residence</Link></td>
           </tr>
           <tr>
-              <td>EU Settlement Scheme</td>
+              <td><Link to='../EUSettlementScheme'>EU Settlement Scheme</Link></td>
           </tr>
           <tr>
-              <td>Returning Resident visa</td>
+              <td><Link to='../ReturningResidentVisa'>Returning Resident visa</Link></td>
           </tr>
           </tbody>
           <thead>
@@ -1600,7 +1600,7 @@ function Home() {
           </thead>
           <tbody>
           <tr>
-            <td>Private and family live including 20 years unlawful residence application</td>
+            <td><Link to='../PrivateFamilyLiveIncluding20YearsUnlawfulResidenceApplication'>Private and family live including 20 years unlawful residence application</Link></td>
           </tr>
           </tbody>
           <thead>
@@ -1610,43 +1610,43 @@ function Home() {
           </thead>
           <tbody>
           <tr>
-            <td>Administrative Review Against Refusal of Entry Clearance as PBS Migrant</td>
+            <td><Link to='../AdministrativeReviewAgainstRefusalOfEntryClearancePBSMigrant'>Administrative Review Against Refusal of Entry Clearance as PBS Migrant</Link></td>
           </tr>
           <tr>
-              <td>Admin Review Against Refusal of An In-Country Refusal by The Home Office</td>
+              <td><Link to='../AdminReviewAgainstRefusalInCountryRefusalByTheHomeOffice'>Admin Review Against Refusal of An In-Country Refusal by The Home Office</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance Appeal Stage 1 (Pre-Hearing Notice)</td>
+              <td><Link to='../EntryClearanceAppealStage1PreHearingNotice'>Entry Clearance Appeal Stage 1 (Pre-Hearing Notice)</Link></td>
           </tr>
           <tr>
-              <td>Entry Clearance Appeal Stage 2 (Post-Hearing Notice)</td>
+              <td><Link to='../EntryClearanceAppealStage2PostHearingNotice'>Entry Clearance Appeal Stage 2 (Post-Hearing Notice)</Link></td>
           </tr>
           <tr>
-              <td>In-Country Immigration Appeal</td>
+              <td><Link to='../InCountryImmigrationAppeal'>In-Country Immigration Appeal</Link></td>
           </tr>
           <tr>
-              <td>Asylum Appeal</td>
+              <td><Link to='../AsylumAppeal'>Asylum Appeal</Link></td>
           </tr>
           <tr>
-              <td>Deportation Appeal</td>
+              <td><Link to='../DeportationAppeal'>Deportation Appeal</Link></td>
           </tr>
           <tr>
-            <td>Application To 1st Tier Tribunal for Permission to Appeal To Upper Tribunal</td>
+            <td><Link to='../ApplicationTo1stTierTribunalForPermissionToAppealToUpperTribunal'>Application To 1st Tier Tribunal for Permission to Appeal To Upper Tribunal</Link></td>
           </tr>
           <tr>
-              <td>Application to Upper Tribunal for Permission To Appeal To Upper Tribunal</td>
+              <td><Link to='../ApplicationToUpperTribunalForPermissionToAppealToUpperTribunal'>Application to Upper Tribunal for Permission To Appeal To Upper Tribunal</Link></td>
           </tr>
           <tr>
-              <td>Appeal to The Upper Tribunal Following Grant Of Permission To Appeal</td>
+              <td><Link to='../AppealToTheUpperTribunalFollowingGrantOfPermissionToAppeal'>Appeal to The Upper Tribunal Following Grant Of Permission To Appeal</Link></td>
           </tr>
           <tr>
-            <td>Application to The Upper Tribunal For Permission To Appeal To The Court Of Appeal</td>
+            <td><Link to='../ApplicationToTheUpperTribunalForPermissionToAppealToTheCourtOfAppeal'>Application to The Upper Tribunal For Permission To Appeal To The Court Of Appeal</Link></td>
           </tr>
           <tr>
-              <td>Application to The Court Of Appeal For Permission To Appeal To Court Of Appeal</td>
+              <td><Link to='../ApplicationToTheCourtOfAppealForPermissionToAppealToCourtOfAppeal'>Application to The Court Of Appeal For Permission To Appeal To Court Of Appeal</Link></td>
           </tr>
           <tr>
-              <td>Appeal to The Court Of Appeal</td>
+              <td><Link to='../AppealToTheCourtOfAppeal'>Appeal to The Court Of Appeal</Link></td>
           </tr>
           </tbody>
           <thead>
@@ -1656,19 +1656,19 @@ function Home() {
           </thead>
           <tbody>
           <tr>
-            <td>Pre-Action Protocol for Judicial Review Against the Home Office, UKBA</td>
+            <td><Link to='../PreActionProtocolForJudicialReviewAgainstTheHomeOfficeUKBA'>Pre-Action Protocol for Judicial Review Against the Home Office, UKBA</Link></td>
           </tr>
           <tr>
-              <td>Paper Application to Upper Tribunal for Permission to Apply For Judicial Review (JR)</td>
+              <td><Link to='../PaperApplicationToUpperTribunalForPermissionToApplyForJudicialReviewJR'>Paper Application to Upper Tribunal for Permission to Apply For Judicial Review (JR)</Link></td>
           </tr>
           <tr>
-              <td>Renewal of An Application for Permission to Apply For Judicial Review (JR) Against The Home Office, UKBA</td>
+              <td><Link to='../RenewalOfAnApplicationForPermissionToApplyForJudicialReviewJRAgainstTheHomeOfficeUKBA'>Renewal of An Application for Permission to Apply For Judicial Review (JR) Against The Home Office, UKBA</Link></td>
           </tr>
           <tr>
-              <td>Judicial Review Against the Home Office, UKVI Following Grant of Permission to Apply for Judicial Review (JR)</td>
+              <td><Link to='../JudicialReviewAgainsTheHomeOfficeUKVIFollowingGrantOfPermissionToApplyForJudicialReviewJR'>Judicial Review Against the Home Office, UKVI Following Grant of Permission to Apply for Judicial Review (JR)</Link></td>
           </tr>
           <tr>
-              <td>Emergency Injunction to Stop Removal from The UK</td>
+              <td><Link to='../EmergencyInjunctionToStopRemovalFromTheUK'>Emergency Injunction to Stop Removal from The UK</Link></td>
           </tr>
           </tbody>
         </Table>
