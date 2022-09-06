@@ -27,7 +27,7 @@ function Footer() {
               </div>
               
               <div class="col-md-6">
-              <p>Regus, Victory House 400 Pavilion Drive Northampton Businesss Park Northampton NN4 7PA</p>
+              <p>Regus, Victory House 400 Pavilion Drive Northampton Business Park Northampton NN4 7PA</p>
               <p>
               Africa Contact: Victoria Chambers (Enquiries only) Main Phone: 
               +2348099243347 +234 8184934865
