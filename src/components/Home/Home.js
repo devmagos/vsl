@@ -1034,7 +1034,7 @@ function Home() {
                       <>Asylum</><br></br>
                       <>Appeal</>
                       </p>
-                      <Link to="../AsylumAppeal"><i className="fa fa-angle-double-right" ></i></Link>
+                      <Link to="../AsylumAppeal" class="nav-link"><i className="fa fa-angle-double-right icon-style" style={{'font-size': '48px'}}></i></Link>
                     </a>
                   </div>
                 </Col>
