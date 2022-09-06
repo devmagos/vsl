@@ -28,7 +28,7 @@ function Home() {
                 <Col md="5" className="row g-0 rounded overflow-hidden flex-md-row mb-4 h-125 position-relative">
                   <div class="row g-0 p-4 rounded flex-md-row mb-4 h-md-250 position-relative">
                     <Col class="d-flex flex-column position-static" className='welcome-text'>
-                      <h3 class="m-3 color"><strong>A Warm Welcome To Victoria Solicitors!</strong></h3>
+                      <h1 class="m-3 color"><strong>A Warm Welcome To Victoria Solicitors!</strong></h1>
                       <p class="card-text m-2 p-3 line-height-3" className='card-text'>
                       <strong>
                       We are one of London’s Premier Family Law Firms with a 
@@ -370,10 +370,7 @@ function Home() {
                 <td>Advisor</td>
                 <td>
                   <tr>
-                  &#xa3; A standard hourly rate of £200 - £350 per hour excluding VAT
-                  </tr>
-                  <tr>
-                  &#xa3; 
+                  A standard hourly rate ranges from &#xa3;200 - &#xa3;350 per hour excluding VAT
                   </tr>
                 </td>
                 <td>
@@ -384,10 +381,7 @@ function Home() {
                   <td>Advisor</td>
                 <td>
                   <tr>
-                  &#xa3; Typical costs range from £1500 to £10,000.
-                  </tr>
-                  <tr>
-                  &#xa3; 
+                  &#xa3; Typical costs range from &#xa3;1500 to &#xa3;10,000.
                   </tr>
                 </td>
                 <td>

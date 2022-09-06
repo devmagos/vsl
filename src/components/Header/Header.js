@@ -16,7 +16,7 @@ function Header() {
                 </span>
 
                 <span>
-                  <h1><strong>VICTORIA SOLICITORS LIMITED</strong></h1>
+                  <h2><strong>VICTORIA SOLICITORS LIMITED</strong></h2>
                 </span>
 
                 <span>
