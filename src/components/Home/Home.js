@@ -10,6 +10,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SignupForm from '../Signup/Signup';
 import Table from 'react-bootstrap/Table';
+import John from "../Images/john.jpg"
+import Cassie from "../Images/cassie.jpg"
+import Josh from "../Images/josh.webp"
 
 
 function Home() {
@@ -1670,6 +1673,71 @@ function Home() {
         </Row>
         <Row>
           <BookingForm />
+        </Row>
+        <Row>
+          <h3 class="mt-5 reviews">What Our Clients Say About Us In The Reviews</h3>
+          <div class="card-deck">
+            <div class="card w-10">
+              <img src={John} className='card-img-top logosiz rounded-circle' alt="John Newman" />
+              <div class="card-body">
+                <h5 class="card-title text-mid">John Newman</h5>
+                <p class="text-mid">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+                </p>
+                <p class="text-mid">
+                <button type="button" class="btn btn-primary rounded-pill">8 Weeks Ago</button>
+                </p>
+                <p class="card-text">I wanted to apply for citizenship but because of special circumstances, I needed expert advice. So I contacted Victoria Solicitors Limited. And I was successful, they are good at their craft.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 7 mins ago</small>
+              </div>
+            </div>
+            <div class="card w-10">
+              <img src={Cassie} className='card-img-top logosiz rounded-circle' alt="Cassie yin" />
+              <div class="card-body">
+                <h5 class="card-title text-mid">Cassie Yin</h5>
+                <p class="text-mid">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                </p>
+                <p class="text-mid">
+                <button type="button" class="btn btn-primary rounded-pill">5 Weeks Ago</button>
+                </p>
+                <p class="card-text">Victoria Solicitors Limited are excellent. My case was complicated due to previous advice from other immigration solicitors. But i contacted Victoria Solicitors Limited and my case was solved.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card w-10">
+              <img src={Josh} className='card-img-top logosiz rounded-circle' alt="Josh Nimzom" />
+              <div class="card-body">
+                <h5 class="card-title text-mid">Josh Ninzom</h5>
+                <p class="text-mid">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+                </p>
+                <p class="text-mid">
+                <button type="button" class="btn btn-primary rounded-pill">2 Weeks Ago</button>
+                </p>
+                <p class="card-text">Victoria Solicitors Limited are excellent at giving the best advice and getting great results.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 2 mins ago</small>
+              </div>
+            </div>
+      </div>
         </Row>
         <Row>
           <Footer />

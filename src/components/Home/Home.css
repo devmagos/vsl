@@ -9,6 +9,26 @@ a {
     color: #3a5383;
 }
 
+.card-deck {
+    display: flex;
+    flex-direction: row;
+}
+
+.logosiz {
+    height: 9.375rem;
+    width: 11.25rem;
+    margin-top: 10px;
+}
+
+.i-star {
+    color: #b39546;
+}
+
+.text-mid {
+    text-align: center;
+    justify-content: center;
+}
+
 .th-link {
     text-decoration: none;
     color: #f8f8f8;
@@ -32,6 +52,11 @@ a {
     position: fixed;
     bottom: 0;
     left: 0;
+}
+
+.reviews {
+    color: #3a5383;
+    font-weight: bold;
 }
 
 h4, h4 a, h5 {
@@ -167,4 +192,24 @@ p {
 .size {
     height: 120px;
     width: 120px;
+}
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card-deck {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logosiz {
+        height: 9.375rem;
+        width: 11.25rem;
+        margin-top: 10px;
+    }
+    .card {
+        width: 25em;
+    }
 }
