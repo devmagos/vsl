@@ -10,7 +10,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SignupForm from '../Signup/Signup';
 import Table from 'react-bootstrap/Table';
-import John from "../Images/john.jpg"
+import John from "../Images/john.webp"
 import Cassie from "../Images/cassie.jpg"
 import Josh from "../Images/josh.webp"
 
@@ -384,7 +384,7 @@ function Home() {
                   <td>Advisor</td>
                 <td>
                   <tr>
-                  A standard hourly rate ranges from &#xa3;1500 per hour excluding VAT.
+                  A standard hourly rate ranges from &#xa3;200 per hour excluding VAT.
                   </tr>
                 </td>
                 <td>
