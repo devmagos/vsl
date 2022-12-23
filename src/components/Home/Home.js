@@ -10,9 +10,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SignupForm from '../Signup/Signup';
 import Table from 'react-bootstrap/Table';
-import John from "../Images/john.webp"
-import Cassie from "../Images/cassie.jpg"
-import Josh from "../Images/josh.webp"
+import bridgy from "../Images/bridgy-osaigbovo.png"
+import ofemiu from "../Images/ofeimu-kingsley.png"
+import val from "../Images/val-a.png"
 
 
 function Home() {
@@ -1677,30 +1677,36 @@ function Home() {
         <Row>
           <h3 class="mt-5 reviews">What Our Clients Say About Us In The Reviews</h3>
           <div class="card-deck">
-            <div class="card w-10">
-              <img src={John} className='card-img-top logosiz rounded-circle' alt="John Newman" />
+            {/* card section */}
+            <div class="card w-7">
+            <a href='https://www.google.com/maps/contrib/114224557319745147714/place/ChIJpSDBBXAPd0gRwkAd3kSPJdk/@51.8021132,-1.2987968,8z/data=!4m6!1m5!8m4!1e1!2s114224557319745147714!3m1!1e1?hl=en-US' target='_blank' class='card-a'>
+              <img src={bridgy} className='card-img-top logosiz rounded-circle' alt="bridgy osaigbovo" />
               <div class="card-body">
-                <h5 class="card-title text-mid">John Newman</h5>
+                <h5 class="card-title text-mid">bridgy osaigbovo</h5>
                 <p class="text-mid">
                 <i class="bi bi-star-fill text-warning"></i>
                 <i class="bi bi-star-fill text-warning"></i>
                 <i class="bi bi-star-fill text-warning"></i>
                 <i class="bi bi-star-fill text-warning"></i>
-                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
                 </p>
                 <p class="text-mid">
                 <button type="button" class="btn btn-primary rounded-pill">8 Weeks Ago</button>
                 </p>
-                <p class="card-text">I wanted to apply for citizenship but because of special circumstances, I needed expert advice. So I contacted Victoria Solicitors Limited. And I was successful, they are good at their craft.</p>
+                <p class="card-text">For being excellent, consistent and good communication</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Last updated 7 mins ago</small>
               </div>
+            </a>
             </div>
-            <div class="card w-10">
-              <img src={Cassie} className='card-img-top logosiz rounded-circle' alt="Cassie yin" />
+
+            {/* card section */}
+            <div class="card w-7">
+            <a href='https://www.google.com/maps/contrib/102187116367175727200/place/ChIJpSDBBXAPd0gRwkAd3kSPJdk/@52.1085057,-1.2155249,8z/data=!4m6!1m5!8m4!1e1!2s102187116367175727200!3m1!1e1?hl=en-US' target='_blank' class='card-a'>
+              <img src={val} className='card-img-top logosiz rounded-circle' alt="Val A" />
               <div class="card-body">
-                <h5 class="card-title text-mid">Cassie Yin</h5>
+                <h5 class="card-title text-mid">Val A</h5>
                 <p class="text-mid">
                 <i class="bi bi-star-fill text-warning"></i>
                 <i class="bi bi-star-fill text-warning"></i>
@@ -1711,33 +1717,38 @@ function Home() {
                 <p class="text-mid">
                 <button type="button" class="btn btn-primary rounded-pill">5 Weeks Ago</button>
                 </p>
-                <p class="card-text">Victoria Solicitors Limited are excellent. My case was complicated due to previous advice from other immigration solicitors. But i contacted Victoria Solicitors Limited and my case was solved.</p>
+                <p class="card-text">Extremely pleased at the service rendered</p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
               </div>
+            </a>
             </div>
-            <div class="card w-10">
-              <img src={Josh} className='card-img-top logosiz rounded-circle' alt="Josh Nimzom" />
+
+            {/* card section */}
+            <div class="card w-7">
+            <a href='https://www.google.com/maps/contrib/112860683494704810309/place/ChIJpSDBBXAPd0gRwkAd3kSPJdk/@52.2173069,-21.9715148,4z/data=!4m6!1m5!8m4!1e1!2s112860683494704810309!3m1!1e1?hl=en-US' target='_blank' class='card-a'>
+              <img src={ofemiu} className='card-img-top logosiz rounded-circle' alt="ofeimu kingsley" />
               <div class="card-body">
-                <h5 class="card-title text-mid">Josh Ninzom</h5>
+                <h5 class="card-title text-mid">ofemiu kingsley</h5>
                 <p class="text-mid">
                 <i class="bi bi-star-fill text-warning"></i>
                 <i class="bi bi-star-fill text-warning"></i>
                 <i class="bi bi-star-fill text-warning"></i>
                 <i class="bi bi-star-fill text-warning"></i>
-                <i class="bi bi-star text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
                 </p>
                 <p class="text-mid">
                 <button type="button" class="btn btn-primary rounded-pill">2 Weeks Ago</button>
                 </p>
-                <p class="card-text">Victoria Solicitors Limited are excellent at giving the best advice and getting great results.</p>
+                <p class="card-text">Victoria solicitors limited offers the... <span id='hidden'>best immigration services. I will therefore recommend them to anyone for any immigration matters</span></p>
               </div>
               <div class="card-footer">
                 <small class="text-muted">Last updated 2 mins ago</small>
               </div>
+            </a>
             </div>
-      </div>
+        </div>
         </Row>
         <Row>
           <Footer />

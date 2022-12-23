@@ -4,19 +4,30 @@
     box-sizing: border-box;
 }
 
-a {
+a, .card a {
     text-decoration: none;
     color: #3a5383;
+}
+
+#hidden {
+    display: none;
 }
 
 .card-deck {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    width: 100px;
 }
 
 .logosiz {
-    height: 9.375rem;
-    width: 11.25rem;
+    height: 5.375rem;
+    width: 5.25rem;
     margin-top: 10px;
 }
 
