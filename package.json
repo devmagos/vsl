@@ -1,6 +1,7 @@
 {
   "name": "vsl",
   "version": "0.1.0",
+  "homepage": "https://www.victoriasolicitorslimited.co.uk/",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.3.1",
