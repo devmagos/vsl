@@ -8,7 +8,7 @@ const SignupForm = () => {
     <div class="row g-0 col-md-12 overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                   <div class="row g-0 col-md-12 rounded overflow-hidden flex-md-row mb-4 h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static form-section m-5 border shadow-sm rounded">
-                      <h4 class="mb-3">WANT TO INSTRUCT US FOR YOUR LEGAL MATTER? REQUEST A FIXED FEE QUOTE</h4>
+                      <h4 class="mb-3">WANT TO INSTRUCT US FOR YOUR LEGAL MATTER? REQUEST A FEE QUOTE</h4>
                       <form id="fs-frm" name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/moqbqggn" method="post">
                           <fieldset class="inputs">
                             <input type="text" name="firstname" id="firstname" placeholder="* First Name" required="required" />

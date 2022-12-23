@@ -35,7 +35,7 @@ function Home() {
                       <p class="card-text m-2 p-3 line-height-3" className='card-text'>
                       <strong>
                       We are one of London’s Premier Family Law Firms with a 
-                      unique family team of four that specialize in family, 
+                      unique family team that specialize in family, 
                       commercial and immigration law
                       </strong>
                       </p>
@@ -58,7 +58,7 @@ function Home() {
           <div>
               <h4>Immigration Solicitors In London</h4>
               <p>We are one of London’s Premier Family Law Firms with a unique 
-                family team of four that specialize in family, commercial and 
+                family team that specialize in family, commercial and 
                 immigration law.
               </p>
               <p>
