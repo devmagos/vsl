@@ -1754,7 +1754,7 @@ function Home() {
         <Row>
           <Footer />
         </Row>
-        <div><a src='#top' title='Back to top'><i class="fa fa-angle-double-up btntop"  style={{'font-size': '48px'}}></i></a></div>
+        <div><a href='#top' title='Back to top'><i class="fa fa-angle-double-up btntop"  style={{'font-size': '48px'}}></i></a></div>
         </Container>
       </>
     );
